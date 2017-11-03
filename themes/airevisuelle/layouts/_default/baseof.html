@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{- partial "site-head.html" . -}}
+	<body>
+		{{ `<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->` | safeHTML }}
+		{{- partial "header/google-tag-manager.html" . -}}
+		<div id="wrapper">
+	  	{{- partial "site-header.html" . -}}
+			<div id="all-content-wrapper" class="all-content-wrapper">
+				{{block "main" . }}
+				{{end}}
+			</div>
+			{{- partial "site-footer.html" . -}}
+		</div>
+		<!-- eof #wrapper -->
+		<!-- Go to top button -->
+    <a id="goToTop"><i class="fa fa-angle-up top-icon"></i><i class="fa fa-angle-up"></i></a><!--Plugins-->
+		{{- partial "footer/site-scripts.html" . -}}
+	</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "hugo-base-theme",
+  "version": "1.0.0",
+  "description": "Basic gulp file to process images in hugo",
+  "main": "no",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "hugo",
+    "images"
+  ],
+  "author": "Akia Marketing",
+  "license": "MIT",
+  "dependencies": {
+    "concurrent-transform": "^1.0.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-image-resize": "^0.13.0",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-sequence": "^0.4.6",
+    "gulp-shell": "^0.6.3"
+  }
+}

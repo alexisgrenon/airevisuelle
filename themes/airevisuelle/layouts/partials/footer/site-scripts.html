@@ -1,0 +1,5 @@
+{{ with .Site.Params.googleapikey }}
+<script async defer src="https://maps.googleapis.com/maps/api/js?key={{.}}"
+  type="text/javascript"></script>
+{{ end }}
+<script src="/js/main.min.js"></script>

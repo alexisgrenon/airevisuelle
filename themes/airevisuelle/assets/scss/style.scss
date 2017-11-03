@@ -1,0 +1,90 @@
+/***********************************************************************
+**														              **
+**         POLO Html5 Template		   								  **
+**         Author: INSPIRO MEDIA								      **
+**		   URL: http://www.inspiro-media.com						  **
+**														              **
+************************************************************************/
+
+/* Plugins */
+@import "plugins";
+
+/*  Core */
+@import "variables";
+// @import "fonts";
+
+@import "layout";
+@import "typography";
+
+/*  Content & Layout */ 
+@import "topbar";
+@import "header";
+@import "sliders";
+@import "page-title"; 
+@import "content";
+@import "grid";
+@import "portfolio"; 
+@import "blog";
+@import "comments"; 
+@import "shop";
+@import "forum";
+
+/*  Helpers */
+@import "helpers";
+
+/*  Shortcodes */
+@import "elements/accordion-toggles";
+@import "elements/alerts";
+@import "elements/buttons";
+@import "elements/headings";
+@import "elements/tabs";
+@import "elements/social-icons";
+@import "elements/icon-boxes";
+@import "elements/carousel";
+@import "elements/counters";
+@import "elements/countdown-timers";
+@import "elements/dropcat-highlight"; 
+@import "elements/team-members";
+@import "elements/progress-bars";
+@import "elements/pie-charts";
+@import "elements/horizontal-rules";
+@import "elements/seperator";
+@import "elements/blockquotes";
+@import "elements/forms";
+@import "elements/labels-badgets";
+@import "elements/light-box";
+@import "elements/lists";
+@import "elements/maps";
+@import "elements/pagination-pager";
+@import "elements/breadcrumbs";
+@import "elements/nav-navbar";
+@import "elements/call-to-action";
+@import "elements/tooltop-popover";
+@import "elements/modal";
+@import "elements/client-logos";
+@import "elements/pricing-tables";
+@import "elements/testimonials";
+@import "elements/timeline";
+@import "elements/yt-player";
+@import "elements/elements-extras";
+@import "elements/parallax";
+
+/*  Footer */
+@import "footer";
+
+/*  Widgets */
+@import "widgets";
+
+@import "preloaders";
+
+/*  Extras */
+@import "extras";
+
+@import "colors";
+
+/* Responsive */
+@import "responsive";
+
+/* Custom */
+@import "custom";
+
