@@ -1,4 +1,4 @@
-{{ if getenv "IS_PROD" }}
+{{ if eq getenv "IS_PROD" 'true' }}
     <!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ .Site.Params.gtmid }}"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

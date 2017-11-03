@@ -52,8 +52,15 @@ gulp.task("hugo", function (cb) {
 });
 
 // watching images and resizing
-gulp.task("dev", ['clean-image', 'image-resize'], function() {
-  gulp.watch('themes/airevisuelle/source-images/*', ['clean-image', 'image-resize']);
+gulp.task("watch", function() {
+  gulp.watch('themes/airevisuelle/source-images/*', function(){ runSequence('clean-image', 'image-resize') });
+});
+
+// watching images and resizing
+gulp.task("dev",  function(callback) {
+  runSequence('clean-image',
+              'image-resize',
+              'watch');
 });
 
 // optimizing images and calling hugo for production
