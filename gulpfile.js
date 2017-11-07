@@ -53,7 +53,7 @@ gulp.task("hugo", function (cb) {
 
 // watching images and resizing
 gulp.task("watch", function() {
-  gulp.watch('themes/airevisuelle/source-images/*', function(){ runSequence('clean-image', 'image-resize') });
+  gulp.watch('themes/airevisuelle/source-images/*.{jpg,png,jpeg,gif}', function(){ runSequence('clean-image', 'image-resize') });
 });
 
 // watching images and resizing

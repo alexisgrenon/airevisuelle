@@ -477,19 +477,7 @@ var INSPIRO = {},
             INSPIRO.header.dotsMenu();
             INSPIRO.header.onepageMenu();
         },
-        logoStatus: function () {
-            if (!$body.is('.device-lg, .device-md, .menu-overlay-active') && $header.is('.dark.header-transparent, .dark.header-colored-transparent, .dark.header-colored')) {
-                logo.find('img').attr('src', logoImg);
-            } else if ($header.hasClass('dark')) {
-                if (logoDark) {
-                    logo.find('img').attr('src', logoDark);
-                } else {
-                    logo.find('img').attr('src', logoImg);
-                }
-            } else {
-                logo.find('img').attr('src', logoImg);
-            }
-        },
+        logoStatus: function () {},
         stickyHeader: function () {
 
             var elem = $(this),
