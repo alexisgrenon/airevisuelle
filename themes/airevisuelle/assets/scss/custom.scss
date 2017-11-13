@@ -66,6 +66,11 @@
 	    background: #f6f9fc;
 	    transform: skew(0,-12deg);
 	}
+	p {
+		font-size: 1.35714286em;
+    	line-height: 1.68421053em;
+    	font-weight: 300;
+	}
 	.col-md-6 {
 		padding: 5px;
 		.info {
@@ -128,4 +133,7 @@
 }
 .heading h2 {
 	text-transform: uppercase;
+}
+section {
+	padding: 50px 0;
 }

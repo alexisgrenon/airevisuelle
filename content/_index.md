@@ -6,12 +6,12 @@ image:
 i18nlanguage: fr
 draft: false
 designers:
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
+  - "barcelona"
+  - "dior"
+  - "ogreen"
+  - "pro"
+  - "silhouette"
+  - "tom"
+  - "belinger"
+  - "william"
 ---

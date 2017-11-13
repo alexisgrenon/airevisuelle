@@ -23,5 +23,6 @@ mphone: '+14506691686'
 email: 'info@airevisuelle.com'
 sitedescription: "L'Aire Visuelle vous offre des prix compétitif et un service d'optométrie et de lunetterie imbattable dans la région de Laval"
 sitetitle: "L'Aire Visuelle | Optométriste , Opticient et Lunetterie à Laval"
+titleautocompletion: true
 defaultsocialimage: "/img/logo-share.jpg"
 removefromexternalsearch: true

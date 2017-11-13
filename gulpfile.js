@@ -24,21 +24,13 @@ gulp.task("clean-image", function(){
 gulp.task("image-resize", () => {
   return gulp.src("themes/airevisuelle/source-images/*.{jpg,png,jpeg,gif}")
     .pipe(imagemin())
-    .pipe(parallel(
-      imageresize({ width: imagefull })
-    ))
+    .pipe(imageresize({ width: imagefull }))
     .pipe(gulp.dest("themes/airevisuelle/static/img"))
-    .pipe(parallel(
-      imageresize({ width: imagehalf })
-    ))
+    .pipe(imageresize({ width: imagehalf }))
     .pipe(gulp.dest("themes/airevisuelle/static/img/half"))
-    .pipe(parallel(
-      imageresize({ width: imagequart })
-    ))
+    .pipe(imageresize({ width: imagequart }))
     .pipe(gulp.dest("themes/airevisuelle/static/img/quart"))
-    .pipe(parallel(
-      imageresize({ width: imagethumb })
-    ))
+    .pipe(imageresize({ width: imagethumb }))
     .pipe(gulp.dest("themes/airevisuelle/static/img/thumb"));
 });
 
