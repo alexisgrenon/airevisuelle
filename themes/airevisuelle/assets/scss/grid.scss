@@ -166,13 +166,18 @@
         }
     }
     /*Grid columns: 3,2*/
-    .grid-3-columns .grid-item,
-    .post-3-columns .post-item,
-    .portfolio-3-columns .portfolio-item,
     .grid-2-columns .grid-item,
     .post-2-columns .post-item,
     .portfolio-2-columns .portfolio-item {
         width: 50%;
+        &.large-width {
+            width: 100%;
+        }
+    }
+    .grid-3-columns .grid-item,
+    .post-3-columns .post-item,
+    .portfolio-3-columns .portfolio-item {
+        width: 100%;
         &.large-width {
             width: 100%;
         }

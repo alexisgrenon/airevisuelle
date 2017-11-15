@@ -97,7 +97,7 @@
             transform: translate3d(0px, -38%, 0px);
             transition: all 250ms ease-in-out 0s;
             visibility: hidden;
-            width: 70%;
+            width: 85%;
             z-index: 3;
             h3 {
                 font-size: 16px;
@@ -139,12 +139,19 @@
                 }
             }
             span,
-            p {
+            p{
                 opacity: 0;
                 transition: all 0.8s ease;
                 transition-delay: 0.1s;
                 margin-bottom: 0;
                 padding-bottom: 0;
+            }
+            button {
+                display: block;
+                margin: auto;
+                opacity: 0;
+                transition: all 0.8s ease;
+                transition-delay: 0.1s;
             }
             a>i {
                 font-size: 14px !important;
@@ -188,7 +195,8 @@
                     transform: translateY(0px);
                 }
                 span,
-                p {
+                p,
+                button {
                     opacity: 1;
                 }
             }

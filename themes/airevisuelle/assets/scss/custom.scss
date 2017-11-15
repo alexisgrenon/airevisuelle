@@ -131,9 +131,57 @@
 		}
 	}
 }
-.heading h2 {
-	text-transform: uppercase;
+#actions {
+	padding-top: 20px;
+	#portfolio {
+		.portfolio-item {
+			.portfolio-description {
+				opacity: 1;
+			    visibility: visible;
+			}
+			.portfolio-image{
+				&:after {
+					opacity: 0.5;
+				}
+			}
+		}
+	}
+}
+.heading {
+	margin-bottom: 20px;
+	h2 {
+		margin-bottom:10px;
+		text-transform: uppercase;
+	}
 }
 section {
 	padding: 50px 0;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	#actions #portfolio {
+		.portfolio-item {
+			.portfolio-image{
+				max-height: 214px;
+			}
+			&.haut {
+				.portfolio-image {
+					max-height: 425px;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 1200px) {
+	#actions #portfolio {
+		.portfolio-item {
+			.portfolio-image{
+				max-height: 245px;
+			}
+			&.haut {
+				.portfolio-image {
+					max-height: 510px;
+				}
+			}
+		}
+	}
 }

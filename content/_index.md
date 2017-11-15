@@ -6,12 +6,20 @@ image:
 i18nlanguage: fr
 draft: false
 designers:
-  - "barcelona"
-  - "dior"
-  - "ogreen"
-  - "pro"
-  - "silhouette"
-  - "tom"
-  - "belinger"
-  - "william"
+  - id: "barcelona"
+    nom: Etnia Barcelona
+  - id: "dior"
+    nom: Dior
+  - id: "ogreen"
+    nom: Orgreen
+  - id: "pro"
+    nom: Prodesign
+  - id: "silhouette"
+    nom: Silhouette
+  - id: "tom"
+    nom: Tom Ford
+  - id: "belinger"
+    nom: Belliger
+  - id: "william"
+    nom: William Morris
 ---
