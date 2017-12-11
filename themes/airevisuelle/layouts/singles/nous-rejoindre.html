@@ -1,10 +1,89 @@
 {{ define "main" }}
 <main class="main" id="contact">
+		<!-- CONTENT -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-uppercase">{{.Params.titre}}</h1>
+                    <p>La réussite de notre entreprise « L’Aire Visuelle » repose surtout sur notre équipe composée de tous les intervenants et professionnels du domaine de l’optique. Toujours à l’affût des nouvelles technologies, ils sont passionnés de leur travail. Les membres de notre équipe de professionnels se composent de 4 optométristes, 3 opticiens ainsi que des conseillères-stylistes.</p>
 
-				{{ range $i, $e := sort $.Site.Data.equipe.equipe "ordre" "asce"}}
-					{{ $mod1 := modBool $i 1}}
-					{{ $mod2 := modBool $i 2}}
-					{{ $mod3 := modBool $i 3}}
-				{{ end }}
+                    <p>Nous sommes disponibles pour répondre à toutes vos questions, ainsi que pour vous conseiller dans le choix de lunettes de prescription, de lunettes solaires ou de verres de contact</p>
+
+
+                    <div class="row m-t-40">
+                        <div class="col-md-6">
+                            <address>
+	  <strong>L'Aire Visuelle</strong><br>
+		380 boul. Dagenais Est suite 102<br>
+		Laval (Québec)<br>
+		Coin René-Laennec<br>
+	  <abbr title="Phone">P:</abbr> (450) 669-1686
+	</address>
+                        </div>
+                        <div class="col-md-6">
+                            <address>
+	  <strong>Heures d'ouverture</strong><br>
+	  Lundi au jeudi : 9 h à 20 h<br>
+		Vendredi : 9 h à 18 h<br>
+		Samedi : 10 h à 16 h<br>
+		Dimanche : Fermé<br>
+	</address>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="social-icons m-t-30 social-icons-colored">
+                        <ul>
+                            <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="social-google"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li class="social-pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            <li class="social-vimeo"><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
+                            <li class="social-linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <form class="widget-contact-form" action="include/contact-form.php" role="form" method="post">
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label for="name">Nom</label>
+                                <input type="text" aria-required="true" name="widget-contact-form-name" class="form-control required name" placeholder="Entrez votre nom">
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label for="email">Courriel</label>
+                                <input type="email" aria-required="true" name="widget-contact-form-email" class="form-control required email" placeholder="Entrez votre courriel">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-sm-12">
+                                <label for="subject">Sujet</label>
+                                <input type="text" name="widget-contact-form-subject" class="form-control required" placeholder="Sujet...">
+                            </div>
+                        </div>                                <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea type="text" name="widget-contact-form-message" rows="5" class="form-control required" placeholder="Entrez votre message"></textarea>
+                            </div>
+
+                        <button class="btn btn-default" type="submit" id="form-submit"><i class="fa fa-paper-plane"></i>&nbsp;Envoyer mon message</button>
+                    </form>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end: CONTENT -->
+
+    <!-- MAP -->
+    <section class="no-padding">
+        <!-- Google map sensor -->
+        <div class="map" data-map-address="380 boul. Dagenais Est, Laval, Québec" data-map-zoom="13" data-map-icon="/img/marker-airevisuelle.png" data-map-type="ROADMAP"></div>
+    </section>
+    <!-- end: MAP -->
 </main>
 {{ end }}

@@ -41,6 +41,56 @@
 	}
 }
 
+/* À propos */
+
+#a-propos {
+	.heading {
+		h2 {
+			font-size: 26px;
+			line-height: 30px;
+		}
+	}
+	#slider {
+		.slide {
+			span {
+				padding-top: 10%;
+				@media (max-width: 767px) {
+					padding-top: 100px;
+				}
+			}
+			h1 {
+				padding-top: 0;
+				max-width: none;
+			}
+		}
+	}
+	section.about {
+		padding: 40px 0 0;
+	}
+	.team-members .team-member .team-desc p {
+		font-size: 13px;
+	    color: #9d9d9d;
+	    line-height: 18px;
+	    margin-bottom: 2px;
+	}
+	.steps {
+		position: relative;
+		img.logo-bg {
+			position: absolute;
+			left: 0;
+			top: 100px;
+			opacity: 0.5;
+			width: 200px;
+		}
+	}
+}
+/* Contact */
+
+#contact {
+	h1 {
+		font-size: 1.78571429em;
+	}
+}
 /* General */
 
 .row.no-gutters {

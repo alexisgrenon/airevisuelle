@@ -1,7 +1,26 @@
 equipe:
-  - description: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto cupiditate, reiciendis impedit unde similique sit nesciunt ex sapiente quidem aspernatur provident expedita corrupti nulla laborum corporis incidunt vel nostrum! Debitis?
-    nom: 'John Doe'
+  - name: Suzie Pelletier 
+    title: O.O.D.
     ordre: 1
-    photo: /images/johndoe.jpg
-    titre: A really good guy
+  - name: Pierluigi Merolla 
+    title: O.O.D.
+    ordre: 2
+  - name: Laurent Brassard 
+    title: O.O.D.
+    ordre: 3
+  - name: Laura Tang 
+    title: O.O.D.
+    ordre: 4
+  - name: Sylvain Duquette 
+    title: O.D.
+    ordre: 5
+  - name: Geneviève Brassard 
+    title: O.D.
+    ordre: 6
+  - name: Marie-Pier Gascon 
+    title: O.D.
+    ordre: 7
+  - name: Tristan Gauthier 
+    title: O.D.
+    ordre: 8
+
