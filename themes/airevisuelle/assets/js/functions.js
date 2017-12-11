@@ -2164,7 +2164,6 @@ var INSPIRO = {},
     $window.on('scroll', INSPIRO.documentScroll.functions);
 
 
-
     INSPIRO.lightBoxInspiro = function () {
 
         if ($lightbox_image.length > 0) {

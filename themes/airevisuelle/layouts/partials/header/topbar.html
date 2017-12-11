@@ -1,5 +1,5 @@
 <!-- Topbar -->
-<div id="topbar" class="topbar-transparent dark">
+<div id="topbar" class="{{ if .Params.header.transparent }}header-transparent{{ end }} {{ if .Params.header.dark }}dark{{ end }}">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6">

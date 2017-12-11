@@ -1,6 +1,6 @@
 
 <!-- Header -->
-<header id="header" class="header-transparent dark">
+<header id="header" class="{{ if .Params.header.transparent }}header-transparent{{ end }} {{ if .Params.header.dark }}dark{{ end }}">
     <div id="header-wrap">
         <div class="container">
             <!--Logo-->

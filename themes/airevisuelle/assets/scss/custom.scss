@@ -20,6 +20,39 @@
 	}
 }
 
+/* Catalogue */
+
+#catalogue-list {
+	.heading {
+		h1 {
+			font-size: 30px;
+			line-height: 36px;
+		}
+	}
+	.portfolio {
+		.col-eq-height {
+			.call-to-action {
+				height: 100%;
+				@media (max-width: 767px) {
+					height: auto;
+				}
+			}
+		}
+	}
+}
+
+/* General */
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 @media (max-width: 991px) {
 	#slider {
 		top: 0 !important;

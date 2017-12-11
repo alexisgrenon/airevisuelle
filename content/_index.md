@@ -18,8 +18,11 @@ designers:
     nom: Silhouette
   - id: "tom"
     nom: Tom Ford
-  - id: "belinger"
-    nom: Belliger
+  - id: "bellinger"
+    nom: Bellinger
   - id: "william"
     nom: William Morris
+header:
+  transparent: true
+  dark: true
 ---
