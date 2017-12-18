@@ -279,4 +279,44 @@ section {
 	width:100%;
 }
 
+#blog-listing {
+	hr {
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+	.post-item {
+		margin-bottom: 30px;
+	}
+}
+
+.header-single-blog {
+	.small {
+		color:#fff;
+		a {
+			color:#fff;
+			&:hover {
+				color:$base-color;
+			}
+		}
+	}
+}
+
+.promotions-listing {
+	.post-image {
+		width: 35%!important;
+		@media screen and (max-width:640px) {
+			width: 100%!important;
+		}
+	}
+	.post-item-description {
+		width: 63%!important;
+		@media screen and (max-width:640px) {
+			width: 100%!important;
+		}		
+	}
+	hr {
+		margin-bottom: 20px;
+	}
+}
+
 /*=====  End of Srdjan CSS  ======*/
