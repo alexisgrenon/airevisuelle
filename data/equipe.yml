@@ -2,25 +2,33 @@ equipe:
   - name: Suzie Pelletier 
     title: O.O.D.
     ordre: 1
+    group: ood
   - name: Pierluigi Merolla 
     title: O.O.D.
     ordre: 2
+    group: ood
   - name: Laurent Brassard 
     title: O.O.D.
     ordre: 3
+    group: ood
   - name: Laura Tang 
     title: O.O.D.
     ordre: 4
+    group: ood
   - name: Sylvain Duquette 
     title: O.D.
     ordre: 5
+    group: od
   - name: Geneviève Brassard 
     title: O.D.
     ordre: 6
+    group: od
   - name: Marie-Pier Gascon 
     title: O.D.
     ordre: 7
+    group: od
   - name: Tristan Gauthier 
     title: O.D.
     ordre: 8
+    group: od
 

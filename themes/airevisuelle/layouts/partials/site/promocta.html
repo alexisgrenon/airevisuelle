@@ -1,10 +1,37 @@
 <section class="background-grey">
     <div class="text-center">
-        <h2>{{.Site.Data.promo.fr.title}}</h2>
+    	{{ if eq .Type "services"}}
+    	{{ if eq .Lang "fr" }}
+        <h2>{{.Site.Data.promo.services.fr.title}}</h2>
         <p class="lead">
-            {{.Site.Data.promo.fr.description}}
+            {{.Site.Data.promo.services.fr.description}}
         </p>
 
-        <a class="btn btn-default icon-left" href="{{.Site.Data.promo.fr.btnurl}}"><span>{{.Site.Data.promo.fr.btntxt}}</span></a>
+        <a class="btn btn-default icon-left" href="{{.Site.Data.promo.services.fr.btnurl}}"><span>{{.Site.Data.promo.services.fr.btntxt}}</span></a>
+      {{ else if eq .Lang "en" }}
+      	<h2>{{.Site.Data.promo.services.en.title}}</h2>
+        <p class="lead">
+            {{.Site.Data.promo.services.en.description}}
+        </p>
+
+        <a class="btn btn-default icon-left" href="{{.Site.Data.promo.services.en.btnurl}}"><span>{{.Site.Data.promo.services.en.btntxt}}</span></a>
+      {{ end }}
+      {{ else }}
+      {{ if eq .Lang "fr" }}
+        <h2>{{.Site.Data.promo.general.fr.title}}</h2>
+        <p class="lead">
+            {{.Site.Data.promo.general.fr.description}}
+        </p>
+
+        <a class="btn btn-default icon-left" href="{{.Site.Data.promo.general.fr.btnurl}}"><span>{{.Site.Data.promo.general.fr.btntxt}}</span></a>
+      {{ else if eq .Lang "en" }}
+      	<h2>{{.Site.Data.promo.general.en.title}}</h2>
+        <p class="lead">
+            {{.Site.Data.promo.general.en.description}}
+        </p>
+
+        <a class="btn btn-default icon-left" href="{{.Site.Data.promo.general.en.btnurl}}"><span>{{.Site.Data.promo.general.en.btntxt}}</span></a>
+      {{ end }}
+      {{ end }}
     </div>
 </section> 

@@ -19,10 +19,10 @@
 				              <div class="portfolio-item img-zoom pf-illustrations pf-media hover-3d pf-icons pf-Media">
 				                  <div class="portfolio-item-wrap">
 				                      <div class="portfolio-image">
-				                          <a href="/contact" target="_blank"><img src="/img/quart/airevisuelle-vert.jpg" alt="Aire Visuelle"></a>
+				                          <a href="/rendez-vous" target="_blank"><img src="/img/quart/airevisuelle-vert.jpg" alt="Aire Visuelle"></a>
 				                      </div>
 				                      <div class="portfolio-description">
-				                          <a href="/contact" target="_blank">
+				                          <a href="/rendez-vous" target="_blank">
 				                              <h3>Sélection en magasin</h3>
 				                              <span>Aire Visuelle</span> </a>
 				                      </div>
@@ -40,7 +40,7 @@
                   <div class="call-to-action call-to-action-dark">
                       <h3>Vous ne trouvez pas le <span>produit</span> que vous cherchez?</h3>
                       <p>Prenez rendez-vous avec un expert facilement grâce à notre systèmes de réservation en ligne !</p>
-                      <a class="btn btn-outline btn-light" href="{{.Site.Data.globals.rdvlink}}" target="_blank">Rendez-vous</a> </div>
+                      <a class="btn btn-outline btn-light" href="/rendez-vous">Rendez-vous</a> </div>
 
                   <!--END: call-to-action colored background -->
               </div>
@@ -48,12 +48,8 @@
       </div>
       
   </section>
+  {{ partial "site/promocta.html" . }}
   <!-- end: PORTFOLIO -->
-		{{ .Content}}
-			{{ range $i, $e := sort .Pages ".Params.ordre" "asce" }}
-			{{ $mod1 := modBool $i 1}}
-			{{ $mod2 := modBool $i 2}}
-			{{ $mod3 := modBool $i 3}}
-		{{ end }}
+
 </main>
 {{ end }}

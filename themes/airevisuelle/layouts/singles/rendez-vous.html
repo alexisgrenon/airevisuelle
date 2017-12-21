@@ -1,0 +1,168 @@
+{{ define "main" }}
+<main class="main" id="rdv">
+		<!-- CONTENT -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 clearfix">
+                   <h1 class="text-uppercase">{{.Params.titre}}</h1> 
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-uppercase">O.D</h2>
+                    <div class="row team-members team-members-shadow">
+                        {{ range sort .Site.Data.equipe.equipe ".ordre"}}
+                        {{ if eq .group "od"}}
+                        <div class="col-md-6">
+                            <div class="team-member">
+                                <div class="team-desc">
+                                    <h3>{{.name}}</h3>
+                                    <p>{{.title}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        {{ end }}
+                        {{ end }}
+                        <div class="col-md-12">
+                            <p>Vous pouvez réserver en ligne directement dans leur horaire respectif.</p>
+                            
+                            <p>Nous sommes disponibles pour répondre à toutes vos questions, ainsi que pour vous conseiller dans le choix de lunettes de prescription, de lunettes solaires ou de verres de contact.</p>
+                            <a class="btn btn-rounded btn-reveal btn-reveal-left" href="{{.Site.Data.globals.rdvlink}}" target="_blank"><span class="btn-label">Prendre rendez-vous</span><i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="row m-t-40 hidden-xs hidden-sm">
+                        <div class="col-sm-6">
+                            <address>
+                                <strong>L'Aire Visuelle</strong><br>
+                                380 boul. Dagenais Est suite 102<br>
+                                Laval (Québec)<br>
+                                Coin René-Laennec<br>
+                                <abbr title="Phone">P:</abbr> (450) 669-1686
+                            </address>
+                        </div>
+                        <div class="col-sm-6">
+                            <address>
+                                <strong>Heures d'ouverture</strong><br>
+                                Lundi au jeudi : 9 h à 20 h<br>
+                                Vendredi : 9 h à 18 h<br>
+                                Samedi : 10 h à 16 h<br>
+                                Dimanche : Fermé<br>
+                            </address>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 od-box">
+                    <h2 class="text-uppercase">O.O.D</h2>
+                    <div class="row team-members team-members-shadow">
+                        {{ range sort .Site.Data.equipe.equipe ".ordre"}}
+                        {{ if eq .group "ood"}}
+                        <div class="col-md-6">
+                            <div class="team-member">
+                                <div class="team-desc">
+                                    <h3>{{.name}}</h3>
+                                    <p>{{.title}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        {{ end }}
+                        {{ end }}
+                        <div class="col-md-12">
+                            <p>Vous pouvez remplir le formulaire ci-bas directement pour réserver une plage horaire avec eux.</p>
+                        </div>
+                    </div>
+                    <form class="widget-contact-form" action="/merci" role="form" method="post">
+                        
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label for="name">Nom</label>
+                                <input type="text" aria-required="true" name="widget-contact-form-name" class="form-control required name" placeholder="Entrez votre nom">
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label for="email">Courriel</label>
+                                <input type="email" aria-required="true" name="widget-contact-form-email" class="form-control required email" placeholder="Entrez votre courriel">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-sm-6 col-md-3">
+                                <label for="message">Âge</label>
+                                <input type="text" name="age" aria-required="true" class="form-control required" placeholder="Âge">
+                            </div>
+                            <div class="form-group col-sm-6 col-md-3">
+                                <label for="message">Déjà un client?</label>
+                                <select name="deja_client" id="">
+                                    <option value="oui">Oui</option>
+                                    <option value="non">Non</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label for="name">Préférence</label>
+                                <select name="preference" id="">
+                                    <option value="AM">AM</option>
+                                    <option value="PM">PM</option>
+                                </select>
+                            </div>
+                        </div> 
+                        <div class="row">
+                            <div class="form-group col-sm-6 col-md-3">
+                                <label for="subject">Port de lunettes</label>
+                                <select name="port_lunettes" id="">
+                                    <option value="oui">Oui</option>
+                                    <option value="non">Non</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-sm-6 col-md-3">
+                                <label for="message">Port de verres de contact</label>
+                                <select name="port_verre" id="">
+                                    <option value="oui">Oui</option>
+                                    <option value="non">Non</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label for="message">Message</label>
+                                <textarea type="text" name="widget-contact-form-message" rows="5" class="form-control required" placeholder="Entrez votre message"></textarea>
+                            </div>
+                            
+                        </div>
+
+
+                        <button class="btn btn-rounded btn-reveal btn-reveal-left" type="submit" id="form-submit"><span class="btn-label">Prendre rendez-vous</span><i class="fa fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row m-t-40 hidden-md hidden-lg">
+                <div class="col-md-4 col-sm-6">
+                    <address>
+                        <strong>L'Aire Visuelle</strong><br>
+                        380 boul. Dagenais Est suite 102<br>
+                        Laval (Québec)<br>
+                        Coin René-Laennec<br>
+                        <abbr title="Phone">P:</abbr> (450) 669-1686
+                    </address>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <address>
+                        <strong>Heures d'ouverture</strong><br>
+                        Lundi au jeudi : 9 h à 20 h<br>
+                        Vendredi : 9 h à 18 h<br>
+                        Samedi : 10 h à 16 h<br>
+                        Dimanche : Fermé<br>
+                    </address>
+                </div>
+            </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end: CONTENT -->
+
+    <!-- MAP -->
+    <section class="no-padding">
+        <!-- Google map sensor -->
+        <div class="map" data-map-address="380 boul. Dagenais Est, Laval, Québec" data-map-zoom="13" data-map-icon="/img/marker-airevisuelle.png" data-map-type="ROADMAP"></div>
+    </section>
+    <!-- end: MAP -->
+</main>
+{{ end }}

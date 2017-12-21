@@ -7,20 +7,28 @@ i18nlanguage: fr
 draft: false
 designers:
   - id: "barcelona"
+    url: https://www.etniabarcelona.com/
     nom: Etnia Barcelona
   - id: "dior"
     nom: Dior
+    url: https://www.dior.com/couture/en_int/womens-fashion/sunglasses
   - id: "ogreen"
+    url: https://orgreenoptics.com/
     nom: Orgreen
   - id: "pro"
+    url: http://www.prodesigndenmark.com/
     nom: Prodesign
   - id: "silhouette"
+    url: http://www.silhouette.com/
     nom: Silhouette
   - id: "tom"
+    url: http://www.tomford.com/eyewear/
     nom: Tom Ford
   - id: "bellinger"
+    url: http://www.bellinger.dk/
     nom: Bellinger
   - id: "william"
+    url: http://www.williammorris.co.uk/
     nom: William Morris
 header:
   transparent: true

@@ -1,22 +1,16 @@
 {{ define "main" }}
 <main class="main" id="a-propos">
-		<!-- Inspiro Slider -->
-        <div id="slider" class="inspiro-slider arrows-large arrows-creative dots-creative" data-height-xs="360">
-            <!-- Slide 2 -->
-            <div class="slide background-overlay-dark" style="background-image:url('/img/optometriste-a-propos.jpg'); background-position: 20%">
-                <div class="container">
-                    <div class="slide-captions text-center text-light">
-                        <!-- Captions -->
-                        <span class="strong">L'Aire Visuelle</span>
-                        <h1>{{.Params.titre}}</h1>
-                        <!-- end: Captions -->
-                    </div>
+		<!-- Page title -->
+        <section id="page-title" class="background-image background-overlay-dark" style="background-image:url('{{.Params.image}}');">
+            <div class="container">
+
+                <div class="page-title">
+                    <div data-animation="fadeIn" class="text-light">
+                        <h1 data-animation="fadeInUp" data-animation-delay="1000">{{.Params.titre}}</h1></div>
                 </div>
             </div>
-            <!-- end: Slide 2 -->
-
-        </div>
-        <!--end: Inspiro Slider -->
+        </section>
+        <!-- end: Page title -->
 
 		<section class="about">
 			<div class="container">

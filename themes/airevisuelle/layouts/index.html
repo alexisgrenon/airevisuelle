@@ -8,11 +8,11 @@
               <div class="slide-captions text-light">
                   <!-- Captions -->
                   <h1>{{ .Params.titre }}</h1>
-                  <p data-animation="fadeInUp" data-animation-delay="300" class=""><a href="#" class="business"><span class="business">50 $ de rabais sur la collection de lunettes XYZ</span></a>
+                  <p data-animation="fadeInUp" data-animation-delay="300" class=""><a href="/promotions" class="business"><span class="business">50% sur les montures sélectionnées à l’achat d’une paire de verres</span></a>
                   </p>
                   <div id="ctas"> 
-                      <button type="button" class="btn btn-rounded btn-reveal btn-reveal-left"><span>Nos promotions</span><i class="fa fa-arrow-right"></i></button>
-                      <button type="button" class="btn btn-rounded btn-reveal btn-reveal-left btn-light"><span class="btn-label">Prendre rendez-vous</span><i class="fa fa-arrow-right"></i></button>
+                      <a class="btn btn-rounded btn-reveal btn-reveal-left" href="/promotions"><span>Nos promotions</span><i class="fa fa-arrow-right"></i></a>
+                      <a class="btn btn-rounded btn-reveal btn-reveal-left btn-light" href="/rendez-vous"><span class="btn-label">Prendre rendez-vous</span><i class="fa fa-arrow-right"></i></a>
                   </div>
                   <!-- end: Captions -->
               </div>
@@ -57,13 +57,13 @@
                 <div class="portfolio-item haut img-zoom pf-illustrations pf-media pf-icons pf-Media">
                     <div class="portfolio-item-wrap">
                         <div class="portfolio-image">
-                            <a href="#"><img src="/img/quart/opticien-2.jpg" alt=""></a>
+                            <a href="/rendez-vous"><img src="/img/quart/opticien-2.jpg" alt=""></a>
                         </div>
                         <div class="portfolio-description">
-                            <a href="portfolio-page-grid-gallery.html">
+                            <a href="/rendez-vous">
                                 <h3>PRENEZ RENDEZ-VOUS EN lIGNE</h3>
                                 <span>Choisissez la date et l’heure qui vous convient dans le confort de votre salon</span>
-                                <button type="button" class="btn btn-rounded" style="margin-top: 20px;"><span>Prendre rendez-vous</span></button>
+                                <a class="btn btn-rounded" style="margin-top: 20px;" href="/rendez-vous"><span>Prendre rendez-vous</span></a>
                             </a>
                         </div>
                     </div>
@@ -74,13 +74,13 @@
                 <div class="portfolio-item img-zoom pf-illustrations pf-media pf-icons pf-Media">
                     <div class="portfolio-item-wrap">
                         <div class="portfolio-image">
-                            <a href="#"><img src="/img/quart/opticien-1.jpg" alt=""></a>
+                            <a href="/contactez-nous"><img src="/img/quart/opticien-1.jpg" alt=""></a>
                         </div>
                         <div class="portfolio-description">
-                            <a href="portfolio-page-grid-gallery.html">
+                            <a href="/contactez-nous">
                                 <h3>VENEZ NOUS VOIR EN MAGASIN</h3>
                                 <span>À laval sur le boulevard Dagenais, près de la 19</span>
-                                <button type="button" class="btn btn-rounded" style="margin-top: 20px;"><span>Nos coordonnées</span></button>
+                                <a class="btn btn-rounded" style="margin-top: 20px;" href="/contactez-nous"><span>Nos coordonnées</span></a>
                             </a>
                         </div>
                     </div>
@@ -91,13 +91,13 @@
                 <div class="portfolio-item haut img-zoom pf-illustrations pf-media pf-icons pf-Media">
                     <div class="portfolio-item-wrap">
                         <div class="portfolio-image">
-                            <a href="#"><img src="/img/quart/optometriste-1.jpg" alt=""></a>
+                            <a href="/catalogue"><img src="/img/quart/optometriste-1.jpg" alt=""></a>
                         </div>
                         <div class="portfolio-description">
-                            <a href="portfolio-page-grid-gallery.html">
+                            <a href="/catalogue">
                                 <h3>DE NOMBREUX CHOIX</h3>
                                 <span>Plusieurs choix de lentilles et de montures à venir essayer en magasin. Regardez notre catalogue en ligne pour un aperçu!</span>
-                                <button type="button" class="btn btn-rounded" style="margin-top: 20px;"><span>Voir le catalogue</span></button>
+                                <a class="btn btn-rounded" style="margin-top: 20px;" href="/catalogue"><span>Voir le catalogue</span></a>
                             </a>
                         </div>
                     </div>
@@ -108,13 +108,13 @@
                 <div class="portfolio-item img-zoom pf-illustrations pf-media pf-icons pf-Media">
                     <div class="portfolio-item-wrap">
                         <div class="portfolio-image">
-                            <a href="#"><img src="/img/quart/optometriste-2.jpg" alt=""></a>
+                            <a href="/promotions"><img src="/img/quart/optometriste-2.jpg" alt=""></a>
                         </div>
                         <div class="portfolio-description">
-                            <a href="portfolio-page-grid-gallery.html">
+                            <a href="/promotions">
                                 <h3>PROMOTIONS DU MOIS</h3>
                                 <span>50 $ de rabais sur la collection de lunettes XYZ</span>
-                                <button type="button" class="btn btn-rounded" style="margin-top: 20px;"><span>Voir la promotion</span></button>
+                                <a class="btn btn-rounded" style="margin-top: 20px;" href="/promotions"><span>Voir la promotion</span></a>
                             </a>
                         </div>
                     </div>
@@ -127,7 +127,7 @@
       </div>
   </section>
   <!-- PORTFOLIO -->
-  <section class="p-b-0">
+  <section class="p-b-40">
       <div class="container">
           <div class="heading text-left">
               <h2>Nos designers les plus populaires</h2>
@@ -142,10 +142,10 @@
 		              <div class="portfolio-item img-zoom pf-illustrations pf-media hover-3d pf-icons pf-Media">
 		                  <div class="portfolio-item-wrap">
 		                      <div class="portfolio-image">
-		                          <a href="#"><img src="/img/quart/{{.id}}-airevisuelle.jpg" alt=""></a>
+		                          <a href="{{.url}}" target="_blank"><img src="/img/quart/{{.id}}-airevisuelle.jpg" alt=""></a>
 		                      </div>
 		                      <div class="portfolio-description">
-		                          <a href="portfolio-page-grid-gallery.html">
+		                          <a href="{{.url}}" target="_blank">
 		                              <h3>Voir les produits</h3>
 		                              <span>{{.nom}}</span> </a>
 		                      </div>
@@ -160,27 +160,9 @@
       </div>
       
   </section>
+  {{ partial "site/promocta.html" . }}
   <!-- end: PORTFOLIO -->
   <!-- Testimonial Carousel -->
-        <section>
-            <div class="container">
-                
-                 <!-- Testimonials -->
-                <div class="carousel arrows-visibile testimonial testimonial-single testimonial-blockquote" data-items="1" data-autoplay="true" data-animate-in="fadeIn" data-animate-out="fadeOut" data-loop="true">
-								{{ range .Site.Data.testimonials.testimonials }}
-                    <!-- Testimonials item -->
-                    <div class="testimonial-item">
-                        <p>{{ .text }}</p>
-                        <span>{{.name}}</span>
-                        <span>{{.title}}</span>
-                    </div>
-                    <!-- end: Testimonials item-->
-								{{ end }}
-                </div>
-                <!-- end: Testimonials -->     
-                
-            </div>
-        </section>
         <!-- end: Testimonial Carousel -->
         
 </main>

@@ -1,10 +1,10 @@
 ---
 title: "L'Aire Visuelle | À Propos De Nos Experts De La Vue"
-slug: a-propos
-identifiant: a-propos
-titre: "Bien plus qu'un simple magasin de lunettes"
+slug: rendez-vous
+identifiant: rendez-vous
+titre: "Prenez rendez-vous avec un de nos experts de la vue"
 description: "L'Aire Visuelle vous offre une gamme de services complète: Lunettes de prescriptions, lunettes solaires ou verres de contact"
-layout: a-propos
+layout: rendez-vous
 image: /img/optometriste-a-propos.jpg
 header:
   transparent: false
