@@ -61,14 +61,14 @@
             <!-- Footer widget area 2 -->
             <div class="widget">
               <h4>Liens rapides</h4>
-              <!-- <ul class="list-icon list-icon-arrow">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Shortcodes</a></li>
-              </ul> -->
+              <ul class="list-icon list-icon-arrow">
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/catalogue">Catalogue</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/promotions">Promotions</a></li>
+                <li><a href="/articles">Articles</a></li>
+                <li><a href="/contactez-nous">Contact</a></li>
+              </ul>
             </div>
             <!-- end: Footer widget area 2 --> 
           </div>
@@ -76,23 +76,16 @@
             <!-- Footer widget area 3 -->
             <div class="widget">
               <h4>Nos articles les plus récents</h4>
-              <!-- <div class="post-thumbnail-list">
+              {{ range where .Site.RegularPages "Type" "articles"}}
+              <div class="post-thumbnail-list">
                 <div class="post-thumbnail-entry">
                   <div class="post-thumbnail-content">
-                    <a href="#">Suspendisse consectetur fringilla luctus</a>
-                    <span class="post-date"><i class="fa fa-clock-o"></i> 6m ago</span> <span class="post-category"><i class="fa fa-tag"></i> Technology</span> </div>
+                    <a href="{{.Permalink}}">{{.Title}}</a>
+                    <!-- <span class="post-date"><i class="fa fa-clock-o"></i> 6m ago</span> <span class="post-category"><i class="fa fa-tag"></i> Technology</span> </div> -->
+                  </div>
                 </div>
-                <div class="post-thumbnail-entry">
-                  <div class="post-thumbnail-content">
-                    <a href="#">Consectetur adipiscing elit</a>
-                    <span class="post-date"><i class="fa fa-clock-o"></i> 24h ago</span> <span class="post-category"><i class="fa fa-tag"></i> Lifestyle</span> </div>
-                </div>
-                <div class="post-thumbnail-entry">
-                  <div class="post-thumbnail-content">
-                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
-                    <span class="post-date"><i class="fa fa-clock-o"></i> 11h ago</span> <span class="post-category"><i class="fa fa-tag"></i> Lifestyle</span> </div>
-                </div>
-              </div> -->
+              </div>
+              {{ end }}
             </div>
             <!-- end: Footer widget area 3 --> 
           </div>
