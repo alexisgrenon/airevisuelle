@@ -1,0 +1,41 @@
+[contact]
+  other = "Contactez-nous"
+
+[home]
+  other = "Accueil"
+
+[services]
+  other = "Nos services"
+
+[about]
+  other = "À propos"
+
+[clients]
+  other = "Nos clients"
+
+[blog]
+  other = "Blogue"
+
+[find]
+  other = "Nous trouver"
+
+[email]
+  other = "Courriel"
+
+[call]
+  other = "Appelez-nous"
+
+[sitemap]
+  other = "Plan du site"
+
+[copyright]
+  other = "Tous droits réservés"
+
+[akiatagline]
+  other = 'Fait avec <i class="fa fa-heart"></i> par <a href="#">Akia Marketing</a>'
+
+[readmore]
+  other = "Lire la suite"
+
+[recent_articles]
+  other = "Articles récents"

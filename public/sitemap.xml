@@ -32,15 +32,23 @@
   </url>
   
   <url>
+    <loc>http://airevisuelle.com/promotions/decembre-janvier/</loc>
+  </url>
+  
+  <url>
     <loc>http://airevisuelle.com/services/</loc>
   </url>
   
   <url>
-    <loc>http://airevisuelle.com/examen-de-la-vue/</loc>
+    <loc>http://airevisuelle.com/services/examen-de-la-vue/</loc>
   </url>
   
   <url>
     <loc>http://airevisuelle.com/services/optometrie/</loc>
+  </url>
+  
+  <url>
+    <loc>http://airevisuelle.com/services/verres-de-contact/</loc>
   </url>
   
   <url>
@@ -49,6 +57,10 @@
   
   <url>
     <loc>http://airevisuelle.com/a-propos/</loc>
+  </url>
+  
+  <url>
+    <loc>http://airevisuelle.com/articles/laire-visuelle-grande-gagnante/</loc>
   </url>
   
   <url>
@@ -66,7 +78,7 @@
   </url>
   
   <url>
-    <loc>http://airevisuelle.com/articles/single1/</loc>
+    <loc>http://airevisuelle.com/articles/une-ouverture-attendue/</loc>
   </url>
   
 </urlset>

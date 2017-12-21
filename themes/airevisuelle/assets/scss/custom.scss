@@ -268,6 +268,14 @@ section {
 		}
 	}
 }
+@media (max-width: 500px) {
+	#header #logo>a {
+		max-width: 40%;
+		svg {
+			max-width: 100%;
+		}
+	}
+}
 
 /*==================================
 =            Srdjan CSS            =

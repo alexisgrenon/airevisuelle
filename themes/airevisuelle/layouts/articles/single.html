@@ -2,14 +2,14 @@
 <main class="main" id="{{ .Type }}-indiv">
 
         <!-- Page title -->
-        <section id="page-title" class="background-image background-overlay-dark header-single-blog" style="background-image:url(/img/new/service-header.jpg);">
+        <section id="page-title" class="background-image background-overlay-dark header-single-blog" style="background-image:url('{{.Params.image}}');">
             <div class="container">
 
                 <div class="page-title">
                     <div data-animation="fadeIn" class="text-light">
                     	
-                        <h1 data-animation="fadeInUp" data-animation-delay="1000">Lorem ipsum dolor sit amet.</h1></div>
-                        <div class="small m-b-20" data-animation="fadeInUp"  data-animation-delay="1500">May 16, 2017 | <a href="#">by admin</a> <span class="post-meta-category"> | <a href="">Technology</a></span></div>
+                        <h1 data-animation="fadeInUp" data-animation-delay="1000">{{.Title}}</h1></div>
+                        <div class="small m-b-20" data-animation="fadeInUp"  data-animation-delay="1500">May 16, 2017 | <a href="#">par L'Aire visuelle</a> <!-- <span class="post-meta-category"> | <a href="">Technology</a></span></div> -->
                 </div>
             </div>
         </section>
@@ -26,43 +26,35 @@
                             <!-- Post single item-->
                             <div class="post-item">
                                 <div class="post-item-wrap">
-                                    <div class="post-image">
+                                    <!-- <div class="post-image">
                                         <a href="#">
-                                            <img alt="" src="images/blog/1.jpg">
+                                            <img alt="" src="{{.Params.image}}">
                                         </a>
-                                    </div>
+                                    </div> -->
                                     <div class="post-item-description">
-                                        <h2>Lighthouse, standard post with a single image</h2>
-          
-                                        <p>Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor porta feugiat. Fusce at velit id ligula pharetra laoreet. Ut nec metus a mi ullamcorper hendrerit. Nulla facilisi. Pellentesque sed nibh a quam accumsan dignissim quis quis urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id dolor dui, dapibus gravida elit. Donec consequat laoreet sagittis. Suspendisse ultricies ultrices viverra. Morbi rhoncus laoreet tincidunt. Mauris interdum convallis metus.M</p>
-                                        <blockquote>
-                                            <p>The world is a dangerous place to live; not because of the people who are evil, but because of the people who don't do anything about it.</p>
-                                            <small>by <cite>Albert Einstein</cite></small>
-                                        </blockquote>
-                                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id dolor dui, dapibus gravida elit. Donec consequat laoreet sagittis. Suspendisse ultricies ultrices viverra. Morbi rhoncus laoreet tincidunt. Mauris interdum convallis metus. Suspendisse vel lacus est, sit amet tincidunt erat. Etiam purus sem, euismod eu vulputate eget, porta quis sapien. Donec tellus est, rhoncus vel scelerisque id, iaculis eu nibh.</p>
-
-
-                                        <p>Donec posuere bibendum metus. Quisque gravida luctus volutpat. Mauris interdum, lectus in dapibus molestie, quam felis sollicitudin mauris, sit amet tempus velit lectus nec lorem. Nullam vel mollis neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel enim dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed tincidunt accumsan massa id viverra. Sed sagittis, nisl sit amet imperdiet convallis, nunc tortor consequat tellus, vel molestie neque nulla non ligula. Proin tincidunt tellus ac porta volutpat. Cras mattis congue lacus id bibendum. Mauris ut sodales libero. Maecenas feugiat sit amet enim in accumsan.</p>
-
-                                        <p>Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. Phasellus tristique cursus erat, a placerat tellus laoreet eget. Fusce vitae dui sit amet lacus rutrum convallis. Vivamus sit amet lectus venenatis est rhoncus interdum a vitae velit.</p>
+                                        {{.Content}}
 
                                     </div>
-                                    <div class="post-tags">
+                                    <!-- <div class="post-tags">
                                         <a href="#">Life</a>
                                         <a href="#">Sport</a>
                                         <a href="#">Tech</a>
                                         <a href="#">Travel</a>
-                                    </div>
+                                    </div> -->
                                     <div class="post-navigation">
-                                        <a href="blog-single-slider.html" class="post-prev">
-                                            <div class="post-prev-title"><span>Previous Post</span>Post with a slider and lightbox</div>
+                                        {{if .PrevInSection }}
+                                        <a href="{{.PrevInSection.Permalink}}" class="post-prev">
+                                            <div class="post-prev-title"><span>Previous Post</span>{{.PrevInSection.Title}}</div>
                                         </a>
-                                        <a href="blog-masonry-3.html" class="post-all">
+                                        {{ end }}
+                                        <a href="/articles" class="post-all">
                                             <i class="fa fa-th"></i>
                                         </a>
-                                        <a href="blog-single-video.html" class="post-next">
-                                            <div class="post-next-title"><span>Next Post</span>Post with YouTube Video</div>
+                                        {{ if .NextInSection }}
+                                        <a href="{{.NextInSection.Permalink}}" class="post-next">
+                                            <div class="post-next-title"><span>Article suivant</span>{{.NextInSection.Title}}</div>
                                         </a>
+                                        {{ end }}
                                     </div>
                                     <!-- Comments -->
  
