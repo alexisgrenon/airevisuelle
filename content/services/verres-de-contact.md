@@ -24,11 +24,11 @@ faq:
 
 ---
 
-## Qu'est-ce qu'un verre de contact?
+## Pourquoi pas des verres de contact?
 
 Les lentilles cornéennes, ou verres de contact, peuvent être une solution idéale pour corriger votre vision, ou encore un outil complémentaire à vos lunettes pour le sport ou les sorties.  Il existe plusieurs types de lentille pour presque tous les types de prescriptions.
 
-Nous retrouvons présentement sur le marché 3 types principaux de lentilles cornéennes: les jetables au jour, aux deux semaines ou au mois. Ce que vous choisirez (ou qui vous sera recommandé) sera en fonction de votre prescription et de vos besoins. Malgré une montée récente des lentilles cornéennes jetables au jour (moins de risque de développer des problèmes de santé oculaire et  meilleur confort), nos optométristes et opticiens prendront le temps de vraiment évaluer votre vision et de vous prescrire la meilleure option pour vous. 
+Nous retrouvons présentement sur le marché plusieurs types de lentilles cornéennes; entre autre les jetables au jour, aux deux semaines ou au mois. De nombreux fabricants offrent des qualités et des caractristques différentes de lentilles. Ce que vous choisirez (ou qui vous sera recommandé) sera en fonction de votre prescription et de vos besoins.
 
 Si vous souhaitez commencer à porter des verres de contact, nos opticiens se feront également un plaisir de vous apprendre comment faire pour les mettre, les enlever et les entretenir. 
 

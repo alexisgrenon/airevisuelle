@@ -2,9 +2,9 @@
 title: "L'Aire Visuelle | Une Équipe D'Optométristes Dévouée"
 slug: optometrie
 identifiant: optometrie
-titre: "Des Optométristes dévoués pour votre vue et vos lunettes"
+titre: "Des Optométristes passionés par votre vision et la santé de vos yeux"
 description: "Nous offrons le dépistage des problèmes visuelles et la vente de lunettes et lentilles pour vos yeux."
-image: /img/optometrie.jpg
+image: /img/xl/optometrie-banniere.jpg
 resume:
   title: Optométrie
   description: Des Optométristes dévoués pour votre vue et vos lunettes
@@ -42,13 +42,14 @@ faq:
   - question: Comment savoir si je fais des cataractes, de la dégénérescence maculaire ou du glaucome?
     reponse: >-
       Ces pathologies oculaires affectent votre vision et votre santé oculaire de façons différentes. Leurs symptômes visuels ou oculaires sont par conséquent très variables d’un patient à l’autre. Seul un examen visuel et oculaire complet permettra à votre optométriste d’identifier votre cas spécifique grâce à un diagnostic différentiel. Soyez vigilant et visitez annuellement votre optométriste!
+ctalink: rendez-vous-optometriste
 ---
 
 ## Optométriste
 
-Le docteur en optométrie est le professionnel que vous voyez pour votre examen de la vue. Suite à 5 ans d’études, il a obtenu son doctorat, et est en mesure d’évaluer l’amétropie (myopie, hypermétropie, astigmatisme, presbytie, etc.), la santé des yeux, le dépistage de certaines maladies oculaires ou toute autre anomalie.  L’optométriste peut aussi prescrire certains médicaments ou référer le patient en ophtalmologie, et conseiller le patient sur le port de lentilles cornéennes ou les chirurgies correctives.
+Le docteur en optométrie est le professionnel que vous voyez pour votre examen de la vue. Suite à 5 ans d’études universitaires, il a obtenu son doctorat, et est en mesure d’évaluer l’amétropie (myopie, hypermétropie, astigmatisme, presbytie, etc.), la santé des yeux, le dépistage de certaines maladies oculaires ou toute autre anomalie.  L’optométriste peut aussi prescrire certains médicaments ou référer le patient en ophtalmologie, et conseiller le patient sur le port de lentilles cornéennes ou les chirurgies correctives.
 
-Chez L’Aire Visuelle, nos optométristes sont des professionnels de la vue accessibles et prêts à vous aider. Ils ont votre santé visuelle à coeur, et prennent en charge leurs patients de la meilleure façon possible. Ils aiment les défis, et ne prendront jamais pour acquis leur travail. Ce sont des personnes de référence en qui vous pouvez avoir totalement confiance. 
+À L’Aire Visuelle, nos optométristes sont des professionnels de la vue accessibles et prêts à vous aider. Ils ont votre santé visuelle à coeur, et prennent en charge leurs patients de la meilleure façon possible. Ils aiment les défis, et ne prendront jamais pour acquis leur travail. Ce sont des personnes de référence en qui vous pouvez avoir totalement confiance. 
 
 Nos Optométristes :
 

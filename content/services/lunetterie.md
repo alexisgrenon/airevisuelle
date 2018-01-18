@@ -2,7 +2,7 @@
 title: "L'Aire Visuelle | Votre lunetterie pour vos lunettes à Laval"
 slug: lunetterie
 identifiant: lunetterie
-titre: "Meilleure sélection de lunettes à Laval, nous sommes votre lunetterie"
+titre: "Grande sélection de montures à Laval, nous sommes votre lunetterie"
 description: "Nous offrons des montures de lunettes, des lunettes de soleils, des lunettes de prescription et des verres de contact."
 image: /img/lunetterie.jpg
 resume:
@@ -21,16 +21,17 @@ faq:
   - question: Ai-je besoin d’un traitement polarisé lorsque je me procure une lunette solaire ?
     reponse: >-
       Quant aux verres solaires, les verres polarisés éliminent les reflets nuisibles émis par les objets ou les surfaces réfléchissantes auxquelles nous sommes exposés tous les jours. Ils sont donc fortement recommandés!
+ctalink: rendez-vous-opticien
 ---
 
 ## À chacun sa paire de lunettes
 
-À L’Aire Visuelle, nous vous offrons une sélection de montures variées et adaptées à tous les styles et tous les besoins, de lunettes de vue autant que de lunettes de soleil. Vous serez conseillés par des opticiens compétents et passionnés, et vous trouverez assurément quelque chose que vous aimerez. Voici déjà quelques trucs pour bien choisir votre monture!
+À L’Aire Visuelle, nous vous offrons une sélection de montures variées et adaptées à tous les styles et tous les besoins, de lunettes de vue autant que de lunettes de soleil. Vous serez conseillés par des opticiens compétents et passionnés, et vous trouverez assurément quelque chose que vous aimerez
 
-Premièrement, il est primordial de s’assurer que la lunette qui vous intéresse correspond à votre prescription (si vous avez besoin d’un foyer progressif par exemple, il est recommandé d’aller vers une lunette un peu plus grande).
+Le choix de la monture est primordial pour avoir le résultat le plus esthétique possible.  Il faut baser ce choix sur la prescription.  L’épaisseur et l’apparence des verres sont directement liées au choix de la monture.  L’influence sur la vision est aussi une chose à considérer, surtout dans le cas des porteurs de foyers, il faut s’assurer d’avoir suffisamment de place pour les verres correcteurs.
 
-Vient ensuite le choix du look de la monture : quel matériau vous préférez (plastique ou métal), quelle forme vous va le mieux (carré, rond, rectangulaire, ovale, etc.) et finalement voulez-vous une monture discrète ou punchée? Il est facile de s’y perdre dans toutes ces possibilités, et c’est pour mieux vous diriger que nos opticiens sont formés!
+À part l’aspect technique, il faut aimer sa monture.  Le matériau (métal ou plastique), la forme,  voulez-vous une monture discrète? Une monture punchée?  Il est facile de se perdre dans notre grand choix de lunettes.  Heureusement, notre équipe de professionnels est là pour vous conseiller. 
 
-Notre mission est de faire en sorte que vous aimiez vraiment votre monture, et qu’elle soit adaptée à votre style de vie et à vos besoins.
+Nos opticiens sont dévoués à leur travail, et s’assureront que vous prochaines lunettes soient adaptées à votre style, et vos besoins.
 
-Venez nous visiter afin de jeter un premier coup d’œil à notre vaste choix de lunettes!
+Venez nous visiter afin de jeter un premier coup d’œil à notre vaste choix de lunettes.

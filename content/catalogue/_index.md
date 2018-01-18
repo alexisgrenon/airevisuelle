@@ -1,12 +1,12 @@
 ---
 title: "L'Aire Visuelle | Catalogue de produits de la vue"
-titre: "Meilleure sélection de lunettes à Laval, nous sommes votre lunetterie"
+titre: "Vaste sélection de lunettes à Laval, nous sommes votre lunetterie"
 description: "L'Aire Visuelle vous offre des prix compétitif et un service d'optométrie et de lunetterie imbattable dans la région de Laval"
 image: 
 i18nlanguage: fr
 draft: false
 designers:
-  - id: "barcelona"
+  - id: "etnia"
     url: https://www.etniabarcelona.com/
     nom: Etnia Barcelona
   - id: "dior"

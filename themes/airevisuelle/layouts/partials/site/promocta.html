@@ -7,7 +7,7 @@
             {{.Site.Data.promo.services.fr.description}}
         </p>
 
-        <a class="btn btn-default icon-left" href="{{.Site.Data.promo.services.fr.btnurl}}"><span>{{.Site.Data.promo.services.fr.btntxt}}</span></a>
+        <a class="btn btn-default icon-left" href="{{ if .Params.ctalink }}{{$.Site.BaseURL}}{{.Params.ctalink}}{{else}}{{.Site.Data.promo.services.fr.btnurl}}{{end}}"><span>{{.Site.Data.promo.services.fr.btntxt}}</span></a>
       {{ else if eq .Lang "en" }}
       	<h2>{{.Site.Data.promo.services.en.title}}</h2>
         <p class="lead">

@@ -2,7 +2,7 @@
 title: "L'Aire Visuelle | L'Opticien De Laval Qui Connait vos besoins"
 slug: opticien
 identifiant: opticien
-titre: "Nous sommes des opticiens qualifiés dans la ville de Laval"
+titre: "Nous sommes des opticiens qualifiés à Laval"
 description: "Une équipe d'opticiens à la hauteur de vos besoins pour la vue"
 image: /img/opticien.jpg
 resume:
@@ -21,7 +21,7 @@ faq:
 
 
       Un ophtalmologiste est un médecin spécialiste. Il a une formation universitaire en médecine générale avec une spécialisation au niveau oculaire. Il évalue accessoirement la vision, mais porte davantage un regard sur la santé de l’œil. Il soigne les maladies diagnostiquées, soit par médication, soit par traitement chirurgical. Son approche est médicale. Il pourra référer ses patients vers d’autres confrères spécialisés en strabisme (œil qui louche), cornée, glaucome, cataracte, rétine et conditions inflammatoires.
-
+ctalink: rendez-vous-opticien
 ---
 
 ## Qu’est-ce qu’un opticien?

@@ -7,6 +7,7 @@ var del = require('del');
 var exec = require('child_process').exec;
 
 // image resizing variables
+const imagexl = 2620;
 const imagefull = 1920;
 const imagehalf = 1024;
 const imagequart = 600;
@@ -24,6 +25,8 @@ gulp.task("clean-image", function(){
 gulp.task("image-resize", () => {
   return gulp.src("themes/airevisuelle/source-images/*.{jpg,png,jpeg,gif}")
     .pipe(imagemin())
+    .pipe(imageresize({ width: imagexl}))
+    .pipe(gulp.dest("themes/airevisuelle/static/img/xl"))
     .pipe(imageresize({ width: imagefull }))
     .pipe(gulp.dest("themes/airevisuelle/static/img"))
     .pipe(imageresize({ width: imagehalf }))
