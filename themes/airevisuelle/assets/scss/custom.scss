@@ -143,6 +143,21 @@
 	.heading {
 		margin-bottom: 70px;
 	}
+	.sidebar {
+		&:before {
+	        display: none;
+	    }
+	    &.sidebar-modern {
+	        &:before {
+	            display: none;
+	        }
+	    }
+	    &.sidebar-plain {
+	        &:before {
+	            display: none;
+	        }
+	    }
+	}
 }
 /* Footer */
 
