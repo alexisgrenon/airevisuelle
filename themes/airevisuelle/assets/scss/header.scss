@@ -452,6 +452,9 @@ Main Menu
                     border-color: transparent;
                     transition: all .3s ease;
                     line-height: normal;
+                    @media only screen and (min-width : 1101px) and (max-width : 1250px) {
+                        padding: 11px 5px;
+                    }
                     >i {
                         margin-left: 2px;
                         margin-right: 6px;

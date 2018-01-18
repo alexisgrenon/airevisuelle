@@ -300,8 +300,8 @@ section {
 @media (max-width: 500px) {
 	#header #logo>a {
 		max-width: 40%;
-		svg {
-			max-width: 100%;
+		svg#svglogo {
+			max-width: 100% !important;
 		}
 	}
 }
