@@ -8,10 +8,10 @@
             <div class="widget  widget-contact-us" style="background-image: url('/images/world-map-dark.png'); background-position: 50% 20px; background-repeat: no-repeat">
               <h4>L'aire visuelle</h4>
               <ul class="list-icon">
-                <li><i class="fa fa-map-marker"></i> 380 boul. Dagenais Est, suite 102 <br>
+                <li><i class="fa fa-map-marker"></i>380 boul. Dagenais Est, suite 102 <br>
                   Laval (Québec), Coin René-Laennec</li>
-                <li><i class="fa fa-phone"></i> (450) 669-1686 </li>
-                <li><i class="fa fa-envelope"></i> <a href="mailto:first.last@example.com">info@airevisuelle.com</a> </li>
+                <li><i class="fa fa-phone"></i>(450) 669-1686 </li>
+                <li><i class="fa fa-envelope"></i><a href="mailto:first.last@example.com">info@airevisuelle.com</a> </li>
                 <li> <br>
                   <i class="fa fa-clock-o"></i>Lundi - Jeudi: <strong>08:00 - 20:00</strong> <br>
                   Vendredi <strong>9:00 - 18:00</strong><br>
@@ -76,16 +76,19 @@
             <!-- Footer widget area 3 -->
             <div class="widget">
               <h4>Nos articles les plus récents</h4>
+              <ul class="list-icon list-icon-arrow">
               {{ range where .Site.RegularPages "Type" "articles"}}
-              <div class="post-thumbnail-list">
-                <div class="post-thumbnail-entry">
-                  <div class="post-thumbnail-content">
-                    <a href="{{.Permalink}}">{{.Title}}</a>
-                    <!-- <span class="post-date"><i class="fa fa-clock-o"></i> 6m ago</span> <span class="post-category"><i class="fa fa-tag"></i> Technology</span> </div> -->
-                  </div>
-                </div>
-              </div>
+                <li><a href="{{.Permalink}}">{{.Title}}</a></li>
               {{ end }}
+              </ul>
+            </div>
+            <!-- end: Footer widget area 3 --> 
+            <!-- Footer widget area 3 -->
+            <div class="widget">
+              <h4>Découvrez nos partenaires </h4>
+              <ul class="list-icon list-icon-arrow">
+                <li><a href="https://www.visionavenue.ca/fr/" target="_blank">Vision Avenue</a></li>
+              </ul>
             </div>
             <!-- end: Footer widget area 3 --> 
           </div>
@@ -93,7 +96,7 @@
             <!-- Footer widget area 4 -->
             <div class="widget" data-username="ardianmusliu" data-limit="2">
               <h4>Promotions</h4>
-              <p>Obtenez 50$ de rabais sur la collection de lunettes XYZ</p>
+              <p>50% sur les montures sélectionnées à l'achat d'une paire de verres en décembre et en janvier</p>
               <img src="/img/quart/opticien-1.jpg" alt="Rabais" style="max-width: 100%;">
             </div>
             <!-- end: Footer widget area 4 --> 

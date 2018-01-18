@@ -133,10 +133,10 @@
               <h2>Nos designers les plus populaires</h2>
               <hr>
           </div>
-          <p style="margin-bottom: 80px;">Avec plus de 20 marques différentes offertes, l’Aire Visuelle vous offre une grande variété de lunettes et de monture ! Voici quelques unes de nos marques les plus populaires: </p>
+          <p style="margin-bottom: 80px; font-size: 1.35714286em; line-height: 1.68421053em; font-weight: 300;">Avec plusieurs marques différentes offertes, l’Aire Visuelle vous offre une grande variété de lunettes et de monture ! Voici quelques unes de nos marques les plus populaires: </p>
           <div class="portfolio">
 		          <!-- Portfolio Items -->
-		          <div id="portfolio" class="grid-layout portfolio-4-columns" data-margin="0">
+		          <div id="portfolio" class="grid-layout portfolio-3-columns" data-margin="0">
 									{{ range .Params.designers}}
 		              <!-- portfolio item -->
 		              <div class="portfolio-item img-zoom pf-illustrations pf-media hover-3d pf-icons pf-Media">
@@ -153,6 +153,20 @@
 		              </div>
 		              <!-- end: portfolio item -->
 		              {{ end }}
+                  <!-- portfolio item -->
+                  <div class="portfolio-item img-zoom pf-illustrations pf-media hover-3d pf-icons pf-Media">
+                      <div class="portfolio-item-wrap">
+                          <div class="portfolio-image">
+                              <a href='{{ i18n "visionavenue" }}' target="_blank"><img src="/img/quart/vision-avenue.png" alt="Vision Avenue"></a>
+                          </div>
+                          <div class="portfolio-description">
+                              <a href='{{ i18n "visionavenue" }}' target="_blank">
+                                  <h3>Achetez en ligne chez Vision Avenue</h3>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- end: portfolio item -->
 		          </div>
 		          <!-- end: Portfolio Items -->
 

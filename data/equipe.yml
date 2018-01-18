@@ -1,34 +1,34 @@
 equipe:
   - name: Suzie Pelletier 
-    title: O.O.D.
+    title: Opticienne
     ordre: 1
     group: ood
   - name: Pierluigi Merolla 
-    title: O.O.D.
+    title: Opticien
     ordre: 2
     group: ood
   - name: Laurent Brassard 
-    title: O.O.D.
+    title: Opticien
     ordre: 3
     group: ood
   - name: Laura Tang 
-    title: O.O.D.
+    title: Opticienne
     ordre: 4
     group: ood
-  - name: Sylvain Duquette 
-    title: O.D.
+  - name: Docteur Sylvain Duquette 
+    title: Optométriste
     ordre: 5
     group: od
-  - name: Geneviève Brassard 
-    title: O.D.
+  - name: Docteure Geneviève Brassard 
+    title: Optométriste
     ordre: 6
     group: od
-  - name: Marie-Pier Gascon 
-    title: O.D.
+  - name: Docteure Marie-Pier Gascon 
+    title: Optométriste
     ordre: 7
     group: od
-  - name: Tristan Gauthier 
-    title: O.D.
+  - name: Docteur Tristan Gauthier 
+    title: Optométriste
     ordre: 8
     group: od
 
