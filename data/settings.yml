@@ -12,12 +12,12 @@ twitter:
   share: false
   id: ""
 address:
-  road:
-  app:
-  city:
-  province:
-  postal:
-  country:
+  road: 380 boul. Dagenais Est, suite 102 
+  app: suite 102
+  city: Laval
+  province: Québec
+  postal: H7M 5H4
+  country: Canada
 phone: '(450) 669-1686'
 mphone: '+14506691686'
 email: 'info@lairevisuelle.com'

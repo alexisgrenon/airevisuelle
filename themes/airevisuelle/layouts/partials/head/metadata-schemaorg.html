@@ -12,8 +12,26 @@
 "email":"{{.Site.Data.settings.email}}",
 "telephone":"{{.Site.Data.settings.phone}}",
 "image":"{{.Site.Params.siteaddressno}}{{ .Site.Data.settings.defaultsocialimage }}",
-"openingHours": [ 
-"Mo-Fri 8:00-17:00"], 
+"openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "opens": "08:00",
+    "closes": "20:00"
+  },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Friday",
+    "opens": "09:00",
+    "closes": "18:00"
+  },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Saturday",
+    "opens": "10:00",
+    "closes": "16:00"}], 
 "aggregateRating":{
 "@type":"AggregateRating",
 "ratingValue":"5",

@@ -1,9 +1,9 @@
 ---
-title: "L'Aire Visuelle | Verres de contact"
+title: "L'Aire Visuelle | Des Verres De Contact À Laval"
 slug: verres-de-contact
 identifiant: verres-de-contact
-titre: "La référence en matière de verres de contact à Laval"
-description: "Nous offrons des montures de lunettes, des lunettes de soleils, des lunettes de prescription et des verres de contact."
+titre: "Des Optométristes et des opticiens qui vous aideront avec vos verres de contact à Laval."
+description: "Une équipe de spécialistes de la vue qualifiés pour vos verres de contact."
 image: /img/verres-de-contact.jpg
 resume:
   title: Verres de contact

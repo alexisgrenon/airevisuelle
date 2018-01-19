@@ -1,9 +1,9 @@
 ---
-title: "L'Aire Visuelle | À Propos De Nos Experts De La Vue"
+title: "L'Aire Visuelle | Prendre un Rendez-vous"
 slug: rendez-vous-optometriste
 identifiant: rendez-vous-optometriste
 titre: "Prenez rendez-vous avec un(e) de nos optométristes"
-description: "L'Aire Visuelle vous offre une gamme de services complète: Lunettes de prescriptions, lunettes solaires ou verres de contact"
+description: "Une équipe d'experts prêts à vous aider. Prenez rendez-vous aujourd'hui."
 layout: rendez-vous
 image: /img/optometrie-banniere.jpg
 header:
