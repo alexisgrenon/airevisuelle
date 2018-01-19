@@ -1,4 +1,4 @@
-baseURL = "https://interpreter-duck-58401.netlify.com/"
+baseURL = "http://www.lairevisuelle.com/"
 DefaultContentLanguage = "fr"
 title = "L'Aire visuelle"
 theme = "airevisuelle"
