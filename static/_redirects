@@ -1,0 +1,41 @@
+# Redirect with a 200
+/en/*  /  302
+/en  /  302
+/laire/lequipe /a-propos 301
+/services/consultation-optique /services/opticien 301
+/laire/faq /a-propos 301
+/laire /a-propos 301
+/produits /catalogue 301
+/services/examens-de-la-vue /services/examen-de-la-vue 301
+/promotion-longue-duree /promotions 301
+/long-term-promotions /promotions 302
+/laire-en/photos-en /a-propos 302
+/our-team /a-propos 302
+/promotion-en /promotions 302
+/laire/photos /a-propos 301
+/services-2 /services 301
+/promotion /promotions 301
+/services-en/eyewear-lens-consultation /services/verres-de-contact 302
+/laire-en/faq-en /a-propos 302
+/category/news /articles 302
+/services-en /services 302
+/services-en/eye-exams /services/examen-de-la-vue 302
+/products /catalogue 302
+/lequipe /a-propos 301
+/en/author/dioadmin / 301
+/category/nouvelles /articles 301
+/contact /nous-rejoindre 301
+/author/dioadmin 301
+laire-visuelle-grande-gagnante /articles/laire-visuelle-grande-gagnante 301
+/nouvelles /articles 301
+/test-article / 301
+/corporate-discount /promotions 302
+/laire-en /a-propos 302
+/promotion-corporative /promotions 301
+/contact-en /nous-rejoindre 302
+/appointments /rendez-vous 302
+
+
+
+
+
