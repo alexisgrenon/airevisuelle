@@ -1,4 +1,4 @@
-baseURL = "http://www.lairevisuelle.com/"
+baseURL = "https://www.lairevisuelle.com/"
 DefaultContentLanguage = "fr"
 title = "L'Aire visuelle"
 theme = "airevisuelle"
@@ -24,13 +24,13 @@ defaultContentLanguageInSubdir = false
   ## Include google maps, with API Key
   googleapikey = "AIzaSyCUq8w95L-UQnrXxDfX1zfn804SNDzbUj4"
   ## This is used when the BaseURL does not need to modified (eg, in share links)
-  siteaddress = "/"
-  siteaddressno = ""
+  siteaddress = "https://www.lairevisuelle.com/"
+  siteaddressno = "https://www.lairevisuelle.com"
   ## FB share info
   fbpagename = ""
   fbappid = ""
   ## Business name in Schema.org
-  schemabiz = ""
+  schemabiz = "L'Aire Visuelle"
   ## Google Tag Manager tracking ID
   gtmid = ""
 
