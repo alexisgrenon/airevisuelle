@@ -31,20 +31,44 @@
 														</address>
                         </div>
                         <div class="social-icons m-t-20 m-b-20 social-icons-colored col-md-12">
-		                        <ul>
-		                            <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-		                            <li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-		                            <li class="social-google"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-		                            <li class="social-pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>
-		                            <li class="social-vimeo"><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
-		                            <li class="social-linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-		                        </ul>
+                        		<ul>
+																{{with .Site.Data.settings.socials.facebookurl}}
+																<li class="social-facebook"><a href="{{.}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+																{{ end }}
+																{{with .Site.Data.settings.socials.twitterurl}}
+																<li class="social-twitter"><a href="{{.}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+																{{ end }}
+																{{with .Site.Data.settings.socials.instagramurl}}
+																<li class="social-instagram"><a href="{{.}}" target="_blank"><i class="fa fa-instagram"></i></a></li>
+																{{ end }}
+																{{with .Site.Data.settings.socials.googleplusurl}}
+																<li class="social-google"><a href="{{.}}" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+																{{ end }}
+																{{with .Site.Data.settings.socials.pinteresturl}}
+																<li class="social-pinterest"><a href="{{.}}" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+																{{ end }}
+																{{with .Site.Data.settings.socials.vimeourl}}
+																<li class="social-vimeo"><a href="{{.}}" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>
+																{{ end }}
+																{{with .Site.Data.settings.socials.linkedinurl}}
+																<li class="social-linkedin"><a href="{{.}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+																{{ end }}
+																{{with .Site.Data.settings.socials.dribbleurl}}
+																<li class="social-dribbble"><a href="{{.}}" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+																{{ end }}
+																{{with .Site.Data.settings.socials.youtubeurl}}
+																<li class="social-youtube"><a href="{{.}}" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+																{{ end }}
+																{{with .Site.Data.settings.socials.rssurl}}
+																<li class="social-rss"><a href="{{.}}" target="_blank"><i class="fa fa-rss"></i></a></li>
+																{{ end }}
+															</ul>
 		                    </div>
 		                  </div>
                 </div>
 
                 <div class="col-md-6">
-                    <form class="widget-contact-form" action="/" name="contact" role="form" method="post">
+                    <form class="widget-contact-form" action="/merci" name="contact-{{.Lang}}" role="form" method="post" netlify>
                         <div class="row">
                             <div class="form-group col-sm-6">
                                 <label for="name">Nom</label>

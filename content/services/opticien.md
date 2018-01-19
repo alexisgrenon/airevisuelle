@@ -28,7 +28,7 @@ ctalink: rendez-vous-opticien
 
 L’opticien d’ordonnances est le professionnel qui réalise la prescription de l’optométriste, soit sous forme de lentilles cornéennes ou en lunettes. C’est également lui qui va procéder à l’ajustement des lunettes ou des verres de contact, ou même à l’apprentissage des verres de contact (s’habituer à les mettre pour une première fois). 
 
-La formation de 3 ans des opticiens leur permet d’être en mesure de bien conseiller le client dans le choix de sa monture, le choix de la correction ainsi que l’ajustement de celle-ci. Ce sont des spécialistes de la correction visuelle, qui sauront exactement comment vous diriger dans vos choix, et en qui vous pouvez avoir totalement confiance. Que ce soit avec des lunettes ou des verres de contact, nos opticiens se feront un plaisir de vous accompagner dans le choix de votre prochaine correction visuelle!
+La formation de 3 ans des opticiens leur permet d’être en mesure de bien conseiller le client dans le choix de sa monture, ainsi que d’ajuster celle-ci pour un confort optimal. Ils sont également formés afin de pouvoir s’assurer que vos lentilles ou lunettes soient adaptées à votre situation, et effectuer des taillages de verres correctifs. Ce sont des spécialistes qui sauront exactement comment vous diriger dans vos choix, et en qui vous pouvez avoir totalement confiance. Que ce soit avec des lunettes ou des verres de contact, nos opticiens se feront un plaisir de vous accompagner dans le choix de votre prochaine correction visuelle! 
 
 Nos Opticiens :
 

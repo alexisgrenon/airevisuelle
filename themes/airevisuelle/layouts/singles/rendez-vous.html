@@ -9,7 +9,7 @@
                 </div>
                 {{ if .Params.od }}
                 <div class="col-md-6 {{ if not .Params.both }}col-md-offset-3{{ end }}">
-                    <h2 class="text-uppercase">O.D</h2>
+                    {{ if .Params.both }}<h2 class="text-uppercase">O.D</h2>{{ end }}
                     <div class="row team-members team-members-shadow">
                         {{ range sort .Site.Data.equipe.equipe ".ordre"}}
                         {{ if eq .group "od"}}
@@ -55,7 +55,7 @@
                 {{ end }}
                 {{ if .Params.ood }}
                 <div class="col-md-6 od-box {{ if not .Params.both }}col-md-offset-3{{ end }}">
-                    <h2 class="text-uppercase">O.O.D</h2>
+                    {{ if .Params.both }}<h2 class="text-uppercase">O.O.D</h2>{{ end }}
                     <div class="row team-members team-members-shadow">
                         {{ range sort .Site.Data.equipe.equipe ".ordre"}}
                         {{ if eq .group "ood"}}
@@ -73,7 +73,7 @@
                             <p>Vous pouvez remplir le formulaire ci-bas directement pour réserver une plage horaire avec eux.</p>
                         </div>
                     </div>
-                    <form class="widget-contact-form" action="/merci" role="form" method="post" name="{{.Params.identifiant}}-{{.Lang}}">
+                    <form class="widget-contact-form" action="/merci" role="form" method="post" name="{{.Params.identifiant}}-{{.Lang}}" netlify>
                         
                         <div class="row">
                             <div class="form-group col-sm-6">

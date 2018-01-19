@@ -13,10 +13,6 @@
   </url>
   
   <url>
-    <loc>https://interpreter-duck-58401.netlify.com/</loc>
-  </url>
-  
-  <url>
     <loc>https://interpreter-duck-58401.netlify.com/categories/</loc>
     <priority>0</priority>
   </url>
@@ -80,6 +76,10 @@
   
   <url>
     <loc>https://interpreter-duck-58401.netlify.com/rendez-vous/</loc>
+  </url>
+  
+  <url>
+    <loc>https://interpreter-duck-58401.netlify.com/merci/</loc>
   </url>
   
   <url>

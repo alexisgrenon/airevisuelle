@@ -24,9 +24,9 @@ designers:
   - id: "tom"
     url: http://www.tomford.com/eyewear/
     nom: Tom Ford
-  - id: "bellinger"
-    url: http://www.bellinger.dk/
-    nom: Bellinger
+  - id: "xavier"
+    url: http://www.xaviergarcia.design/fr/
+    nom: Xavier Garcia
   - id: "william"
     url: http://www.williammorris.co.uk/
     nom: William Morris

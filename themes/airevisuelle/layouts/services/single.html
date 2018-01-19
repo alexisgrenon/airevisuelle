@@ -29,9 +29,7 @@
                                     <div class="post-item-description">
                                         {{.Content}}
 
-                                        {{ partial "site/promocta.html" . }}
-
-										<h3 style="margin-top: 20px;">FAQ:</h3>
+										<!-- <h3 style="margin-top: 20px;">FAQ:</h3>
                                         
 										<div class="accordion">
                                         {{ range .Params.faq }}
@@ -41,10 +39,9 @@
 													{{.reponse | markdownify}}
 						                        </div>
 											</div>
-											<!-- // item  -->
                                         {{ end }}									
 
-										</div>
+										</div> -->
 										<!--END: Accordion default-->
 
                                     </div>
@@ -139,6 +136,7 @@
                     <!-- end: Sidebar-->
 
                 </div>
+                {{ partial "site/promocta.html" . }}
             </div>
         </section>
         <!-- end: Page Content -->
