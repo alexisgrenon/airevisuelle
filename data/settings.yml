@@ -25,4 +25,4 @@ sitedescription: "L'Aire Visuelle vous offre des prix compétitif et un service 
 sitetitle: "L'Aire Visuelle | Optométriste , Opticien et Lunetterie à Laval"
 titleautocompletion: false
 defaultsocialimage: "/img/logo-share.jpg"
-removefromexternalsearch: true
+removefromexternalsearch: false
