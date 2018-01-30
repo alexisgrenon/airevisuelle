@@ -42,3 +42,9 @@
 
 [visionavenue]
   other = "https://www.visionavenue.ca/fr/"
+
+[previous_post]
+  other = "Article précédent"
+
+[next_post]
+  other = "Article suivant"

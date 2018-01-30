@@ -27,7 +27,7 @@
                             <p>Vous pouvez réserver en ligne directement dans l'horaire respectif de <strong>nos optométristes</strong>.</p>
                             
                             <p>Nous sommes disponibles pour répondre à toutes vos questions, ainsi que pour vous conseiller dans le choix de lunettes de prescription, de lunettes solaires ou de verres de contact.</p>
-                            <a class="btn btn-rounded btn-reveal btn-reveal-left" href="{{.Site.Data.globals.rdvlink}}" target="_blank"><span class="btn-label">Prendre rendez-vous</span><i class="fa fa-arrow-right"></i></a>
+                            <a class="btn btn-rounded btn-reveal btn-reveal-left" href='{{.Site.Data.globals.rdvlink}}{{ if eq .Lang "en" }}&Language=EN{{ end }}' target="_blank"><span class="btn-label">Prendre rendez-vous</span><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="row m-t-40 hidden-xs hidden-sm">

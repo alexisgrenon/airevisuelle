@@ -1,4 +1,7 @@
 {{ define "main" }}
+{{ $mymonths := $.Site.Data.mois.mois }}
+{{ $mydays := $.Site.Data.jour.jour }}
+
 <main class="main" id="{{ .Type }}-indiv">
 
         <!-- Page title -->
@@ -9,7 +12,7 @@
                     <div data-animation="fadeIn" class="text-light">
                     	
                         <h1 data-animation="fadeInUp" data-animation-delay="1000">{{.Title}}</h1></div>
-                        <div class="small m-b-20" data-animation="fadeInUp"  data-animation-delay="1500">May 16, 2017 | <a href="#">par L'Aire visuelle</a> <!-- <span class="post-meta-category"> | <a href="">Technology</a></span></div> -->
+                        <div class="small m-b-20" data-animation="fadeInUp"  data-animation-delay="1500">{{ if eq $.Lang "fr" }}{{.Date.Day}} {{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}} {{ index $mydays .Date.Day }},{{ end }} {{.Date.Year}} | par L'Aire visuelle <!-- <span class="post-meta-category"> | <a href="">Technology</a></span></div> -->
                 </div>
             </div>
         </section>
@@ -44,7 +47,7 @@
                                     <div class="post-navigation">
                                         {{if .PrevInSection }}
                                         <a href="{{.PrevInSection.Permalink}}" class="post-prev">
-                                            <div class="post-prev-title"><span>Previous Post</span>{{.PrevInSection.Title}}</div>
+                                            <div class="post-prev-title"><span>{{ i18n "previous_post" }}</span>{{.PrevInSection.Title}}</div>
                                         </a>
                                         {{ end }}
                                         <a href="/articles" class="post-all">
@@ -52,7 +55,7 @@
                                         </a>
                                         {{ if .NextInSection }}
                                         <a href="{{.NextInSection.Permalink}}" class="post-next">
-                                            <div class="post-next-title"><span>Article suivant</span>{{.NextInSection.Title}}</div>
+                                            <div class="post-next-title"><span>{{ i18n "next_post" }}</span>{{.NextInSection.Title}}</div>
                                         </a>
                                         {{ end }}
                                     </div>
