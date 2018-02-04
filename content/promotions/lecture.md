@@ -2,7 +2,7 @@
 title: "L'Aire Visuelle | Rabais sur les lunettes de lecture"
 titre: "Rabais sur les lunettes de lecture"
 description: "L'Aire Visuelle vous offre des promotions imbattables sur tous produits de la vue."
-image: /img/promo-lecture.jpg
+image: /img/promo-lecture-2.jpg
 annuel: true
 startdate: 
 enddate: 
