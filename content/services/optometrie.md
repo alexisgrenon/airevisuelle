@@ -4,7 +4,7 @@ slug: optometrie
 identifiant: optometrie
 titre: "Des Optométristes passionés par votre vision et la santé de vos yeux"
 description: "Nous offrons le dépistage des problèmes visuelles et la vente de lunettes et lentilles pour vos yeux."
-image: /img/xl/optometrie-banniere.jpg
+image: /img/optometrie-banniere.jpg
 resume:
   title: Optométrie
   description: Des Optométristes dévoués pour votre vue et vos lunettes

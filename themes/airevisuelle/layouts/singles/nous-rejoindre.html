@@ -14,55 +14,60 @@
                     <div class="row m-t-40">
                         <div class="col-md-6">
                             <address>
-														  <strong>L'Aire Visuelle</strong><br>
-															380 boul. Dagenais Est suite 102<br>
-															Laval (Québec)<br>
-															Coin René-Laennec<br>
-														  <abbr title="Phone">P:</abbr> (450) 669-1686
-														</address>
+                                <strong>L'Aire Visuelle</strong><br>
+                                {{.Site.Data.settings.address.road}} <br>
+                                {{.Site.Data.settings.address.city}} ({{.Site.Data.settings.address.province}})<br>
+                                {{ i18n "corner" }}<br>
+                                <a href="tel:{{.Site.Data.settings.mphone}}" class="visible-xs">{{.Site.Data.settings.phone}}</a><span class="hidden-xs" style="color:#000!important">{{.Site.Data.settings.phone}}</span>
+                            </address>
                         </div>
                         <div class="col-md-6">
                             <address>
-														  <strong>Heures d'ouverture</strong><br>
-														  Lundi au jeudi : 9 h à 20 h<br>
-															Vendredi : 9 h à 18 h<br>
-															Samedi : 10 h à 16 h<br>
-															Dimanche : Fermé<br>
-														</address>
+    						  <strong>{{ i18n "opening_hrs" }}</strong><br>
+    						  {{- if eq .Lang "fr" -}}
+                                {{- range .Site.Data.settings.ouverture.fr -}}
+                                  {{.jour}}: <strong>{{.heures}}</strong> <br>
+                                {{- end -}}
+                              {{- else if eq .Lang "en" -}}
+                                {{- range .Site.Data.settings.ouverture.en -}}
+                                      {{.jour}}: <strong>{{.heures}}</strong> <br>
+                                 {{- end -}}
+                              {{- end -}}
+							</address>
                         </div>
                         <div class="social-icons m-t-20 m-b-20 social-icons-colored col-md-12">
                         		<ul>
-																{{with .Site.Data.settings.socials.facebookurl}}
-																<li class="social-facebook"><a href="{{.}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
-																{{ end }}
-																{{with .Site.Data.settings.socials.twitterurl}}
-																<li class="social-twitter"><a href="{{.}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
-																{{ end }}
-																{{with .Site.Data.settings.socials.instagramurl}}
-																<li class="social-instagram"><a href="{{.}}" target="_blank"><i class="fa fa-instagram"></i></a></li>
-																{{ end }}
-																{{with .Site.Data.settings.socials.googleplusurl}}
-																<li class="social-google"><a href="{{.}}" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-																{{ end }}
-																{{with .Site.Data.settings.socials.pinteresturl}}
-																<li class="social-pinterest"><a href="{{.}}" target="_blank"><i class="fa fa-pinterest"></i></a></li>
-																{{ end }}
-																{{with .Site.Data.settings.socials.vimeourl}}
-																<li class="social-vimeo"><a href="{{.}}" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>
-																{{ end }}
-																{{with .Site.Data.settings.socials.linkedinurl}}
-																<li class="social-linkedin"><a href="{{.}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-																{{ end }}
-																{{with .Site.Data.settings.socials.dribbleurl}}
-																<li class="social-dribbble"><a href="{{.}}" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-																{{ end }}
-																{{with .Site.Data.settings.socials.youtubeurl}}
-																<li class="social-youtube"><a href="{{.}}" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-																{{ end }}
-																{{with .Site.Data.settings.socials.rssurl}}
-																<li class="social-rss"><a href="{{.}}" target="_blank"><i class="fa fa-rss"></i></a></li>
-																{{ end }}
-															</ul>
+									{{with .Site.Data.settings.socials.facebookurl}}
+									<li class="social-facebook"><a href="{{.}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+									{{ end }}
+									{{with .Site.Data.settings.socials.twitterurl}}
+									<li class="social-twitter"><a href="{{.}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+									{{ end }}
+									{{with .Site.Data.settings.socials.instagramurl}}
+									<li class="social-instagram"><a href="{{.}}" target="_blank"><i class="fa fa-instagram"></i></a></li>
+									{{ end }}
+									{{with .Site.Data.settings.socials.googleplusurl}}
+									<li class="social-google"><a href="{{.}}" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+									{{ end }}
+									{{with .Site.Data.settings.socials.pinteresturl}}
+									<li class="social-pinterest"><a href="{{.}}" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+									{{ end }}
+									{{with .Site.Data.settings.socials.vimeourl}}
+									<li class="social-vimeo"><a href="{{.}}" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>
+									{{ end }}
+									{{with .Site.Data.settings.socials.linkedinurl}}
+									<li class="social-linkedin"><a href="{{.}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+									{{ end }}
+									{{with .Site.Data.settings.socials.dribbleurl}}
+									<li class="social-dribbble"><a href="{{.}}" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+									{{ end }}
+									{{with .Site.Data.settings.socials.youtubeurl}}
+									<li class="social-youtube"><a href="{{.}}" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+									{{ end }}
+									{{with .Site.Data.settings.socials.rssurl}}
+									<li class="social-rss"><a href="{{.}}" target="_blank"><i class="fa fa-rss"></i></a></li>
+									{{ end }}
+								</ul>
 		                    </div>
 		                  </div>
                 </div>

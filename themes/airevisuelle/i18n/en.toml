@@ -29,7 +29,7 @@
   other = "Sitemap"
 
 [copyright]
-  other = "All rights reserved"
+  other = 'Tous droits réservés. Conçu avec <i class="fa fa-heart"></i> par <a href="http://www.akiamarketing.ca" target="_blank">Akia Marketing</a>'
 
 [akiatagline]
   other = 'Made with <i class="fa fa-heart"></i> by <a href="#">Akia Marketing</a>'
@@ -48,3 +48,27 @@
 
 [next_post]
   other = "Next post"
+
+[book_online]
+  other = "Book an appointment"
+
+[our_promotions]
+  other = "Our deals"
+
+[see_products]
+  other = "See our products"
+
+[corner]
+  other = "Corner of René-Laennec"
+
+[catalog]
+  other = "Catalog"
+
+[recent_articles_title]
+  other = "Our most recent articles"
+
+[discover_partners]
+  other = "They partner with us"
+
+[opening_hrs]
+  other = "Opening Hours"

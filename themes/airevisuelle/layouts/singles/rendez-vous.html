@@ -27,26 +27,31 @@
                             <p>Vous pouvez réserver en ligne directement dans l'horaire respectif de <strong>nos optométristes</strong>.</p>
                             
                             <p>Nous sommes disponibles pour répondre à toutes vos questions, ainsi que pour vous conseiller dans le choix de lunettes de prescription, de lunettes solaires ou de verres de contact.</p>
-                            <a class="btn btn-rounded btn-reveal btn-reveal-left" href='{{.Site.Data.globals.rdvlink}}{{ if eq .Lang "en" }}&Language=EN{{ end }}' target="_blank"><span class="btn-label">Prendre rendez-vous</span><i class="fa fa-arrow-right"></i></a>
+                            <a class="btn btn-rounded btn-reveal btn-reveal-left" href='{{.Site.Data.settings.rdvlink}}{{ if eq .Lang "en" }}&Language=EN{{ end }}' target="_blank"><span class="btn-label">{{ i18n "book_online" }}</span><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="row m-t-40 hidden-xs hidden-sm">
                         <div class="col-sm-6">
                             <address>
                                 <strong>L'Aire Visuelle</strong><br>
-                                380 boul. Dagenais Est suite 102<br>
-                                Laval (Québec)<br>
-                                Coin René-Laennec<br>
-                                <abbr title="Phone">P:</abbr> (450) 669-1686
+                                {{.Site.Data.settings.address.road}} <br>
+                                {{.Site.Data.settings.address.city}} ({{.Site.Data.settings.address.province}})<br>
+                                {{ i18n "corner" }}<br>
+                                <a href="tel:{{.Site.Data.settings.mphone}}" class="visible-xs">{{.Site.Data.settings.phone}}</a><span class="hidden-xs" style="color:#000!important">{{.Site.Data.settings.phone}}</span>
                             </address>
                         </div>
                         <div class="col-sm-6">
                             <address>
-                                <strong>Heures d'ouverture</strong><br>
-                                Lundi au jeudi : 9 h à 20 h<br>
-                                Vendredi : 9 h à 18 h<br>
-                                Samedi : 10 h à 16 h<br>
-                                Dimanche : Fermé<br>
+                                <strong>{{ i18n "opening_hrs" }}</strong><br>
+                                {{- if eq .Lang "fr" -}}
+                                    {{- range .Site.Data.settings.ouverture.fr -}}
+                                      {{.jour}}: <strong>{{.heures}}</strong> <br>
+                                    {{- end -}}
+                                {{- else if eq .Lang "en" -}}
+                                    {{- range .Site.Data.settings.ouverture.en -}}
+                                      {{.jour}}: <strong>{{.heures}}</strong> <br>
+                                    {{- end -}}
+                                {{- end -}}
                             </address>
                         </div>
                     </div>
@@ -124,11 +129,8 @@
                                 <label for="message">Message</label>
                                 <textarea type="text" name="widget-contact-form-message" rows="5" class="form-control required" placeholder="Entrez votre message"></textarea>
                             </div>
-                            
                         </div>
-
-
-                        <button class="btn btn-rounded btn-reveal btn-reveal-left" type="submit" id="form-submit"><span class="btn-label">Prendre rendez-vous</span><i class="fa fa-arrow-right"></i></button>
+                        <button class="btn btn-rounded btn-reveal btn-reveal-left" type="submit" id="form-submit"><span class="btn-label">{{ i18n "book_online" }}</span><i class="fa fa-arrow-right"></i></button>
                     </form>
                 </div>
                 {{ end }}
@@ -138,19 +140,24 @@
                 <div class="col-md-4 col-sm-6">
                     <address>
                         <strong>L'Aire Visuelle</strong><br>
-                        380 boul. Dagenais Est suite 102<br>
-                        Laval (Québec)<br>
-                        Coin René-Laennec<br>
-                        <abbr title="Phone">P:</abbr> (450) 669-1686
+                        {{.Site.Data.settings.address.road}} <br>
+                        {{.Site.Data.settings.address.city}} ({{.Site.Data.settings.address.province}})<br>
+                        {{ i18n "corner" }}<br>
+                        <a href="tel:{{.Site.Data.settings.mphone}}" class="visible-xs">{{.Site.Data.settings.phone}}</a><span class="hidden-xs" style="color:#000!important">{{.Site.Data.settings.phone}}</span>
                     </address>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <address>
-                        <strong>Heures d'ouverture</strong><br>
-                        Lundi au jeudi : 9 h à 20 h<br>
-                        Vendredi : 9 h à 18 h<br>
-                        Samedi : 10 h à 16 h<br>
-                        Dimanche : Fermé<br>
+                        <strong>{{ i18n "opening_hrs" }}</strong><br>
+                        {{- if eq .Lang "fr" -}}
+                            {{- range .Site.Data.settings.ouverture.fr -}}
+                              {{.jour}}: <strong>{{.heures}}</strong> <br>
+                            {{- end -}}
+                        {{- else if eq .Lang "en" -}}
+                            {{- range .Site.Data.settings.ouverture.en -}}
+                              {{.jour}}: <strong>{{.heures}}</strong> <br>
+                            {{- end -}}
+                        {{- end -}}
                     </address>
                 </div>
             </div>

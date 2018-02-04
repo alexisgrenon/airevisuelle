@@ -2081,7 +2081,7 @@ var INSPIRO = {},
         functions: function () {
             INSPIRO.widgets.twitter();
             INSPIRO.widgets.flickr();
-            INSPIRO.widgets.contactForm();
+            // INSPIRO.widgets.contactForm();
             INSPIRO.widgets.subscribeForm();
         },
         twitter: function () {

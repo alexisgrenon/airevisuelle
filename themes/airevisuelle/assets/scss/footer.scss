@@ -49,6 +49,10 @@ footer.background-grey .copyright-content {
     padding-top: 10px;
     text-align: left;
     text-transform: uppercase;
+    i {
+        margin: 0 5px; 
+        color: #00AE41;
+    }
 }
 #footer-outer {
     .widget h4,

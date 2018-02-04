@@ -21,17 +21,17 @@
 
                 <!-- Blog -->
                 <div id="blog" class="post-thumbnails promotions-listing" data-lightbox="gallery"> 
-                    {{ range where .Site.RegularPages "Type" "promotions"}}
+                    {{ range (sort (where .Site.RegularPages "Type" "promotions") ".Params.weight" "asce") }}
                     <!-- Post item-->
                     <div class="post-item">
                         <div class="post-item-wrap">
                             <div class="post-image">
-                                <a class="image-hover-zoom" href="{{.Params.image}}" data-lightbox="gallery-item"><img alt="" src="{{.Params.image}}"></a>
+                                <a class="image-hover-zoom" href="{{.Params.image}}" data-lightbox="gallery-item"><img alt="" src="/quart{{.Params.image}}"></a>
                             </div>
                             <div class="post-item-description">
                                 
-                                <h2><a href="#nothing">{{.Title}}</a></h2>
-                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>{{.Params.startdate}} - {{.Params.enddate}}</span>
+                                <h2><a href="#nothing">{{.Params.titre}}</a></h2>
+                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>{{ if .Params.annuel }}Rabais permanent{{else}}{{.Params.startdate}} - {{.Params.enddate}}{{end}}</span>
                                 {{ .Content }}
                             </div>
                         </div>

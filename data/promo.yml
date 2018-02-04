@@ -1,12 +1,12 @@
 general:
   fr:
-    title: Promotion pour Décembre et Janvier
-    description: 50% sur les montures sélectionnées à l'achat d'une paire de verres
+    title: Promotion pour Février
+    description: 50$ de rabais sur les montures Prada
     btntxt: En savoir plus
     btnurl: promotions
   en:
-    title: Promotion pour Décembre et Janvier
-    description: 50% sur les montures sélectionnées à l'achat d'une paire de verres
+    title: Deal of the month
+    description: 50$ discount on Prada frames
     btntxt: En savoir plus
     btnurl: promotions
 services:
@@ -20,3 +20,13 @@ services:
     description: 50% sur les montures sélectionnées à l'achat d'une paire de verres
     btntxt: En savoir plus
     btnurl: promotions
+footer:
+  image: /img/opticien-1.jpg
+  fr:
+    title: Promotions
+    description: 50$ de rabais sur la collection Prada en Février
+    link: promotionsPage
+  en:
+    title: Promotions
+    description: 50$ discount on Prada frames in February
+    link: promotionsPage

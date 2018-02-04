@@ -6,17 +6,24 @@
           <div class="col-md-4"> 
             <!-- Footer widget area 1 -->
             <div class="widget  widget-contact-us" style="background-image: url('/images/world-map-dark.png'); background-position: 50% 20px; background-repeat: no-repeat">
-              <h4>L'Aire visuelle</h4>
+              <h4>L'Aire Visuelle</h4>
               <ul class="list-icon">
-                <li><i class="fa fa-map-marker"></i>380 boul. Dagenais Est, suite 102 <br>
-                  Laval (Québec), Coin René-Laennec</li>
-                <li><i class="fa fa-phone"></i>(450) 669-1686 </li>
-                <li><i class="fa fa-envelope"></i><a href="mailto:info@lairevisuelle.com">info@lairevisuelle.com</a></li>
+                <li><i class="fa fa-map-marker"></i>{{.Site.Data.settings.address.road}} <br>
+                  {{.Site.Data.settings.address.city}} ({{.Site.Data.settings.address.province}}), {{ i18n "corner" }}</li>
+                <li><i class="fa fa-phone"></i><a href="tel:{{.Site.Data.settings.mphone}}" class="visible-xs">{{.Site.Data.settings.phone}}</a><span class="hidden-xs" style="color:#494949!important">{{.Site.Data.settings.phone}}</span></li>
+                <li><i class="fa fa-envelope"></i><a href="mailto:{{.Site.Data.settings.email}}">{{.Site.Data.settings.email}}</a></li>
                 <li> <br>
-                  <i class="fa fa-clock-o"></i>Lundi - Jeudi: <strong>08:00 - 20:00</strong> <br>
-                  Vendredi <strong>9:00 - 18:00</strong><br>
-                  Samedi: <strong>10:00 - 16:00</strong><br>
-                  Dimanche: <strong>Fermé</strong> </li>
+                  <i class="fa fa-clock-o"></i>
+                  {{- if eq .Lang "fr" -}}
+                    {{- range .Site.Data.settings.ouverture.fr -}}
+                      {{.jour}}: <strong>{{.heures}}</strong> <br>
+                    {{- end -}}
+                  {{- else if eq .Lang "en" -}}
+                    {{- range .Site.Data.settings.ouverture.en -}}
+                      {{.jour}}: <strong>{{.heures}}</strong> <br>
+                    {{- end -}}
+                  {{- end -}}
+                </li>
               </ul>
               <!-- Social icons -->
               <div class="social-icons social-icons-border float-left m-t-20">
@@ -60,14 +67,14 @@
           <div class="col-md-2"> 
             <!-- Footer widget area 2 -->
             <div class="widget">
-              <h4>Liens rapides</h4>
+              <h4>{{ i18n "sitemap" }}</h4>
               <ul class="list-icon list-icon-arrow">
-                <li><a href="{{.Site.BaseURL}}">Accueil</a></li>
-                <li><a href="{{.Site.BaseURL}}catalogue">Catalogue</a></li>
-                <li><a href="{{.Site.BaseURL}}services">Services</a></li>
-                <li><a href="{{.Site.BaseURL}}promotions">Promotions</a></li>
-                <li><a href="{{.Site.BaseURL}}a-propos">À propos</a></li>
-                <li><a href="{{.Site.BaseURL}}nous-rejoindre">Contact</a></li>
+                <li><a href='{{ $.Scratch.Get "homePage" }}'>{{ i18n "home" }}</a></li>
+                <li><a href='{{ $.Scratch.Get "catalogPage" }}'>{{ i18n "catalog" }}</a></li>
+                <li><a href='{{ $.Scratch.Get "servicesPage" }}'>{{ i18n "services" }}</a></li>
+                <li><a href='{{ $.Scratch.Get "promotionsPage" }}'>Promotions</a></li>
+                <li><a href='{{ $.Scratch.Get "aboutPage" }}'>{{ i18n "about" }}</a></li>
+                <li><a href='{{ $.Scratch.Get "contactPage" }}'>{{ i18n "contact" }}</a></li>
               </ul>
             </div>
             <!-- end: Footer widget area 2 --> 
@@ -75,7 +82,7 @@
           <div class="col-md-3 hidden-xs"> 
             <!-- Footer widget area 3 -->
             <div class="widget">
-              <h4>Nos articles les plus récents</h4>
+              <h4>{{ i18n "recent_articles_title" }}</h4>
               <ul class="list-icon list-icon-arrow">
               {{ range where .Site.RegularPages "Type" "articles"}}
                 <li><a href="{{.Permalink}}">{{.Title}}</a></li>
@@ -85,20 +92,34 @@
             <!-- end: Footer widget area 3 --> 
             <!-- Footer widget area 3 -->
             <div class="widget">
-              <h4>Découvrez nos partenaires </h4>
+              <h4>{{ i18n "discover_partners" }}</h4>
               <ul class="list-icon list-icon-arrow">
-                <li><a href="https://www.visionavenue.ca/fr/" target="_blank">Vision Avenue</a></li>
+                <li><a href='{{ i18n "visionavenue" }}' target="_blank">Vision Avenue</a></li>
               </ul>
             </div>
             <!-- end: Footer widget area 3 --> 
           </div>
           <div class="col-md-3"> 
             <!-- Footer widget area 4 -->
-            <div class="widget" data-username="ardianmusliu" data-limit="2">
-              <h4>Promotions</h4>
-              <p>50% sur les montures sélectionnées à l'achat d'une paire de verres en décembre et en janvier</p>
-              <img src="/img/quart/opticien-1.jpg" alt="Rabais" style="max-width: 100%;">
-            </div>
+            {{ if eq .Lang "fr" }}
+            {{ $footerLinkFr := .Site.Data.promo.footer.fr.link }}
+            <a href='{{ $.Scratch.Get $footerLinkFr }}'>
+              <div class="widget" data-username="ardianmusliu" data-limit="2">
+                <h4>{{.Site.Data.promo.footer.fr.title}}</h4>
+                <p>{{.Site.Data.promo.footer.fr.description}}</p>
+                <img src="/quart{{.Site.Data.promo.footer.image}}" alt="Rabais" style="max-width: 100%;">
+              </div>
+            </a>
+            {{ else if eq .Lang "en" }}
+            {{ $footerLinkEn := .Site.Data.promo.footer.en.link }}
+            <a href='{{ $.Scratch.Get $footerLinkEn }}'>
+              <div class="widget" data-username="ardianmusliu" data-limit="2">
+                <h4>{{.Site.Data.promo.footer.en.title}}</h4>
+                <p>{{.Site.Data.promo.footer.en.description}}</p>
+                <img src="/quart{{.Site.Data.promo.footer.image}}" alt="Rabais" style="max-width: 100%;">
+              </div>
+            </a>
+            {{ end }}
             <!-- end: Footer widget area 4 --> 
           </div>
         </div>
@@ -106,8 +127,9 @@
     </div>
     <div class="copyright-content">
       <div class="container">
-        <div class="copyright-text text-center">&copy; 2017. Tous droits réservés. Conçu avec <i class="fa fa-heart" style="margin: 0 5px; color:#00AE41"></i> par <a href="http://www.akiamarketing.ca" target="_blank">Akia Marketing</a></div>
+        <div class="copyright-text text-center">&copy;2017. {{- i18n "copyright" | markdownify -}}</div>
       </div>
     </div>
   </footer>
   <!-- end: Footer -->
+

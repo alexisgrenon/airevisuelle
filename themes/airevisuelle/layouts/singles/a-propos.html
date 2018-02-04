@@ -40,21 +40,21 @@
 					<div style="background-color:#00AE41" class="col-md-4 col-eq-height steps">
 						<h6 class="text-large text-uppercase">01.</h6>
 						<img src="/img/logo-bg-w.png" alt="Aire visuelle" class="logo-bg">
-		                <h3>EXPÉRIENCE</h3>
+		        <h3>EXPÉRIENCE</h3>
 						<span>La réussite de notre entreprise L’Aire Visuelle repose surtout sur notre équipe composée de tous les intervenants et professionnels du domaine de l’optique. Toujours à l’affût des nouvelles technologies, ils sont passionnés de leur travail. </span>
 					</div>
 
 					<div style="background-color:rgba(0,174,65,0.72)" class="col-md-4 col-eq-height steps">
 						<h6 class="text-large text-uppercase">02.</h6>
 						<img src="/img/logo-bg-w.png" alt="Aire visuelle" class="logo-bg">
-		                <h3>IDENDITÉ</h3>
+		        <h3>IDENDITÉ</h3>
 						<span>Notre liberté en tant que bureau d’optométristes et opticiens indépendant nous permet de conserver une identité propre et offrir à notre clientèle une très grande diversité de produits. Notre engagement envers notre clientèle est primordial et le client demeure notre priorité ! </span>
 					</div>
 
 					<div style="background-color:rgba(0,174,65,0.5)" class="col-md-4 col-eq-height steps">
 						<h6 class="text-large text-uppercase">03.</h6>
 						<img src="/img/logo-bg-w.png" alt="Aire visuelle" class="logo-bg">
-		                <h3>STYLE</h3>
+		        <h3>STYLE</h3>
 						<span>Notre nouvel emplacement, et sa grande salle de montre, vaste et moderne, vous offre le plus grand choix de montures en ville ! L’Aire Visuelle devient une référence dans le domaine des soins oculo-visuel ! </span>
 					</div>
 				</div>
@@ -68,6 +68,19 @@
 				</div>
 				<div class="row team-members team-members-shadow m-b-40">
 					{{ range sort .Site.Data.equipe.equipe ".ordre"}}
+					{{ if eq $.Lang "fr" }}
+					{{ if eq .group "ood" }}
+					{{ $.Scratch.Set "cliclink" ("rendez-vous-opticien/" |  absLangURL) }}
+					{{ else }}
+					{{ $.Scratch.Set "cliclink" ("rendez-vous-optometriste/" | absLangURL) }}
+					{{ end }}
+					{{ else if eq $.Lang "en" }}
+					{{ if eq .group "ood" }}
+					{{ $.Scratch.Set "cliclink" ("rendez-vous-opticien/" |  absLangURL) }}
+					{{ else }}
+					{{ $.Scratch.Set "cliclink" ("rendez-vous-optometriste/" |  absLangURL) }}
+					{{ end }}
+					{{ end }}
             <div class="col-md-3">
                 <div class="team-member">
                     <div class="team-desc">
@@ -83,11 +96,11 @@
                                 <i class="fa fa-twitter"></i>
                                 <span>Twitter</span>
                             </a> -->
-                            <a class="btn btn-xs btn-slide btn-light" href="#" data-width="130">
+                            <a class="btn btn-xs btn-slide btn-light" href='{{$.Scratch.Get "cliclink"}}' data-width="130">
                                 <i class="fa fa-calendar"></i>
                                 <span>Rendez-vous</span>
                             </a>
-                            <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="115">
+                            <a class="btn btn-xs btn-slide btn-light" href="mailto:{{$.Site.Data.settings.email}}" data-width="115">
                                 <i class="fa fa-envelope"></i>
                                 <span>Courriel</span>
                             </a>
@@ -113,28 +126,28 @@
 						<!-- Gallery -->
               <div class="grid-layout grid-3-columns" data-margin="20" data-item="grid-item" data-lightbox="gallery">
                   <div class="grid-item">
-                    	<a class="image-hover-zoom" href="#" data-lightbox="gallery-item"><img src="/img/quart/opticien-1.jpg"></a>
+                    	<a class="image-hover-zoom" href="#" data-lightbox="gallery-item"><img src="/quart/img/opticien-1.jpg"></a>
                   </div>
                   <div class="grid-item">
-                      <a class="image-hover-zoom" href="#" data-lightbox="gallery-item"><img src="/img/quart/opticien-2.jpg"></a>
+                      <a class="image-hover-zoom" href="#" data-lightbox="gallery-item"><img src="/quart/img/opticien-2.jpg"></a>
                   </div>
                   <div class="grid-item">
-                      <a class="image-hover-zoom" href="#" data-lightbox="gallery-item"><img src="/img/quart/optometriste-1.jpg"></a>
+                      <a class="image-hover-zoom" href="#" data-lightbox="gallery-item"><img src="/quart/img/optometriste-1.jpg"></a>
                   </div>
                   <div class="grid-item">
-                      <a class="image-hover-zoom" href="#" data-lightbox="gallery-item"><img src="/img/quart/optometriste-2.jpg"></a>
+                      <a class="image-hover-zoom" href="#" data-lightbox="gallery-item"><img src="/quart/img/optometriste-2.jpg"></a>
                   </div>
                   <div class="grid-item">
-                      <a class="image-hover-zoom" href="#" data-lightbox="gallery-item"><img src="/img/quart/optometriste-3.jpg"></a>
+                      <a class="image-hover-zoom" href="#" data-lightbox="gallery-item"><img src="/quart/img/optometriste-3.jpg"></a>
                   </div>
                   <div class="grid-item">
-                      <a class="image-hover-zoom" href="#" data-lightbox="gallery-item"><img src="/img/quart/optometriste-4.jpg"></a>
+                      <a class="image-hover-zoom" href="#" data-lightbox="gallery-item"><img src="/quart/img/optometriste-4.jpg"></a>
                   </div>
                   <div class="grid-item">
-                      <a class="image-hover-zoom" href="#" data-lightbox="gallery-item"><img src="/img/quart/optometriste-5.jpg"></a>
+                      <a class="image-hover-zoom" href="#" data-lightbox="gallery-item"><img src="/quart/img/optometriste-5.jpg"></a>
                   </div>
                   <div class="grid-item">
-                      <a class="image-hover-zoom" href="#" data-lightbox="gallery-item"><img src="/img/quart/optometriste-6.jpg"></a>
+                      <a class="image-hover-zoom" href="#" data-lightbox="gallery-item"><img src="/quart/img/optometriste-6.jpg"></a>
                   </div>
               </div>
               <!-- end: Gallery -->
