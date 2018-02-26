@@ -18,6 +18,7 @@ odcontent: >-
                             
   
   Nous sommes disponibles pour répondre à toutes vos questions, ainsi que pour vous conseiller dans le choix de lunettes de prescription, de lunettes solaires ou de verres de contact.
+  
 oodcontent: >-
   Vous pouvez remplir le formulaire ci-bas directement pour réserver une plage horaire avec eux.
 ---
