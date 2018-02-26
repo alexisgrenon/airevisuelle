@@ -35,6 +35,7 @@ designers:
     need: true
     image: /img/vision-avenue.png
     titre: "Achetez en ligne chez Vision Avenue"
+    link: https://www.visionavenue.ca/fr/
 header:
   transparent: true
   dark: true
@@ -46,8 +47,8 @@ block2:
 block3:
   - image: "/img/opticien-2.jpg"
     link: bookingPage
-    titre: PRENEZ RENDEZ-VOUS EN lIGNE
-    desc: Choisissez la date et l’heure qui vous conviennent dans le confort de votre salon
+    titre: PRENEZ RENDEZ-VOUS EN LIGNE
+    desc: choisissez la date et l’heure qui vous conviennent dans le confort de votre salon
     btn: Prendre rendez-vous
     haut: true
   - image: "/img/opticien-1.jpg"
@@ -65,7 +66,7 @@ block3:
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
     titre: PROMOTIONS DU MOIS
-    desc: 50% sur les montures sélectionnées à l'achat d'une paire de verres
+    desc: 50$ de rabais sur la collection Prada en Février
     btn: Voir la promotion
     haut: false
 block4:

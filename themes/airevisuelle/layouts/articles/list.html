@@ -1,8 +1,10 @@
 {{ define "main" }}
+{{ $mymonths := $.Site.Data.mois.mois }}
+{{ $mydays := $.Site.Data.jour.jour }}
 <main class="main" id="{{ .Type }}-list">
 
         <!-- Page title -->
-        <section id="page-title" class="background-image background-overlay-dark" style="background-image:url({{.Params.image}});">
+        <section id="page-title" class="background-image background-overlay-dark" style="background-image:url('{{.Params.image}}');">
             <div class="container">
 
                 <div class="page-title">
@@ -33,14 +35,14 @@
                                     {{ with .Params.image}}
                                     <div class="post-image">
                                         <a href="{{$link}}">
-                                            <img alt="" src="{{.}}">
+                                            <img alt="Aire Visuelle" src="/quart{{.}}">
                                         </a>
                                         <!-- <span class="post-meta-category"><a href="">Lifestyle</a></span> -->
                                     </div>
                                     {{ end }}
                                     <div class="post-item-description">
                                         <h2><a href="{{.Permalink}}">{{.Title}}</a></h2>
-                                        <span class="post-meta-date"><i class="fa fa-calendar-o"></i>{{.Date}}</span>
+                                        <span class="post-meta-date"><i class="fa fa-calendar-o"></i>{{ if eq $.Lang "fr" }}{{.Date.Day}} {{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}} {{ index $mydays .Date.Day }},{{ end }} {{.Date.Year}}</span>
 
                                         <p>{{.Summary}}</p>
 
@@ -57,68 +59,12 @@
                         </div>
                         <!-- end: Blog -->
                         
-                        <!-- Pagination -->
-                        <!-- <div class="pagination pagination-simple">
-                            <ul>
-                                <li>
-                                    <a href="#" aria-label="Previous"> <span aria-hidden="true"><i class="fa fa-angle-left"></i></span> </a>
-                                </li>
-                                <li><a href="#">1</a> </li>
-                                <li><a href="#">2</a> </li>
-                                <li class="active"><a href="#">3</a> </li>
-                                <li><a href="#">4</a> </li>
-                                <li><a href="#">5</a> </li>
-                                <li>
-                                    <a href="#" aria-label="Next"> <span aria-hidden="true"><i class="fa fa-angle-right"></i></span> </a>
-                                </li>
-                            </ul>
-                        </div> -->
-                        <!-- end: Pagination -->
+                        <!-- {{- partial "site/pagination.html" . -}} -->
 
                     </div>
                     <!-- end: post content -->
 
-                    <!-- Sidebar-->
-                    <!-- Sidebar-->
-                    <div class="sidebar col-md-3">
-                        <div class="pinOnScroll">
-                            <!--widget newsletter-->
-                            <!-- <div class="widget  widget-newsletter">
-                            <form id="widget-search-form-sidebar" action="search-results-page.html" method="get" class="form-inline">
-                                <div class="input-group">
-                                    <input type="text" aria-required="true" name="q" class="form-control widget-search-form" placeholder="Search for pages..."> <span class="input-group-btn">
-				                  <button type="submit" id="widget-widget-search-form-button" class="btn btn-default"><i class="fa fa-search"></i></button>
-				                  </span> </div>
-                            </form>
-                                 
-                            </div> -->
-                            <!--end: widget newsletter-->
-
-                            <!--Services-->
-                            <div class="widget clearfix widget-categories">
-                                <h4 class="widget-title">{{ i18n "services" }}</h4>
-                                <ul class="list list-arrow-icons">
-                                    {{ range where .Site.RegularPages "Type" "services"}}
-                                    <li><a title="{{.Params.resume.title}}" href="{{.Permalink}}">{{.Params.resume.title}}</a></li>
-                                    {{ end }}
-                                </ul>
-                            </div>
-                            <!--End: Services-->
-
-                            <!--Archive-->
-                            <!-- <div class="widget clearfix widget-archive">
-                                <h4 class="widget-title">Archive</h4>
-                                <ul class="list list-lines">
-                                    <li>Jun 2015 </li>
-                                    <li>May 2015 </li>
-                                    <li>Apr 2015 </li>
-                                    <li>Mar 2015 </li>
-                                </ul>
-                            </div> -->
-                            <!--End: Archive-->
-                        </div>
-                    </div>
-                    <!-- end: Sidebar-->
+                    {{- partial "site/sidebar-right.html" . -}}
 
                 </div>
             </div>

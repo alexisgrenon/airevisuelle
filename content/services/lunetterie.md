@@ -34,4 +34,4 @@ Le choix de la monture est primordial pour avoir le résultat le plus esthétiqu
 
 Nos opticiens sont dévoués à leur travail, et s’assureront que vous prochaines lunettes soient adaptées à votre style, et vos besoins.
 
-Venez nous visiter afin de jeter un premier coup d’œil à notre vaste choix de lunettes.
+Venez [nous visiter](https://www.lairevisuelle.com/nous-rejoindre/) afin de jeter un premier coup d’œil à notre vaste choix de lunettes.

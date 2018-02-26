@@ -1,9 +1,12 @@
 ---
-title: "L'Aire Visuelle | Catalogue de produits de la vue"
-titre: "Vaste sélection de lunettes à Laval, nous sommes votre lunetterie"
-description: "L'Aire Visuelle vous offre des prix compétitif et un service d'optométrie et de lunetterie imbattable dans la région de Laval"
+title: "L'Aire Visuelle | Eyewear and Glasses Catalog"
+titre: "Best selection of glasses and eyeglass frames in Laval"
+description: "We offer you Eye glasses and eyeglass frames that suit your health and fashion needs. We also offer high quality contact lenses."
 image: 
-i18nlanguage: fr
+slug: catalog
+i18nlanguage: en
+type: catalogue
+layout: list
 draft: false
 designers:
   - id: "dior"
@@ -40,9 +43,9 @@ header:
   dark: false
   transparent: false
 rightcta: >-
-  ### Vous ne trouvez pas le <span>produit</span> que vous cherchez?
+  ### You can’t find the <span>product</span> you’re looking for?
 
-  Prenez rendez-vous avec un expert !
+  Book an appointment with an expert!
 ---
 
-Avec une panoplie de marques en magasin, l’Aire Visuelle vous offre une grande variété de lunettes de soleil et de montures ! Voici quelques-unes de nos marques les plus populaires:
+With a variety of brands in store, L’Aire Visuelle offers you a wide choice of sunglasses and frames! Here are some of our most popular brands:

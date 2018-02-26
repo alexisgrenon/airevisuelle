@@ -14,7 +14,7 @@
             {{.Site.Data.promo.services.en.description}}
         </p>
 
-        <a class="btn btn-default icon-left" href="{{$.Site.BaseURL}}{{.Site.Data.promo.services.en.btnurl}}"><span>{{.Site.Data.promo.services.en.btntxt}}</span></a>
+        <a class="btn btn-default icon-left" href="{{$.Site.BaseURL}}{{ if .Params.ctalink }}{{.Params.ctalink}}{{else}}{{.Site.Data.promo.services.en.btnurl}}{{end}}"><span>{{.Site.Data.promo.services.en.btntxt}}</span></a>
       {{ end }}
       {{ else }}
       {{ if eq .Lang "fr" }}

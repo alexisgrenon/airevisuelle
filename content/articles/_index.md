@@ -6,5 +6,4 @@ image: /img/articles-airevisuelle.jpg
 i18nlanguage: fr
 draft: false
 noindex: false
-
 ---

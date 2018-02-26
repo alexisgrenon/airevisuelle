@@ -3,6 +3,9 @@
 <link rel="preconnect" href="{{ .Site.BaseURL }}">
 {{ if .Params.notcanonical }}
 <link rel="canonical" href="{{ .Params.canonicalurl }}">
+{{ else if .Params.canonurl}}
+<link rel="canonical" href="{{ .Params.canonurl }}"/>
+<meta http-equiv="refresh" content="0; url={{.Site.BaseURL}}{{ .Params.canonurl }}" />
 {{ else }}
 <link rel="canonical" href="{{ .Permalink }}">
 {{ end }}

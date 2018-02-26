@@ -31,7 +31,7 @@
                             <div class="post-item-description">
                                 
                                 <h2><a href="#nothing">{{.Params.titre}}</a></h2>
-                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>{{ if .Params.annuel }}Rabais permanent{{else}}{{.Params.startdate}} - {{.Params.enddate}}{{end}}</span>
+                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>{{ if .Params.annuel }}{{ i18n "permanent_discount" }}{{else}}{{.Params.startdate}} - {{.Params.enddate}}{{end}}</span>
                                 {{ .Content }}
                             </div>
                         </div>

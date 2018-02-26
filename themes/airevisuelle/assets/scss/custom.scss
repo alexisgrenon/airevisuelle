@@ -52,6 +52,15 @@
 			line-height: 36px;
 		}
 	}
+	p {
+		margin-bottom: 80px; 
+		font-size: 1.35714286em; 
+		line-height: 1.68421053em; 
+		font-weight: 300;
+	}
+	.call-to-action.call-to-action-dark p {
+		margin-bottom: 0;
+	}
 	.portfolio {
 		.col-eq-height {
 			.call-to-action {

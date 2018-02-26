@@ -7,7 +7,7 @@
               <h1>{{.Params.titre}}</h1>
               <hr>
           </div>
-          <p style="margin-bottom: 80px; font-size: 1.35714286em; line-height: 1.68421053em; font-weight: 300;">Avec une panoplie de marques différentes offertes, l’Aire Visuelle vous offre une grande variété de lunettes de soleil et de monture ! Voici quelques unes de nos marques les plus populaires: </p>
+          {{.Content}}
           <div class="portfolio row no-gutters row-eq-height">
           	 	<div class="col-md-9 col-sm-12 col-eq-height">
           	 			<!-- Portfolio Items -->
@@ -19,11 +19,11 @@
 				              <div class="portfolio-item img-zoom pf-illustrations pf-media hover-3d pf-icons pf-Media">
 				                  <div class="portfolio-item-wrap">
 				                      <div class="portfolio-image">
-				                          <a href="/rendez-vous" target="_blank"><img src="/quart/img/airevisuelle-vert.jpg" alt="Aire Visuelle"></a>
+				                          <a href='{{ $.Scratch.Get "bookingPage" }}' target="_blank"><img src="/quart/img/airevisuelle-vert.jpg" alt="Aire Visuelle"></a>
 				                      </div>
 				                      <div class="portfolio-description">
-				                          <a href="/rendez-vous" target="_blank">
-				                              <h3>Sélection en magasin</h3>
+				                          <a href='{{ $.Scratch.Get "bookingPage" }}' target="_blank">
+				                              <h3>{{ i18n "in_store" }}</h3>
 				                              <span>Aire Visuelle</span> </a>
 				                      </div>
 				                  </div>
@@ -40,7 +40,7 @@
 		                          </div>
 		                          <div class="portfolio-description">
 		                              <a href='{{ i18n "visionavenue" }}' target="_blank">
-		                                  <h3>Achetez en ligne chez Vision Avenue</h3>
+		                                  <h3>{{ i18n "buy_visionavenue" }}</h3>
 		                              </a>
 		                          </div>
 		                      </div>
@@ -52,9 +52,9 @@
 							<div class="col-md-3 col-sm-12 col-eq-height">
                   <!--call-to-action colored background -->
                   <div class="call-to-action call-to-action-dark">
-                      <h3>Vous ne trouvez pas le <span>produit</span> que vous cherchez?</h3>
-                      <p>Prenez rendez-vous avec un expert !</p>
-                      <a class="btn btn-outline btn-light" href="/rendez-vous-opticien">Rendez-vous</a> </div>
+                      {{ .Params.rightcta | markdownify }} 
+                      <a class="btn btn-outline btn-light" href='{{ $.Scratch.Get "bookingOptiPage" }}'>{{ i18n "book" }}</a>
+                   </div>
 
                   <!--END: call-to-action colored background -->
               </div>

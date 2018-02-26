@@ -3,7 +3,6 @@ title: Merci de votre intérêt
 description: Merci de votre intérêt pour L'Aire Visuelle
 noindex: true
 layout: merci
-i18nlanguage: fr
 slug: merci
 ---
 

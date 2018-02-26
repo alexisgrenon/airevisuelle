@@ -6,11 +6,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <h1 class="text-uppercase">{{.Params.titre}}</h1>
-                    <p>La réussite de notre entreprise L’Aire Visuelle repose surtout sur notre équipe composée de tous les intervenants et professionnels du domaine de l’optique. Toujours à l’affût des nouvelles technologies, ils sont passionnés de leur travail. Les membres de notre équipe de professionnels se composent de 4 optométristes, 3 opticiens ainsi que des conseillères-stylistes.</p>
-
-                    <p>Nous sommes disponibles pour répondre à toutes vos questions, ainsi que pour vous conseiller dans le choix de lunettes de prescription, de lunettes solaires ou de verres de contact</p>
-
-
+                    {{.Content}}
                     <div class="row m-t-40">
                         <div class="col-md-6">
                             <address>
@@ -73,28 +69,29 @@
                 </div>
 
                 <div class="col-md-6">
-                    <form class="widget-contact-form" action="/merci" name="contact-{{.Lang}}" role="form" method="post" netlify>
+                    <form class="widget-contact-form" action='{{ if eq .Lang "en" }}/en/thank-you{{else}}/merci{{end}}' name="contact-{{.Lang}}" role="form" method="post" netlify>
                         <div class="row">
                             <div class="form-group col-sm-6">
-                                <label for="name">Nom</label>
-                                <input type="text" aria-required="true" name="widget-contact-form-name" class="form-control required name" placeholder="Entrez votre nom">
+                                <label for="name">{{ i18n "name" }}</label>
+                                <input type="text" aria-required="true" name="widget-contact-form-name" class="form-control required name" placeholder='{{ i18n "enter_name" }}'>
                             </div>
                             <div class="form-group col-sm-6">
-                                <label for="email">Courriel</label>
-                                <input type="email" aria-required="true" name="widget-contact-form-email" class="form-control required email" placeholder="Entrez votre courriel">
+                                <label for="email">{{ i18n "email" }}</label>
+                                <input type="email" aria-required="true" name="widget-contact-form-email" class="form-control required email" placeholder='{{ i18n "enter_email" }}'>
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col-sm-12">
-                                <label for="subject">Sujet</label>
-                                <input type="text" name="widget-contact-form-subject" class="form-control required" placeholder="Sujet...">
+                                <label for="subject">{{ i18n "subject" }}</label>
+                                <input type="text" name="widget-contact-form-subject" class="form-control required" placeholder='{{ i18n "subject" }}...'>
                             </div>
-                        </div>                                <div class="form-group">
-                                <label for="message">Message</label>
-                                <textarea type="text" name="widget-contact-form-message" rows="5" class="form-control required" placeholder="Entrez votre message"></textarea>
-                            </div>
+                        </div>                                
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea type="text" name="widget-contact-form-message" rows="5" class="form-control required" placeholder='{{ i18n "enter_message" }}'></textarea>
+                        </div>
 
-                        <button class="btn btn-default" type="submit" id="form-submit"><i class="fa fa-paper-plane"></i>&nbsp;Envoyer mon message</button>
+                        <button class="btn btn-default" type="submit" id="form-submit"><i class="fa fa-paper-plane"></i>&nbsp;{{ i18n "send_message" }}</button>
                     </form>
                     
                 </div>

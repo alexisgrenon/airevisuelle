@@ -45,7 +45,16 @@ defaultContentLanguageInSubdir = false
 [permalinks]
   singles = "/:slug/"
 
-# [Languages.fr]
+[Languages]
+[Languages.en]
+[Languages.en.permalinks]
+  singles = "/:slug/"
+  catalogue = "/catalog/:slug/"
+
+[Languages.fr]
+[Languages.fr.permalinks]
+  singles = "/:slug/"
+
 # [Languages.fr.Taxonomies]
 # category = "categories"
 # createur = "createurs"

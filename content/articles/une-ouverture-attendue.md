@@ -4,7 +4,7 @@ description: >-
   This is a desc
 slug: une-ouverture-attendue
 identifiant: une-ouverture-attendue
-image: /img/quart/optometriste-2.jpg
+image: /img/optometriste-2.jpg
 i18nlanguage: fr
 ordre: 1
 draft: false

@@ -24,9 +24,7 @@
                         {{ end }}
                         {{ end }}
                         <div class="col-md-12">
-                            <p>Vous pouvez réserver en ligne directement dans l'horaire respectif de <strong>nos optométristes</strong>.</p>
-                            
-                            <p>Nous sommes disponibles pour répondre à toutes vos questions, ainsi que pour vous conseiller dans le choix de lunettes de prescription, de lunettes solaires ou de verres de contact.</p>
+                            {{.Params.odcontent | markdownify}}
                             <a class="btn btn-rounded btn-reveal btn-reveal-left" href='{{.Site.Data.settings.rdvlink}}{{ if eq .Lang "en" }}&Language=EN{{ end }}' target="_blank"><span class="btn-label">{{ i18n "book_online" }}</span><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -75,35 +73,35 @@
                         {{ end }}
                         {{ end }}
                         <div class="col-md-12">
-                            <p>Vous pouvez remplir le formulaire ci-bas directement pour réserver une plage horaire avec eux.</p>
+                            <p>{{.Params.oodcontent}}</p>
                         </div>
                     </div>
                     <form class="widget-contact-form" action="/merci" role="form" method="post" name="{{.Params.identifiant}}-{{.Lang}}" netlify>
                         
                         <div class="row">
                             <div class="form-group col-sm-6">
-                                <label for="name">Nom</label>
-                                <input type="text" aria-required="true" name="widget-contact-form-name" class="form-control required name" placeholder="Entrez votre nom">
+                                <label for="name">{{ i18n "name" }}</label>
+                                <input type="text" aria-required="true" name="widget-contact-form-name" class="form-control required name" placeholder='{{ i18n "enter_name" }}'>
                             </div>
                             <div class="form-group col-sm-6">
-                                <label for="email">Courriel</label>
-                                <input type="email" aria-required="true" name="widget-contact-form-email" class="form-control required email" placeholder="Entrez votre courriel">
+                                <label for="email">{{ i18n "email" }}</label>
+                                <input type="email" aria-required="true" name="widget-contact-form-email" class="form-control required email" placeholder='{{ i18n "enter_email" }}'>
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col-sm-6 col-md-3">
-                                <label for="message">Âge</label>
-                                <input type="text" name="age" aria-required="true" class="form-control required" placeholder="Âge">
+                                <label for="message">{{ i18n "age" }}</label>
+                                <input type="text" name="age" aria-required="true" class="form-control required" placeholder='{{ i18n "age" }}'>
                             </div>
                             <div class="form-group col-sm-6 col-md-3">
-                                <label for="message">Déjà un client?</label>
+                                <label for="message">{{ i18n "already_client" }}</label>
                                 <select name="deja_client" id="">
-                                    <option value="oui">Oui</option>
-                                    <option value="non">Non</option>
+                                    <option value="oui">{{ i18n "yes" }}</option>
+                                    <option value="non">{{ i18n "no" }}</option>
                                 </select>
                             </div>
                             <div class="form-group col-sm-6">
-                                <label for="name">Préférence</label>
+                                <label for="name">{{ i18n "preference" }}</label>
                                 <select name="preference" id="">
                                     <option value="AM">AM</option>
                                     <option value="PM">PM</option>
@@ -112,22 +110,22 @@
                         </div> 
                         <div class="row">
                             <div class="form-group col-sm-6 col-md-3">
-                                <label for="subject">Port de lunettes</label>
+                                <label for="subject">{{ i18n "wear_eyeglasses" }}</label>
                                 <select name="port_lunettes" id="">
-                                    <option value="oui">Oui</option>
-                                    <option value="non">Non</option>
+                                    <option value="oui">{{ i18n "yes" }}</option>
+                                    <option value="non">{{ i18n "no" }}</option>
                                 </select>
                             </div>
                             <div class="form-group col-sm-6 col-md-3">
-                                <label for="message">Port de verres de contact</label>
+                                <label for="message">{{ i18n "wear_lenses" }}</label>
                                 <select name="port_verre" id="">
-                                    <option value="oui">Oui</option>
-                                    <option value="non">Non</option>
+                                    <option value="oui">{{ i18n "yes" }}</option>
+                                    <option value="non">{{ i18n "no" }}</option>
                                 </select>
                             </div>
                             <div class="form-group col-sm-6">
                                 <label for="message">Message</label>
-                                <textarea type="text" name="widget-contact-form-message" rows="5" class="form-control required" placeholder="Entrez votre message"></textarea>
+                                <textarea type="text" name="widget-contact-form-message" rows="5" class="form-control required" placeholder='{{ i18n "enter_message" }}'></textarea>
                             </div>
                         </div>
                         <button class="btn btn-rounded btn-reveal btn-reveal-left" type="submit" id="form-submit"><span class="btn-label">{{ i18n "book_online" }}</span><i class="fa fa-arrow-right"></i></button>

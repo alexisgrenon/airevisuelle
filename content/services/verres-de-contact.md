@@ -21,10 +21,10 @@ faq:
 
       
       Quel que soit le type de lentilles cornéennes, il est essentiel de faire un ajustement préalable au moyen de verres de contact diagnostiques. Cet essai permettra de vérifier le confort et la vision, ainsi que la conformité de l’ajustement.
-
+ctalink: rendez-vous-opticien
 ---
 
-## Pourquoi pas des verres de contact?
+## Les verres de contact, est-ce pour moi?
 
 Les lentilles cornéennes, ou verres de contact, peuvent être une solution idéale pour corriger votre vision, ou encore un outil complémentaire à vos lunettes pour le sport ou les sorties.  Il existe plusieurs types de lentille pour presque tous les types de prescriptions.
 
@@ -32,5 +32,5 @@ Nous retrouvons présentement sur le marché plusieurs types de lentilles corné
 
 Si vous souhaitez commencer à porter des verres de contact, nos opticiens se feront également un plaisir de vous apprendre comment faire pour les mettre, les enlever et les entretenir. 
 
-Pour renouveler une commande de lentilles, ou pour demander conseil à un de nos professionnels, envoyez-nous un message.
+Pour renouveler une commande de lentilles, ou pour demander conseil à un de nos professionnels, [envoyez-nous un message](https://www.lairevisuelle.com/nous-rejoindre/).
 

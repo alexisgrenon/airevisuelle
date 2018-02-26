@@ -4,7 +4,7 @@ description: >-
   This is a desc
 slug: laire-visuelle-grande-gagnante
 identifiant: laire-visuelle-grande-gagnante
-image: /img/quart/optometriste-1.jpg
+image: /img/optometriste-1.jpg
 i18nlanguage: fr
 ordre: 1
 draft: false

@@ -8,12 +8,16 @@
 	{{ $.Scratch.Add "contactPage" ("nous-rejoindre/" | absLangURL) }}
 	{{ $.Scratch.Add "aboutPage" ("a-propos/" | absLangURL) }}
 	{{ $.Scratch.Add "bookingPage" ("rendez-vous/" | absLangURL) }}
+	{{ $.Scratch.Add "bookingOptiPage" ("rendez-vous-opticien/" | absLangURL) }}
+	{{ $.Scratch.Add "bookingOptoPage" ("rendez-vous-optometriste/" | absLangURL) }}
 	{{ $.Scratch.Add "catalogPage" ("catalogue/" | absLangURL) }}
 	{{ else if eq .Lang "en" }}
-	{{ $.Scratch.Add "contactPage" ("nous-rejoindre/" | absLangURL) }}
-	{{ $.Scratch.Add "aboutPage" ("a-propos/" | absLangURL) }}
-	{{ $.Scratch.Add "bookingPage" ("rendez-vous/" | absLangURL) }}
-	{{ $.Scratch.Add "catalogPage" ("catalogue/" | absLangURL) }}
+	{{ $.Scratch.Add "contactPage" ("contact-us/" | absLangURL) }}
+	{{ $.Scratch.Add "aboutPage" ("about/" | absLangURL) }}
+	{{ $.Scratch.Add "bookingPage" ("appointment/" | absLangURL) }}
+	{{ $.Scratch.Add "bookingOptiPage" ("appointment-optician/" | absLangURL) }}
+	{{ $.Scratch.Add "bookingOptoPage" ("appointment-optometrist/" | absLangURL) }}
+	{{ $.Scratch.Add "catalogPage" ("catalog/" | absLangURL) }}
 	{{ end }}
 	{{- partial "site-head.html" . -}}
 	<body class="">

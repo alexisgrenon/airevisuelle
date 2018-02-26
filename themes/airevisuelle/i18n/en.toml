@@ -22,6 +22,9 @@
 [email]
   other = "E-mail us"
 
+[email_plain]
+  other = "E-mail"
+
 [call]
   other = "Call us"
 
@@ -29,10 +32,7 @@
   other = "Sitemap"
 
 [copyright]
-  other = 'Tous droits réservés. Conçu avec <i class="fa fa-heart"></i> par <a href="http://www.akiamarketing.ca" target="_blank">Akia Marketing</a>'
-
-[akiatagline]
-  other = 'Made with <i class="fa fa-heart"></i> by <a href="#">Akia Marketing</a>'
+  other = 'All rights reserved. Made with <i class="fa fa-heart"></i> by <a href="http://www.akiamarketing.ca" target="_blank">Akia Marketing</a>'
 
 [readmore]
   other = "Read more"
@@ -72,3 +72,57 @@
 
 [opening_hrs]
   other = "Opening Hours"
+
+[by]
+  other = "by"
+
+[in_store]
+  other = "In-store selection"
+
+[buy_visionavenue]
+  other = "Buy online with Vision Avenue"
+
+[book]
+  other = "Book online"
+
+[permanent_discount]
+  other = "Permanent discount"
+
+[name]
+  other = "Name"
+
+[enter_name]
+  other = "Enter your name"
+
+[enter_email]
+  other = "Enter your email"
+
+[subject]
+  other = "Subject"
+
+[enter_message]
+  other = "Write your message"
+
+[send_message]
+  other = "Send your message"
+
+[age]
+  other = "Age"
+
+[already_client]
+  other = "Already a client?"
+
+[preference]
+  other = "Preference"
+
+[wear_eyeglasses]
+  other = "Wearing eyeglasses"
+
+[wear_lenses]
+  other = "Wearing contact lenses"
+
+[yes]
+  other = "Yes"
+
+[no]
+  other = "No"

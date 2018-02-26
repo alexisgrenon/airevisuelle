@@ -22,6 +22,9 @@
 [email]
   other = "Courriel"
 
+[email_plain]
+  other = "Courriel"
+
 [call]
   other = "Appelez-nous"
 
@@ -30,9 +33,6 @@
 
 [copyright]
   other = 'Tous droits réservés. Conçu avec <i class="fa fa-heart"></i> par <a href="http://www.akiamarketing.ca" target="_blank">Akia Marketing</a>'
-
-[akiatagline]
-  other = 'Fait avec <i class="fa fa-heart"></i> par <a href="#">Akia Marketing</a>'
 
 [readmore]
   other = "Lire la suite"
@@ -72,4 +72,59 @@
 
 [opening_hrs]
   other = "Heures d'ouverture"
+
+[by]
+  other = "par"
+
+[in_store]
+  other = "Sélection en magasin"
+
+[book]
+  other = "Rendez-vous"
+
+[buy_visionavenue]
+  other = "Achetez en ligne chez Vision Avenue"
+
+[permanent_discount]
+  other = "Rabais permanent"
+
+[name]
+  other = "Nom"
+
+[enter_name]
+  other = "Entrez votre nom"
+
+[enter_email]
+  other = "Entrez votre courriel"
+
+[subject]
+  other = "Sujet"
+
+[enter_message]
+  other = "Entrez votre message"
+
+[send_message]
+  other = "Envoyez votre message"
+
+[age]
+  other = "Âge"
+
+[already_client]
+  other = "Déjà un client?"
+
+[preference]
+  other = "Préférence"
+
+[wear_eyeglasses]
+  other = "Port de lunettes"
+
+[wear_lenses]
+  other = "Port de verres de contact"
+
+[yes]
+  other = "Oui"
+
+[no]
+  other = "Non"
+
 

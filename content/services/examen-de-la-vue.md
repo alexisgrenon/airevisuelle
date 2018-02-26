@@ -2,7 +2,7 @@
 title: "L'Aire Visuelle | Un Examen De La Vue Détaillé Partout À Laval"
 slug: examen-de-la-vue
 identifiant: examen-de-la-vue
-titre: "Des Optométristes experts pour un examen de la vue de qualité. Faites confiance à notre service d'optométrie renommé."
+titre: "Des optométristes experts pour un examen de la vue de qualité. Faites confiance à notre service d'optométrie renommé."
 description: "Une équipe d'optométristes qualifiés pour un examen de la vue fiable."
 image: /img/examen-de-la-vue.jpg
 resume:
@@ -16,6 +16,7 @@ faq:
       Ensuite, il est recommandé de passer un examen de la vue avant de débuter la maternelle pour s’assurer du bon fonctionnement du système visuel, car ce dernier peut avoir un impact important sur l’apprentissage.
 
       La croissance du corps s’accompagne de celle du globe oculaire, la vision peut changer et un examen visuel annuel est fortement recommandé. De plus, personne n’est à l’abri des maladies oculaires et des complications! Certaines pathologies s’installent sans symptômes préalables. Faire vérifier la santé de vos yeux une fois par année vous permet de bénéficier de la meilleure santé oculaire possible et de la meilleure vision s’y associant.
+i18nlanguage: fr
 ctalink: rendez-vous-optometriste
 ---
 

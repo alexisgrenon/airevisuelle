@@ -45,7 +45,7 @@ faq:
 ctalink: rendez-vous-optometriste
 ---
 
-## Optométriste
+## Qu’est-ce qu’un optométriste?
 
 Le docteur en optométrie est le professionnel que vous voyez pour votre examen de la vue. Suite à 5 ans d’études universitaires, il a obtenu son doctorat, et est en mesure d’évaluer l’amétropie (myopie, hypermétropie, astigmatisme, presbytie, etc.), la santé des yeux, le dépistage de certaines maladies oculaires ou toute autre anomalie.  L’optométriste peut aussi prescrire certains médicaments ou référer le patient en ophtalmologie, et conseiller le patient sur le port de lentilles cornéennes ou les chirurgies correctives.
 

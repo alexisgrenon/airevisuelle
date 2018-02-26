@@ -1,32 +1,32 @@
 general:
   fr:
-    title: Promotion pour Février
-    description: 50$ de rabais sur les montures de la collection Prada
+    title: Promotion du mois
+    description: 50$ de rabais sur la collection Prada en Février
     btntxt: En savoir plus
     btnurl: promotions
   en:
     title: Deal of the month
-    description: 50$ discount on Prada frames
-    btntxt: En savoir plus
-    btnurl: promotions
+    description: 50$ discount on our William Morris frames
+    btntxt: More details
+    btnurl: en/promotions
 services:
   fr:
     title: Rendez-vous en ligne
-    description: Réservez une plage horaire avec un expert facilement grâce à notre systèmes de réservation en ligne !
+    description: Réservez une plage horaire avec un expert facilement grâce à notre système de réservation en ligne.
     btntxt: En savoir plus
     btnurl: rendez-vous
   en:
-    title: Promotion pour Décembre et Janvier
-    description: 50% sur les montures sélectionnées à l'achat d'une paire de verres
-    btntxt: En savoir plus
-    btnurl: promotions
+    title: Online appointment
+    description: Easily book a time slot with an expert with our online booking system.
+    btntxt: More details
+    btnurl: en/appointment
 footer:
   image: /img/opticien-1.jpg
   fr:
-    title: Promotions
+    title: Promotions du mois
     description: 50$ de rabais sur la collection Prada en Février
     link: promotionsPage
   en:
-    title: Promotions
-    description: 50$ discount on Prada frames in February
+    title: Deal of the month
+    description: 50$ discount on our William Morris collection in March
     link: promotionsPage

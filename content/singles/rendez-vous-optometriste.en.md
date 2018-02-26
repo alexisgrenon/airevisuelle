@@ -1,12 +1,12 @@
 ---
-title: "L'Aire Visuelle | Prendre un Rendez-vous"
-slug: rendez-vous-optometriste
+title: "L'Aire Visuelle | Arrange An Appointment"
+slug: appointment-optometrist
 identifiant: rendez-vous-optometriste
-titre: "Prenez rendez-vous avec un(e) de nos optométristes"
-description: "Une équipe d'experts prêts à vous aider. Prenez rendez-vous aujourd'hui."
+titre: "Arrange an appointment with one of our optometrists"
+description: "A team of experts ready to help you. Book an appointment today."
 layout: rendez-vous
-i18nlanguage: fr
 image: /img/optometrie-banniere.jpg
+i18nlanguage: en
 header:
   transparent: false
   dark: false
