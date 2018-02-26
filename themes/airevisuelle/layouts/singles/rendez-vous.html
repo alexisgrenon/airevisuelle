@@ -24,9 +24,8 @@
                         {{ end }}
                         {{ end }}
                         <div class="col-md-12">
-                            {{.Params.odcontent | markdownify}}
-                            <br>
-                            <a class="btn btn-rounded btn-reveal btn-reveal-left" href='{{.Site.Data.settings.rdvlink}}{{ if eq .Lang "en" }}&Language=EN{{ end }}' target="_blank"><span class="btn-label">{{ i18n "book_online" }}</span><i class="fa fa-arrow-right"></i></a>
+                            {{- .Params.odcontent | markdownify -}}
+                            <a class="btn btn-rounded btn-reveal btn-reveal-left" href='{{.Site.Data.settings.rdvlink}}{{ if eq .Lang "en" }}&Language=EN{{ end }}' target="_blank" style="display: inline-block;"><span class="btn-label">{{ i18n "book_online" }}</span><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="row m-t-40 hidden-xs hidden-sm">
