@@ -39,6 +39,7 @@ designers:
 header:
   dark: false
   transparent: false
+translationlink: "en/catalog/"
 rightcta: >-
   ### Vous ne trouvez pas le <span>produit</span> que vous cherchez?
 

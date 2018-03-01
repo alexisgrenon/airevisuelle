@@ -22,23 +22,24 @@
             <!--Header Extras-->
             <div class="header-extras">
                 <ul>
-                    <li>
-                        <!--top search-->
-                        <!-- <a id="top-search-trigger" href="#" class="toggle-item">
+                    <!-- <li>
+                        <a id="top-search-trigger" href="#" class="toggle-item">
                             <i class="fa fa-search"></i>
                             <i class="fa fa-close"></i>
-                        </a> -->
-                        <!--end: top search-->
-                    </li>
-                    <!-- <li>
-                        <div class="topbar-dropdown">
-                            <a class="title"><i class="fa fa-globe"></i></a>
-                            <div class="dropdown-list">
-                                <a class="list-entry" href="#">French</a>
-                                <a class="list-entry" href="#">Spanish</a>
-                            </div>
-                        </div>
+                        </a>
                     </li> -->
+                    <li>
+                        <div class="topbar-dropdown">
+                            {{ if .Params.translationlink }}
+                                {{ $link := .Params.translationlink }}
+                                <a href='{{ $link | absURL }}' class="title">{{ if eq $.Lang "fr" }}EN{{ else if eq $.Lang "en" }}FR{{ end }}</a>
+                            {{ else if .Translations }}
+                                {{ range .Translations }}
+                                <a href="{{.Permalink}}" class="title">{{ upper .Lang}}</a>
+                                {{ end }}
+                            {{ end }}
+                        </div>
+                    </li>
                 </ul>
             </div>
             <!--end: Header Extras-->
