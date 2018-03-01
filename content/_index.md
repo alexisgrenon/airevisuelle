@@ -66,7 +66,7 @@ block3:
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
     titre: PROMOTIONS DU MOIS
-    desc: 50$ de rabais sur la collection William Morris en Février
+    desc: 50$ de rabais sur la collection William Morris en Mars
     btn: Voir la promotion
     haut: false
 block4:
