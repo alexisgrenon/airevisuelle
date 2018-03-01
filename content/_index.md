@@ -39,7 +39,7 @@ designers:
 header:
   transparent: true
   dark: true
-slidertext: "50$ de rabais sur la collection William Morris en Février"
+slidertext: "50$ de rabais sur la collection William Morris en Mars"
 block2:
   titre: L'Aire Visuelle
   text: >-
