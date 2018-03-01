@@ -1,7 +1,7 @@
 general:
   fr:
     title: Promotion du mois
-    description: 50$ de rabais sur la collection William Morris en Février
+    description: 50$ de rabais sur la collection William Morris en Mars
     btntxt: En savoir plus
     btnurl: promotions
   en:
@@ -24,7 +24,7 @@ footer:
   image: /img/opticien-1.jpg
   fr:
     title: Promotions du mois
-    description: 50$ de rabais sur la collection William Morris en Février
+    description: 50$ de rabais sur la collection William Morris en Mars
     link: promotionsPage
   en:
     title: Deal of the month
