@@ -85,8 +85,8 @@
             <div class="col-md-3">
                 <div class="team-member">
                     <div class="team-desc">
-                        <h3>{{.name}}</h3>
-                        <p>{{ if eq $.Lang "fr" }}{{.title}}{{ else if eq $.Lang "en" }}{{.titleen}}{{end}}</p>
+                        <h3>{{ if eq $.Lang "en" }}{{.nameen}}{{else}}{{.name}}{{end}}</h3>
+                        <p>{{ if eq $.Lang "en" }}{{.titleen}}{{else}}{{.title}}{{end}}</p>
                         <div class="align-center">
                             <!-- <a class="btn btn-xs btn-slide btn-light" href="#">
                                 <i class="fa fa-facebook"></i>

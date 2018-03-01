@@ -7,7 +7,7 @@ description: "Our team of opticians knows how to take good care of your eyes and
 image: /img/opticien.jpg
 resume:
   title: Optician
-  description: We are a team of qualified opticians in the laval region 
+  description: We are a team of qualified opticians in the Laval region 
 i18nlanguage: en
 ordre: 1
 draft: false

@@ -2,7 +2,10 @@
 title: "L'Aire Visuelle | Lunettes complètes à prix réduit"
 titre: "Lunettes complètes à prix réduit"
 description: "L'Aire Visuelle vous offre des promotions imbattables sur tous produits de la vue."
+slug: lunettes-completes-a-prix-reduit
+identifiant: lunettes-completes
 image: /img/promo-lunettes.jpg
+i18nlanguage: fr
 startdate: 
 enddate: 
 draft: false

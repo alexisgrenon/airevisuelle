@@ -13,7 +13,7 @@ header:
 section1:
   title: OUR COMPANY
   column1: >-
-    The team at L'Aire Visuelle is pleased to welcome you to its new Vimont clinic in Laval. Chic, spacious and modern, the showroom will impress you with its extensive collection of frames. Whether it’s for prescription glasses, sunglasses or contact lenses, L'Aire Visuelle promises to bring you a unique experience in eyewear. <br> <br> Check out our products section to see some of the frames and sunglasses available in our showroom. And remember ... This is just a sample of our range of frames chosen wisely for our customers.
+    The team at L'Aire Visuelle is pleased to welcome you in its new Vimont clinic in Laval. Chic, spacious and modern, the showroom will impress you with its extensive collection of frames. Whether it’s for prescription glasses, sunglasses or contact lenses, L'Aire Visuelle promises to bring you a unique experience in eyewear. <br> <br> Check out our products section to see some of the frames and sunglasses available in our showroom. And remember ... This is just a sample of our range of frames chosen wisely for our customers.
   column2: >-
     Our wide selection reflects the current trends in eyewear fashion, meets the needs of our loyal customers that we appreciate and will certainly please our future customers.
 section2:

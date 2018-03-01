@@ -7,7 +7,7 @@ description: "A team of eye specialists qualified for your contact lenses."
 image: /img/verres-de-contact.jpg
 resume:
   title: Contact lenses
-  description: A team of eye specialists qualified for your contact lenses.
+  description: A team of qualified eye specialists for your contact lenses
 i18nlanguage: en
 ordre: 1
 draft: false

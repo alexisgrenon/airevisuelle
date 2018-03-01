@@ -39,7 +39,7 @@ designers:
 header:
   transparent: true
   dark: true
-slidertext: "50$ de rabais sur la collection Prada en Février"
+slidertext: "50$ de rabais sur la collection William Morris en Février"
 block2:
   titre: L'Aire Visuelle
   text: >-
@@ -66,7 +66,7 @@ block3:
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
     titre: PROMOTIONS DU MOIS
-    desc: 50$ de rabais sur la collection Prada en Février
+    desc: 50$ de rabais sur la collection William Morris en Février
     btn: Voir la promotion
     haut: false
 block4:

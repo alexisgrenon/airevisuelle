@@ -1,12 +1,12 @@
 ---
 title: "L'Aire Visuelle | Promotion pour Décembre et Janvier"
-description: "L'Aire Visuelle vous offre des promotions imbattables sur tous produits de la vue."
+description: "L'Aire Visuelle offers you unbeatable services and promotions near you."
 slug: 50-pourcent-sur-montures-selectionnees
 identifiant: decembre-janvier
 image: /img/promo-jan-dec-airevisuelle.png
-i18nlanguage: fr
-startdate: Décembre
-enddate: Janvier
+i18nlanguage: en
+startdate: December
+enddate: January
 draft: true
 ---
 

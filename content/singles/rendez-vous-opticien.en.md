@@ -15,9 +15,9 @@ od: false
 ood: true
 odcontent:
   ligne1: >-
-    Vous pouvez réserver en ligne directement dans l'horaire respectif de **nos optométristes**.
+    You can book online directly into the respective schedule of our **optometrists**.
   ligne2: >-
-    Nous sommes disponibles pour répondre à toutes vos questions, ainsi que pour vous conseiller dans le choix de lunettes de prescription, de lunettes solaires ou de verres de contact.
+    We are available to answer all your questions, as well as to advise you in the choice of prescription glasses, sunglasses or contact lenses.
 oodcontent: >-
-  Vous pouvez remplir le formulaire ci-bas directement pour réserver une plage horaire avec eux.
+  You can fill out the form below directly to book a time slot with them.
 ---
