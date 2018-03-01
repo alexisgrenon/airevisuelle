@@ -32,10 +32,10 @@
                         <div class="topbar-dropdown">
                             {{ if .Params.translationlink }}
                                 {{ $link := .Params.translationlink }}
-                                <a href='{{ $link | absURL }}' class="title">{{ if eq $.Lang "fr" }}EN{{ else if eq $.Lang "en" }}FR{{ end }}</a>
+                                <a href='{{ $link | absURL }}' class="title lang">{{ if eq $.Lang "fr" }}EN{{ else if eq $.Lang "en" }}FR{{ end }}</a>
                             {{ else if .Translations }}
                                 {{ range .Translations }}
-                                <a href="{{.Permalink}}" class="title">{{ upper .Lang}}</a>
+                                <a href="{{.Permalink}}" class="title lang">{{ upper .Lang}}</a>
                                 {{ end }}
                             {{ end }}
                         </div>
