@@ -48,7 +48,7 @@ block3:
   - image: "/img/opticien-2.jpg"
     link: bookingPage
     titre: PRENEZ RENDEZ-VOUS EN LIGNE
-    desc: choisissez la date et l’heure qui vous conviennent dans le confort de votre salon
+    desc: Choisissez la date et l’heure qui vous conviennent dans le confort de votre salon
     btn: Prendre rendez-vous
     haut: true
   - image: "/img/opticien-1.jpg"
