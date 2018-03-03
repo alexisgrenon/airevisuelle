@@ -1,116 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/promotions/additionnels/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/promotions/lunettes-completes/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/promotions/jeunes/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/promotions/lecture/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/articles/laire-visuelle-grande-gagnante/</loc>
-    <lastmod>2014-01-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/articles/une-ouverture-attendue/</loc>
-    <lastmod>2013-05-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/catalogue/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/services/verres-de-contact/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/nous-rejoindre/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/services/opticien/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/promotions/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/articles/</loc>
-    <lastmod>2014-01-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/</loc>
-    <lastmod>2014-01-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/rendez-vous-opticien/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/rendez-vous-optometriste/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/rendez-vous/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/promotions/fevrier/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/services/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/services/examen-de-la-vue/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/services/optometrie/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/services/lunetterie/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/a-propos/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/merci/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/singles/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>https://www.lairevisuelle.com/en/sitemap.xml</loc>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://www.lairevisuelle.com/fr/sitemap.xml</loc>
+		
+	   	<lastmod>2018-02-23T00:00:00+00:00</lastmod>
+		
+	</sitemap>
+	
+</sitemapindex>

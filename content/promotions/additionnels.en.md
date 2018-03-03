@@ -4,7 +4,7 @@ titre: "Discount on additional lenses"
 description: "L'Aire Visuelle offers you unbeatable services and promotions near you."
 slug: discount-on-additional-lenses
 identifiant: additionnels
-image: /img/promo-additionnels.jpg
+image: /img/aire-visuelle-30-pourcent-rabais-en.jpg
 i18nlanguage: en
 startdate: 
 enddate: 

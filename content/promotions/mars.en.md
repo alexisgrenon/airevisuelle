@@ -4,7 +4,7 @@ titre: "March Promotion"
 description: "L'Aire Visuelle offers you unbeatable services and promotions near you."
 slug: discount-on-the-william-morris-collection
 identifiant: mars
-image: /img/promo-mars.jpg
+image: /img/aire-visuelle-en-promo-mars.jpg
 i18nlanguage: en
 startdate: March 1st, 2018
 enddate: March 31st, 2018

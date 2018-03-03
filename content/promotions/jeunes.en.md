@@ -4,7 +4,7 @@ titre: "Lenses renewal program for 15-years-old and under"
 description: "L'Aire Visuelle offers you unbeatable services and promotions near you."
 slug: lenses-renewal-program-for-15-years-old-and-under
 identifiant: jeunes
-image: /img/promo-jeunes.jpg
+image: /img/aire-visuelle-15-ans-moins-en.jpg
 i18nlanguage: en
 startdate: 
 enddate: 

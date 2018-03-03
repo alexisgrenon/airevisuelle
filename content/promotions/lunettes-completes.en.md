@@ -4,7 +4,7 @@ titre: "Full glasses on discount"
 description: "L'Aire Visuelle offers you unbeatable services and promotions near you."
 slug: full-glasses-on-discount
 identifiant: lunettes-completes
-image: /img/promo-lunettes.jpg
+image: /img/aire-visuelle-lunette-prix-reduit-en.jpg
 i18nlanguage: en
 startdate: 
 enddate: 

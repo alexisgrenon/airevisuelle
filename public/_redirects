@@ -1,6 +1,5 @@
 # Redirect with a 200
-/en/*  /  302
-/en  /  302
+
 /laire/lequipe /a-propos 301
 /services/consultation-optique /services/opticien 301
 /laire/faq /a-propos 301
@@ -8,19 +7,19 @@
 /produits /catalogue 301
 /services/examens-de-la-vue /services/examen-de-la-vue 301
 /promotion-longue-duree /promotions 301
-/long-term-promotions /promotions 302
-/laire-en/photos-en /a-propos 302
-/our-team /a-propos 302
-/promotion-en /promotions 302
+/long-term-promotions /en/promotions 301
+/laire-en/photos-en /en/about 301
+/our-team /en/about 301
+/promotion-en /en/promotions 301
 /laire/photos /a-propos 301
 /services-2 /services 301
 /promotion /promotions 301
-/services-en/eyewear-lens-consultation /services/verres-de-contact 302
-/laire-en/faq-en /a-propos 302
-/category/news /articles 302
-/services-en /services 302
-/services-en/eye-exams /services/examen-de-la-vue 302
-/products /catalogue 302
+/services-en/eyewear-lens-consultation /en/services/contact-lenses 301
+/laire-en/faq-en /en/about 301
+/category/news /en/articles 301
+/services-en /en/services 301
+/services-en/eye-exams /en/services/eye-exam 301
+/products /en/catalog 30/
 /lequipe /a-propos 301
 /en/author/dioadmin / 301
 /category/nouvelles /articles 301
@@ -29,11 +28,11 @@
 laire-visuelle-grande-gagnante /articles/laire-visuelle-grande-gagnante 301
 /nouvelles /articles 301
 /test-article / 301
-/corporate-discount /promotions 302
-/laire-en /a-propos 302
+/corporate-discount /en/promotions 301
+/laire-en /en/about 301
 /promotion-corporative /promotions 301
-/contact-en /nous-rejoindre 302
-/appointments /rendez-vous 302
+/contact-en /en/contact-us 301
+/appointments /en/appointment 301
 
 
 
