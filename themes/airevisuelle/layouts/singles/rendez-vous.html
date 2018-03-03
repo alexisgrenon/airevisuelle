@@ -82,11 +82,11 @@
                         <div class="row">
                             <div class="form-group col-sm-6">
                                 <label for="name">{{ i18n "name" }}</label>
-                                <input type="text" aria-required="true" name="widget-contact-form-name" class="form-control required name" placeholder='{{ i18n "enter_name" }}'>
+                                <input type="text" name="widget-contact-form-name" class="form-control name" placeholder='{{ i18n "enter_name" }}' required>
                             </div>
                             <div class="form-group col-sm-6">
                                 <label for="email">{{ i18n "email" }}</label>
-                                <input type="email" aria-required="true" name="widget-contact-form-email" class="form-control required email" placeholder='{{ i18n "enter_email" }}'>
+                                <input type="email" aria-required="true" name="widget-contact-form-email" class="form-control required email" placeholder='{{ i18n "enter_email" }}' type="email" required>
                             </div>
                         </div>
                         <div class="row">
@@ -126,7 +126,7 @@
                             </div>
                             <div class="form-group col-sm-6">
                                 <label for="message">Message</label>
-                                <textarea type="text" name="widget-contact-form-message" rows="5" class="form-control required" placeholder='{{ i18n "enter_message" }}'></textarea>
+                                <textarea type="text" name="widget-contact-form-message" rows="5" class="form-control" placeholder='{{ i18n "enter_message" }}'></textarea>
                             </div>
                         </div>
                         <button class="btn btn-rounded btn-reveal btn-reveal-left" type="submit" id="form-submit"><span class="btn-label">{{ i18n "book_online" }}</span><i class="fa fa-arrow-right"></i></button>
