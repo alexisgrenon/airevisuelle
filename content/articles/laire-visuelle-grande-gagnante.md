@@ -1,7 +1,7 @@
 ---
 title: L'Aire visuelle grande gagnante !
 description: >-
-  This is a desc
+  C’est mercredi soir le 29 janvier 2014 que se tenait le septième Gala de la remise des Grands Prix du Design 2014, à la Salle Maisonneuve-Rosemont de la Place des Arts.
 slug: laire-visuelle-grande-gagnante
 identifiant: laire-visuelle-grande-gagnante
 image: /img/optometriste-1.jpg

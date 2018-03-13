@@ -12,7 +12,7 @@
                   </p>
                   <div id="ctas"> 
                       <a class="btn btn-rounded btn-reveal btn-reveal-left" href='{{ $.Scratch.Get "promotionsPage" }}'><span>{{ i18n "our_promotions" }}</span><i class="fa fa-arrow-right"></i></a>
-                      <a class="btn btn-rounded btn-reveal btn-reveal-left btn-light" href='{{ $.Scratch.Get "bookingPage" }}'><span class="btn-label">{{ i18n "book_online" }}</span><i class="fa fa-arrow-right"></i></a>
+                      <a class="btn btn-rounded btn-reveal btn-reveal-left btn-light" href='{{.Site.Data.settings.rdvlink}}&language={{- .Lang -}}' target="_blank"><span class="btn-label">{{ i18n "book_online" }}</span><i class="fa fa-arrow-right"></i></a>
                   </div>
                   <!-- end: Captions -->
               </div>

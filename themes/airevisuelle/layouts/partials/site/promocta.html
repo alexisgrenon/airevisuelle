@@ -16,6 +16,22 @@
 
         <a class="btn btn-default icon-left" href="{{$.Site.BaseURL}}{{ if .Params.ctalink }}{{.Params.ctalink}}{{else}}{{.Site.Data.promo.services.en.btnurl}}{{end}}"><span>{{.Site.Data.promo.services.en.btntxt}}</span></a>
       {{ end }}
+      {{ else if .IsHome }}
+      {{ if eq .Lang "fr" }}
+        <h2>{{.Site.Data.promo.general.fr.title}}</h2>
+        <p class="lead">
+            {{.Site.Data.promo.general.fr.description}}
+        </p>
+
+        <a class="btn btn-default icon-left" href="{{.Site.Data.settings.rdvlink}}&language={{- .Lang -}}" target="_blank"><span>{{.Site.Data.promo.general.fr.btntxt}}</span></a>
+      {{ else if eq .Lang "en" }}
+        <h2>{{.Site.Data.promo.general.en.title}}</h2>
+        <p class="lead">
+            {{.Site.Data.promo.general.en.description}}
+        </p>
+
+        <a class="btn btn-default icon-left" href="{{.Site.Data.settings.rdvlink}}&language={{- .Lang -}}" target="_blank"><span>{{.Site.Data.promo.general.en.btntxt}}</span></a>
+      {{ end }}
       {{ else }}
       {{ if eq .Lang "fr" }}
         <h2>{{.Site.Data.promo.general.fr.title}}</h2>

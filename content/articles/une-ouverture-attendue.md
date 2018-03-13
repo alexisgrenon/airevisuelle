@@ -1,7 +1,7 @@
 ---
 title: Une ouverture attendue
 description: >-
-  This is a desc
+  C’est le lundi 13 mai 2013 que L’Aire Visuelle ouvrait enfin ses portes au 380 du boulevard Dagenais Est (intersection de René-Laennec) à Laval.
 slug: une-ouverture-attendue
 identifiant: une-ouverture-attendue
 image: /img/optometriste-2.jpg
