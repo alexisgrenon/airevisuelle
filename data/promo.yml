@@ -1,12 +1,12 @@
 general:
   fr:
     title: Promotion du mois
-    description: 50$ de rabais sur la collection William Morris en Mars
+    description: 50$ de rabais sur la collection Dior en Avril
     btntxt: En savoir plus
     btnurl: promotions
   en:
     title: Deal of the month
-    description: 50$ discount on our William Morris frames
+    description: 50$ discount on our Dior collection in April
     btntxt: More details
     btnurl: en/promotions
 services:
@@ -24,9 +24,9 @@ footer:
   image: /img/opticien-1.jpg
   fr:
     title: Promotions du mois
-    description: 50$ de rabais sur la collection William Morris en Mars
+    description: 50$ de rabais sur la collection Dior en Avril
     link: promotionsPage
   en:
     title: Deal of the month
-    description: 50$ discount on our William Morris collection in March
+    description: 50$ discount on our Dior collection in April
     link: promotionsPage
