@@ -20,8 +20,6 @@ address:
   country: Canada
 ouverture:
   fr:
-    - jour: Fermé
-      heures: Samedi 31 mars et lundi 2 avril
     - jour: Lundi - Jeudi
       heures: 08:00 - 20:00
     - jour: Vendredi
@@ -31,8 +29,6 @@ ouverture:
     - jour: Dimanche
       heures: Fermé
   en:
-    - jour: Closed
-      heures: Saturday March 31st and Monday April 2nd
     - jour: Monday - Thursday
       heures: 08:00 - 20:00
     - jour: Friday
