@@ -21,7 +21,7 @@ address:
 ouverture:
   fr:
     - jour: Lundi - Jeudi
-      heures: 08:00 - 20:00
+      heures: 09:00 - 20:00
     - jour: Vendredi
       heures: 09:00 - 18:00
     - jour: Samedi
@@ -30,7 +30,7 @@ ouverture:
       heures: Fermé
   en:
     - jour: Monday - Thursday
-      heures: 08:00 - 20:00
+      heures: 09:00 - 20:00
     - jour: Friday
       heures: 09:00 - 18:00
     - jour: Saturday
