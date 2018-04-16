@@ -20,6 +20,8 @@ address:
   country: Canada
 ouverture:
   fr:
+    - jour: Samedi 21 avril 2018
+      heures: FERMÉ
     - jour: Lundi - Jeudi
       heures: 09:00 - 20:00
     - jour: Vendredi
@@ -29,6 +31,8 @@ ouverture:
     - jour: Dimanche
       heures: Fermé
   en:
+    - jour: Saturday April 21th, 2018
+      heures: CLOSED
     - jour: Monday - Thursday
       heures: 09:00 - 20:00
     - jour: Friday

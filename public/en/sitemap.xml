@@ -102,6 +102,20 @@
   </url>
   
   <url>
+    <loc>https://www.lairevisuelle.com/en/promotions/discount-on-the-dior-collection/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.lairevisuelle.com/promotions/rabais-sur-la-collection-dior/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.lairevisuelle.com/en/promotions/discount-on-the-dior-collection/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.lairevisuelle.com/en/appointment-optician/</loc>
     <xhtml:link
                 rel="alternate"
@@ -214,20 +228,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.lairevisuelle.com/en/services/optician/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/en/promotions/discount-on-the-william-morris-collection/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.lairevisuelle.com/promotions/rabais-sur-la-collection-william-morris/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.lairevisuelle.com/en/promotions/discount-on-the-william-morris-collection/"
                 />
   </url>
   

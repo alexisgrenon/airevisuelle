@@ -89,6 +89,10 @@
   </url>
   
   <url>
+    <loc>https://www.lairevisuelle.com/articles/les-examens-de-la-vue-des-enfants/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.lairevisuelle.com/categories/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -246,16 +250,16 @@
   </url>
   
   <url>
-    <loc>https://www.lairevisuelle.com/promotions/rabais-sur-la-collection-william-morris/</loc>
+    <loc>https://www.lairevisuelle.com/promotions/rabais-sur-la-collection-dior/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.lairevisuelle.com/en/promotions/discount-on-the-william-morris-collection/"
+                href="https://www.lairevisuelle.com/en/promotions/discount-on-the-dior-collection/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.lairevisuelle.com/promotions/rabais-sur-la-collection-william-morris/"
+                href="https://www.lairevisuelle.com/promotions/rabais-sur-la-collection-dior/"
                 />
   </url>
   
