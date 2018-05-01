@@ -75,6 +75,7 @@
 									{{ range .Params.designers.brands}}
 		              <!-- portfolio item -->
 		              <div class="portfolio-item img-zoom pf-illustrations pf-media hover-3d pf-icons pf-Media">
+                    <a href="{{.url}}" target="_blank">
 		                  <div class="portfolio-item-wrap">
 		                      <div class="portfolio-image">
 		                          <a href="{{.url}}" target="_blank"><img src="/quart{{.image}}" alt="{{.nom}}"></a>
@@ -85,12 +86,14 @@
 		                              <span>{{.nom}}</span> </a>
 		                      </div>
 		                  </div>
+                    </a>
 		              </div>
 		              <!-- end: portfolio item -->
 		              {{ end }}
                   {{ if .Params.designers.extra.need }}
                   <!-- portfolio item -->
                   <div class="portfolio-item img-zoom pf-illustrations pf-media hover-3d pf-icons pf-Media">
+                    <a href='{{.Params.designers.extra.link}}' target="_blank">
                       <div class="portfolio-item-wrap">
                           <div class="portfolio-image">
                               <a href='{{.Params.designers.extra.link}}' target="_blank"><img src="/quart{{.Params.designers.extra.image}}" alt="Vision Avenue"></a>
@@ -101,6 +104,7 @@
                               </a>
                           </div>
                       </div>
+                    </a>
                   </div>
                   <!-- end: portfolio item -->
                   {{ end }}

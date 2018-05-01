@@ -17,6 +17,7 @@
 				              {{ end }}
 				              <!-- portfolio item -->
 				              <div class="portfolio-item img-zoom pf-illustrations pf-media hover-3d pf-icons pf-Media">
+				              	<a href='{{ $.Scratch.Get "bookingPage" }}' target="_blank">
 				                  <div class="portfolio-item-wrap">
 				                      <div class="portfolio-image">
 				                          <a href='{{ $.Scratch.Get "bookingPage" }}' target="_blank"><img src="/quart/img/airevisuelle-vert.jpg" alt="Aire Visuelle"></a>
@@ -27,6 +28,7 @@
 				                              <span>Aire Visuelle</span> </a>
 				                      </div>
 				                  </div>
+				                </a>
 				              </div>
 				              <!-- end: portfolio item -->
 				              {{ range after 4 .Params.designers}}
@@ -34,6 +36,7 @@
 				              {{ end }}
 				              <!-- portfolio item -->
 		                  <div class="portfolio-item img-zoom pf-illustrations pf-media hover-3d pf-icons pf-Media">
+		                  	<a href='{{ i18n "visionavenue" }}' target="_blank">
 		                      <div class="portfolio-item-wrap">
 		                          <div class="portfolio-image">
 		                              <a href='{{ i18n "visionavenue" }}' target="_blank"><img src="/quart/img/vision-avenue.png" alt="Vision Avenue"></a>
@@ -44,6 +47,7 @@
 		                              </a>
 		                          </div>
 		                      </div>
+		                    </a>
 		                  </div>
 		                  <!-- end: portfolio item -->
 				          </div>

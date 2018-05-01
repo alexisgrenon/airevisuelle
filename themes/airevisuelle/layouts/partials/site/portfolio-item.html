@@ -1,14 +1,16 @@
 <!-- portfolio item -->
 <div class="portfolio-item img-zoom pf-illustrations pf-media hover-3d pf-icons pf-Media">
-    <div class="portfolio-item-wrap">
-        <div class="portfolio-image">
-            <a href="{{.url}}" target="_blank"><img src="/quart/img/{{.id}}-airevisuelle.jpg" alt=""></a>
+    <a href="{{.url}}" target="_blank">
+        <div class="portfolio-item-wrap">
+            <div class="portfolio-image">
+                <a href="{{.url}}" target="_blank"><img src="/quart/img/{{.id}}-airevisuelle.jpg" alt=""></a>
+            </div>
+            <div class="portfolio-description">
+                <a href="{{.url}}" target="_blank">
+                    <h3>{{ i18n "see_products" }}</h3>
+                    <span>{{.nom}}</span> </a>
+            </div>
         </div>
-        <div class="portfolio-description">
-            <a href="{{.url}}" target="_blank">
-                <h3>{{ i18n "see_products" }}</h3>
-                <span>{{.nom}}</span> </a>
-        </div>
-    </div>
+    </a>
 </div>
 <!-- end: portfolio item -->
