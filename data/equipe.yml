@@ -17,12 +17,6 @@ equipe:
     titleen: Optician
     ordre: 3
     group: ood
-  - name: Laura Tang 
-    nameen: Laura Tang
-    title: Opticienne
-    titleen: Optician
-    ordre: 4
-    group: ood
   - name: Docteur Sylvain Duquette 
     nameen: Doctor Sylvain Duquette
     title: Optométriste

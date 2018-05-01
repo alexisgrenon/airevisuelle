@@ -20,25 +20,25 @@ address:
   country: Canada
 ouverture:
   fr:
-    - jour: Samedi 21 avril 2018
+    - jour: Samedi 19 mai 2018 au lundi 21 mai 2018
       heures: FERMÉ
     - jour: Lundi - Jeudi
       heures: 09:00 - 20:00
     - jour: Vendredi
       heures: 09:00 - 18:00
     - jour: Samedi
-      heures: 10:00 - 16:00
+      heures: 10:00 - 16:00 (Fermé à partir du 1er juin 2018)
     - jour: Dimanche
       heures: Fermé
   en:
-    - jour: Saturday April 21th, 2018
+    - jour: Saturday May 19th, 2018 to Monday May 21st, 2018
       heures: CLOSED
     - jour: Monday - Thursday
       heures: 09:00 - 20:00
     - jour: Friday
       heures: 09:00 - 18:00
     - jour: Saturday
-      heures: 10:00 - 16:00
+      heures: 10:00 - 16:00 (Closed starting on June 1st, 2018)
     - jour: Sunday
       heures: Closed
 phone: '(450) 669-1686'

@@ -1,12 +1,12 @@
 general:
   fr:
     title: Promotion du mois
-    description: 50$ de rabais sur la collection Dior en Avril
+    description: 50$ de rabais sur la collection Dior en Avril et en Mai
     btntxt: En savoir plus
     btnurl: promotions
   en:
     title: Deal of the month
-    description: 50$ discount on our Dior collection in April
+    description: 50$ discount on our Dior collection in April and May
     btntxt: More details
     btnurl: en/promotions
 services:
@@ -24,9 +24,9 @@ footer:
   image: /img/opticien-1.jpg
   fr:
     title: Promotions du mois
-    description: 50$ de rabais sur la collection Dior en Avril
+    description: 50$ de rabais sur la collection Dior en Avril et en Mai
     link: promotionsPage
   en:
     title: Deal of the month
-    description: 50$ discount on our Dior collection in April
+    description: 50$ discount on our Dior collection in April and May
     link: promotionsPage
