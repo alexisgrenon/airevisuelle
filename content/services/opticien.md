@@ -35,4 +35,3 @@ Nos Opticiens :
 - Suzie Pelletier, OOD
 - Pierluigi Merolla, OOD
 - Laurent Brassard, OOD
-- Laura Tang, OOD
