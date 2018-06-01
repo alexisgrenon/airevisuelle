@@ -39,7 +39,7 @@ designers:
 header:
   transparent: true
   dark: true
-slidertext: "50$ discount on our Dior collection in April and May"
+slidertext: "Get a 30% discount on our in-stock sunglasses in June and July"
 block2:
   titre: L'Aire Visuelle
   text: >-
@@ -66,7 +66,7 @@ block3:
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
     titre: Monthly offers
-    desc: 50$ discount on our Dior collection in April and May
+    desc: Get a 30% discount on our in-stock sunglasses in June and July
     btn: See our promotion
     haut: false
 block4:

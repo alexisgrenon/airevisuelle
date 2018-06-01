@@ -1,12 +1,12 @@
 general:
   fr:
     title: Promotion du mois
-    description: 50$ de rabais sur la collection Dior en Avril et en Mai
+    description: Obtenez 30% de rabais sur nos lunettes de soleil en inventaire en Juin et en Juillet
     btntxt: En savoir plus
     btnurl: promotions
   en:
     title: Deal of the month
-    description: 50$ discount on our Dior collection in April and May
+    description: Get a 30% discount on our in-stock sunglasses in June and July
     btntxt: More details
     btnurl: en/promotions
 services:
@@ -24,9 +24,9 @@ footer:
   image: /img/opticien-1.jpg
   fr:
     title: Promotions du mois
-    description: 50$ de rabais sur la collection Dior en Avril et en Mai
+    description: Obtenez 30% de rabais sur nos lunettes de soleil en inventaire en Juin et en Juillet
     link: promotionsPage
   en:
     title: Deal of the month
-    description: 50$ discount on our Dior collection in April and May
+    description: Get a 30% discount on our in-stock sunglasses in June and July
     link: promotionsPage

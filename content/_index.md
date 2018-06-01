@@ -39,7 +39,7 @@ designers:
 header:
   transparent: true
   dark: true
-slidertext: "50$ de rabais sur la collection Dior en Avril et en Mai"
+slidertext: "Obtenez 30% de rabais sur nos lunettes de soleil en inventaire en Juin et en Juillet"
 block2:
   titre: L'Aire Visuelle
   text: >-
@@ -66,7 +66,7 @@ block3:
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
     titre: PROMOTIONS DU MOIS
-    desc: 50$ de rabais sur la collection Dior en Avril et en Mai
+    desc: Obtenez 30% de rabais sur nos lunettes de soleil en inventaire en Juin et en Juillet
     btn: Voir la promotion
     haut: false
 block4:
