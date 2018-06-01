@@ -9,6 +9,7 @@ i18nlanguage: fr
 startdate: 1er Avril 2018
 enddate: 31 Mai 2018
 weight: 0
+draft: true
 ---
 
 50$ de rabais sur la collection Dior en Avril et en Mai

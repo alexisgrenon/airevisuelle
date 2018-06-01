@@ -9,6 +9,7 @@ i18nlanguage: en
 startdate: April 1st, 2018
 enddate: May 31st, 2018
 weight: 0
+draft: true
 ---
 
 50$ off on the Dior collection in April and May
