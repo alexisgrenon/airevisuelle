@@ -59,8 +59,13 @@
   </url>
   
   <url>
-    <loc>https://www.lairevisuelle.com/articles/portes-ouvertes-29-mars/</loc>
-    <lastmod>2018-03-13T00:00:00+00:00</lastmod>
+    <loc>https://www.lairevisuelle.com/articles/differencier-les-troubles-de-la-vision/</loc>
+    <lastmod>2018-06-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.lairevisuelle.com/articles/les-examens-de-la-vue-des-enfants/</loc>
+    <lastmod>2018-04-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -86,10 +91,6 @@
   <url>
     <loc>https://www.lairevisuelle.com/articles/une-ouverture-attendue/</loc>
     <lastmod>2013-05-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/articles/les-examens-de-la-vue-des-enfants/</loc>
   </url>
   
   <url>
@@ -179,7 +180,7 @@
   
   <url>
     <loc>https://www.lairevisuelle.com/articles/</loc>
-    <lastmod>2018-03-13T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -194,7 +195,7 @@
   
   <url>
     <loc>https://www.lairevisuelle.com/</loc>
-    <lastmod>2018-03-13T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -250,16 +251,16 @@
   </url>
   
   <url>
-    <loc>https://www.lairevisuelle.com/promotions/rabais-sur-la-collection-dior/</loc>
+    <loc>https://www.lairevisuelle.com/promotions/rabais-sur-les-lunettes-de-soleil/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.lairevisuelle.com/en/promotions/discount-on-the-dior-collection/"
+                href="https://www.lairevisuelle.com/en/promotions/discount-on-sunglasses/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.lairevisuelle.com/promotions/rabais-sur-la-collection-dior/"
+                href="https://www.lairevisuelle.com/promotions/rabais-sur-les-lunettes-de-soleil/"
                 />
   </url>
   

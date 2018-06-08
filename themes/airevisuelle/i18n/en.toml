@@ -126,3 +126,6 @@
 
 [no]
   other = "No"
+
+[financement]
+  other = "Financing available"
