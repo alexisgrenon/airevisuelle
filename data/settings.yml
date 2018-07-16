@@ -20,8 +20,6 @@ address:
   country: Canada
 ouverture:
   fr:
-    - jour: Lundi 25 juin et 2 juillet
-      heures: FERMÉ
     - jour: Lundi - Jeudi
       heures: 09:00 - 20:00
     - jour: Vendredi
@@ -31,8 +29,6 @@ ouverture:
     - jour: Dimanche
       heures: Fermé
   en:
-    - jour: Monday June 25h and July 2nd
-      heures: CLOSED
     - jour: Monday - Thursday
       heures: 09:00 - 20:00
     - jour: Friday
