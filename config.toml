@@ -32,7 +32,7 @@ defaultContentLanguageInSubdir = false
   ## Business name in Schema.org
   schemabiz = "L'Aire Visuelle"
   ## Google Tag Manager tracking ID
-  gtmid = ""
+  gtmid = "GTM-MMRPN34"
 
 # MARKDOWN
 ## Configuration for BlackFriday markdown parser: https://github.com/russross/blackfriday
