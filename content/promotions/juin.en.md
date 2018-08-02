@@ -9,6 +9,7 @@ i18nlanguage: en
 startdate: June 1st, 2018
 enddate: July 31st, 2018
 weight: 0
+draft: true
 ---
 
 Get a 30% discount on our in-stock sunglasses in June and July

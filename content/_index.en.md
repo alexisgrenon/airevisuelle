@@ -39,7 +39,7 @@ designers:
 header:
   transparent: true
   dark: true
-slidertext: "Get a 30% discount on our in-stock sunglasses in June and July"
+slidertext: "Get a 50$ discount on our Etnia Barcelona collection in August"
 block2:
   titre: L'Aire Visuelle
   text: >-
@@ -66,7 +66,7 @@ block3:
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
     titre: Monthly offers
-    desc: Get a 30% discount on our in-stock sunglasses in June and July
+    desc: Get a 50$ discount on our Etnia Barcelona collection in August
     btn: See our promotion
     haut: false
 block4:

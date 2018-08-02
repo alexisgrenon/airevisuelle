@@ -39,7 +39,7 @@ designers:
 header:
   transparent: true
   dark: true
-slidertext: "Obtenez 30% de rabais sur nos lunettes de soleil en inventaire en Juin et en Juillet"
+slidertext: "Obtenez 50$ de rabais sur la collection Etnia Barcelona en Août"
 block2:
   titre: L'Aire Visuelle
   text: >-
@@ -66,7 +66,7 @@ block3:
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
     titre: PROMOTIONS DU MOIS
-    desc: Obtenez 30% de rabais sur nos lunettes de soleil en inventaire en Juin et en Juillet
+    desc: "Obtenez 50$ de rabais sur la collection Etnia Barcelona en Août"
     btn: Voir la promotion
     haut: false
 block4:

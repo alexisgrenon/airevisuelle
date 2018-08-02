@@ -144,6 +144,20 @@
   </url>
   
   <url>
+    <loc>https://www.lairevisuelle.com/en/promotions/discount-on-the-etnia-barcelona-collection/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.lairevisuelle.com/promotions/rabais-sur-la-etnia-barcelona/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.lairevisuelle.com/en/promotions/discount-on-the-etnia-barcelona-collection/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.lairevisuelle.com/en/services/contact-lenses/</loc>
     <xhtml:link
                 rel="alternate"
@@ -201,20 +215,6 @@
   
   <url>
     <loc>https://www.lairevisuelle.com/en/catalog/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/en/promotions/discount-on-sunglasses/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.lairevisuelle.com/promotions/rabais-sur-les-lunettes-de-soleil/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.lairevisuelle.com/en/promotions/discount-on-sunglasses/"
-                />
   </url>
   
   <url>
