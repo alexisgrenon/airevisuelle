@@ -35,10 +35,4 @@ equipe:
     titleen: Optometrist
     ordre: 7
     group: od
-  - name: Docteur Tristan Gauthier 
-    nameen: Doctor Tristan Gauthier 
-    title: Optométriste
-    titleen: Optometrist
-    ordre: 8
-    group: od
 

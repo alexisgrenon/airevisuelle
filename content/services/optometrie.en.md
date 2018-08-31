@@ -26,4 +26,3 @@ Our Optometrists:
 - Sylvain Duquette, OD
 - Geneviève Brassard, OD
 - Marie-Pier Gascon, OD 
-- Tristan Gauthier, OD
