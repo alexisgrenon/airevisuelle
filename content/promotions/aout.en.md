@@ -9,6 +9,7 @@ i18nlanguage: en
 startdate: August 1st, 2018
 enddate: August 31st, 2018
 weight: 0
+draft: true
 ---
 
 Get a 50$ discount on our Etnia Barcelona collection in August

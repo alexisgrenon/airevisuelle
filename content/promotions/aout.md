@@ -9,6 +9,7 @@ i18nlanguage: fr
 startdate: 1er Août 2018
 enddate: 31 Août 2018
 weight: 0
+draft: true
 ---
 
 Obtenez 50$ de rabais sur la collection Etnia Barcelona en Août
