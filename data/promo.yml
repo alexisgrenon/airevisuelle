@@ -1,12 +1,12 @@
 general:
   fr:
     title: Promotion du mois
-    description: Obtenez 50$ de rabais sur notre nouvelle collection Matttew en Septembre
+    description: Obtenez 50$ de rabais sur la collection Orgreen en Octobre
     btntxt: En savoir plus
     btnurl: promotions
   en:
     title: Deal of the month
-    description: Get a 50$ discount on our new Matttew collection in September
+    description: Get a 50$ discount on our Orgreen collection in October
     btntxt: More details
     btnurl: en/promotions
 services:
@@ -24,9 +24,9 @@ footer:
   image: /img/opticien-1.jpg
   fr:
     title: Promotions du mois
-    description: Obtenez 50$ de rabais sur notre nouvelle collection Matttew en Septembre
+    description: Obtenez 50$ de rabais sur la collection Orgreen en Octobre
     link: promotionsPage
   en:
     title: Deal of the month
-    description: Get a 50$ discount on our new Matttew collection in September
+    description: Get a 50$ discount on our Orgreen collection in October
     link: promotionsPage

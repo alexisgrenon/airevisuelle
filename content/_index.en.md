@@ -39,7 +39,7 @@ designers:
 header:
   transparent: true
   dark: true
-slidertext: "Get a 50$ discount on our new Matttew collection in September"
+slidertext: "Get a 50$ discount on our Orgreen collection in October"
 block2:
   titre: L'Aire Visuelle
   text: >-
@@ -66,7 +66,7 @@ block3:
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
     titre: Monthly offers
-    desc: Get a 50$ discount on our new Matttew collection in September
+    desc: Get a 50$ discount on our Orgreen collection in October
     btn: See our promotion
     haut: false
 block4:

@@ -20,8 +20,6 @@ address:
   country: Canada
 ouverture:
   fr:
-    - jour: Lundi 3 septembre
-      heures: Fermé
     - jour: Lundi - Jeudi
       heures: 09:00 - 20:00
     - jour: Vendredi
@@ -31,8 +29,6 @@ ouverture:
     - jour: Dimanche
       heures: Fermé
   en:
-    - jour: Monday September 3rd
-      heures: Closed
     - jour: Monday - Thursday
       heures: 09:00 - 20:00
     - jour: Friday
