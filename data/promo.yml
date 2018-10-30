@@ -1,12 +1,12 @@
 general:
   fr:
     title: Promotion du mois
-    description: Obtenez 50$ de rabais sur la collection Orgreen en Octobre
+    description: Obtenez 50$ de rabais sur la collection Entourage of 7 en Novembre
     btntxt: En savoir plus
     btnurl: promotions
   en:
     title: Deal of the month
-    description: Get a 50$ discount on our Orgreen collection in October
+    description: Get a 50$ discount on our Entourage of 7 collection in November
     btntxt: More details
     btnurl: en/promotions
 services:
@@ -24,9 +24,9 @@ footer:
   image: /img/opticien-1.jpg
   fr:
     title: Promotions du mois
-    description: Obtenez 50$ de rabais sur la collection Orgreen en Octobre
+    description: Obtenez 50$ de rabais sur la collection Entourage of 7 en Novembre
     link: promotionsPage
   en:
     title: Deal of the month
-    description: Get a 50$ discount on our Orgreen collection in October
+    description: Get a 50$ discount on our Entourage of 7 collection in November
     link: promotionsPage
