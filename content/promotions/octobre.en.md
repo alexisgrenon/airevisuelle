@@ -9,6 +9,7 @@ i18nlanguage: en
 startdate: October 1st 2018
 enddate: October 31st 2018
 weight: 0
+draft: true
 ---
 
 Get a 50$ discount on our Orgreen collection in October

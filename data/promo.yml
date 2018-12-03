@@ -1,12 +1,12 @@
 general:
   fr:
     title: Promotion du mois
-    description: Obtenez 50$ de rabais sur la collection Entourage of 7 en Novembre
+    description: Pour le temps des fêtes, obtenez jusqu'à 50% d'escompte sur les montures sélectionnées à l'achat d'une paire de lunettes complètes (verres ophtalmiques et monture)
     btntxt: En savoir plus
     btnurl: promotions
   en:
     title: Deal of the month
-    description: Get a 50$ discount on our Entourage of 7 collection in November
+    description: For the holiday season, get up to 50% discount on selected frames when buying a full pair of glasses (lenses and frames).
     btntxt: More details
     btnurl: en/promotions
 services:
@@ -24,9 +24,9 @@ footer:
   image: /img/opticien-1.jpg
   fr:
     title: Promotions du mois
-    description: Obtenez 50$ de rabais sur la collection Entourage of 7 en Novembre
+    description: Pour le temps des fêtes, obtenez jusqu'à 50% d'escompte sur les montures sélectionnées à l'achat d'une paire de lunettes complètes (verres ophtalmiques et monture)
     link: promotionsPage
   en:
     title: Deal of the month
-    description: Get a 50$ discount on our Entourage of 7 collection in November
+    description: For the holiday season, get up to 50% discount on selected frames when buying a full pair of glasses (lenses and frames).
     link: promotionsPage

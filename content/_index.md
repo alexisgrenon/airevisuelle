@@ -39,7 +39,7 @@ designers:
 header:
   transparent: true
   dark: true
-slidertext: "Obtenez 50$ de rabais sur la collection Entourage of 7 en Novembre"
+slidertext: "Pour le temps des fêtes, obtenez jusqu'à 50% d'escompte sur les montures sélectionnées à l'achat d'une paire de lunettes complètes"
 block2:
   titre: L'Aire Visuelle
   text: >-
@@ -66,7 +66,7 @@ block3:
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
     titre: PROMOTIONS DU MOIS
-    desc: "Obtenez 50$ de rabais sur la collection Entourage of 7 en Novembre"
+    desc: "Pour le temps des fêtes, obtenez jusqu'à 50% d'escompte sur les montures sélectionnées à l'achat d'une paire de lunettes complètes (verres ophtalmiques et monture)"
     btn: Voir la promotion
     haut: false
 block4:

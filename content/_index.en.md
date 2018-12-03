@@ -39,7 +39,7 @@ designers:
 header:
   transparent: true
   dark: true
-slidertext: "Get a 50$ discount on our Entourage of 7 collection in November"
+slidertext: "For the holiday season, get up to 50% discount on selected frames when buying a full pair of glasses"
 block2:
   titre: L'Aire Visuelle
   text: >-
@@ -66,7 +66,7 @@ block3:
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
     titre: Monthly offers
-    desc: Get a 50$ discount on our Entourage of 7 collection in November
+    desc: For the holiday season, get up to 50% discount on selected frames when buying a full pair of glasses (lenses and frames)
     btn: See our promotion
     haut: false
 block4:
