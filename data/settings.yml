@@ -21,9 +21,9 @@ address:
 ouverture:
   fr:
     - jour: 24-25-26-31 Décembre 2018
-      heures: FERMÉ
+      heures: Fermé
     - jour: 1-2 Janvier 2019
-      heures: FERMÉ
+      heures: Fermé
     - jour: Lundi - Jeudi
       heures: 09:00 - 20:00
     - jour: Vendredi
@@ -34,9 +34,9 @@ ouverture:
       heures: Fermé
   en:
     - jour: 24-25-26-31 December 2018
-      heures: CLOSED
+      heures: Closed
     - jour: 1st-2nd January 2019
-      heures: CLOSED
+      heures: Closed
     - jour: Monday - Thursday
       heures: 09:00 - 20:00
     - jour: Friday
