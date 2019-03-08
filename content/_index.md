@@ -39,7 +39,7 @@ designers:
 header:
   transparent: true
   dark: true
-slidertext: "Pour le temps des fêtes, obtenez jusqu'à 50% d'escompte sur les montures sélectionnées à l'achat d'une paire de lunettes complètes"
+slidertext: "Obtenez 50$ rabais sur la collection Dolce & Gabbana en mars"
 block2:
   titre: L'Aire Visuelle
   text: >-
@@ -66,7 +66,7 @@ block3:
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
     titre: PROMOTIONS DU MOIS
-    desc: "Pour le temps des fêtes, obtenez jusqu'à 50% d'escompte sur les montures sélectionnées à l'achat d'une paire de lunettes complètes (verres ophtalmiques et monture)"
+    desc: "Obtenez 50$ rabais sur la collection Dolce & Gabbana en mars"
     btn: Voir la promotion
     haut: false
 block4:

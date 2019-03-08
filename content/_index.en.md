@@ -39,7 +39,7 @@ designers:
 header:
   transparent: true
   dark: true
-slidertext: "For the holiday season, get up to 50% discount on selected frames when buying a full pair of glasses"
+slidertext: "Get a 50$ discount on our Dolce & Gabbana collection in March"
 block2:
   titre: L'Aire Visuelle
   text: >-
@@ -66,7 +66,7 @@ block3:
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
     titre: Monthly offers
-    desc: For the holiday season, get up to 50% discount on selected frames when buying a full pair of glasses (lenses and frames)
+    desc: Get a 50$ discount on our Dolce & Gabbana collection in March
     btn: See our promotion
     haut: false
 block4:
