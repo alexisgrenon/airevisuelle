@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	<sitemap>
-	   	<loc>https://www.lairevisuelle.com/fr/sitemap.xml</loc>
-		
-	   	<lastmod>2018-06-08T00:00:00+00:00</lastmod>
+	   	<loc>https://www.lairevisuelle.com/en/sitemap.xml</loc>
 		
 	</sitemap>
 	
 	<sitemap>
-	   	<loc>https://www.lairevisuelle.com/en/sitemap.xml</loc>
+	   	<loc>https://www.lairevisuelle.com/fr/sitemap.xml</loc>
+		
+	   	<lastmod>2018-08-11T00:00:00+00:00</lastmod>
 		
 	</sitemap>
 	

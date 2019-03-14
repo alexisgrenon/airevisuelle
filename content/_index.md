@@ -25,9 +25,9 @@ designers:
     - image: "/img/tom-airevisuelle.jpg"
       url: http://www.tomford.com/eyewear/
       nom: Tom Ford
-    - image: "/img/xavier-airevisuelle.jpg"
-      url: http://www.xaviergarcia.design/fr/
-      nom: Xavier Garcia
+    - image: "/img/tiffany-airevisuelle.jpg"
+      url: https://www.tiffany.com/
+      nom: Tiffany & Co
     - image: "/img/william-airevisuelle.jpg"
       url: http://www.williammorris.co.uk/
       nom: William Morris

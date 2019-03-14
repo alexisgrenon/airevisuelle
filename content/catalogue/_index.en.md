@@ -32,9 +32,9 @@ designers:
   - id: "william"
     url: http://www.williammorris.co.uk/
     nom: William Morris
-  - id: "xavier"
-    url: http://www.xaviergarcia.design/fr/
-    nom: Xavier Garcia
+  - id: "tiffany"
+    url: https://www.tiffany.com/
+    nom: Tiffany & Co
   - id: "faconnable"
     url: https://www.faconnable.com/fr/
     nom: Façonnable
