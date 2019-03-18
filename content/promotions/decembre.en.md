@@ -9,7 +9,7 @@ i18nlanguage: en
 startdate: December 1st, 2018
 enddate: December 31st, 2018
 weight: 0
-draft: false
+draft: true
 ---
 
 For the holiday season, get up to 50% discount on selected frames when buying a full pair of glasses (lenses and frames).

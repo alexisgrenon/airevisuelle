@@ -1,7 +1,7 @@
 general:
   fr:
     title: Promotion du mois
-    description: Obtenez 50$ rabais sur la collection Dolce & Gabbana en mars
+    description: Obtenez 50$ de rabais sur la collection Dolce & Gabbana en mars
     btntxt: En savoir plus
     btnurl: promotions
   en:
@@ -24,7 +24,7 @@ footer:
   image: /img/opticien-1.jpg
   fr:
     title: Promotions du mois
-    description: Obtenez 50$ rabais sur la collection Dolce & Gabbana en mars
+    description: Obtenez 50$ de rabais sur la collection Dolce & Gabbana en mars
     link: promotionsPage
   en:
     title: Deal of the month
