@@ -102,6 +102,20 @@
   </url>
   
   <url>
+    <loc>https://www.lairevisuelle.com/en/promotions/discount-on-prodesign-denmark/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.lairevisuelle.com/promotions/rabais-sur-la-prodesign-denmark/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.lairevisuelle.com/en/promotions/discount-on-prodesign-denmark/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.lairevisuelle.com/en/appointment-optician/</loc>
     <xhtml:link
                 rel="alternate"
@@ -140,20 +154,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.lairevisuelle.com/en/appointment/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/en/promotions/christmas-discounts/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.lairevisuelle.com/promotions/rabais-pour-le-temps-des-fetes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.lairevisuelle.com/en/promotions/christmas-discounts/"
                 />
   </url>
   

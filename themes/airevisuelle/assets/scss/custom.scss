@@ -394,4 +394,62 @@ section {
 	}
 }
 
+.slide-captions {
+	.new-caption {
+		max-width: 400px;
+		text-align: center;
+		padding: 15% 10px 5px;
+		h2 {
+			font-size: 50px;
+	    font-weight: 700;
+	    line-height: 55px;
+			margin-bottom: 0px;
+			padding-top: 20%;
+			span {
+				display: block;
+				font-size: 0.5em;
+				line-height: 50px;
+			}
+		}
+	}
+	img {
+		max-width: 400px;
+		height: auto;
+	}
+	@media (max-width: 992px) {
+			.new-caption {
+				h2 {
+					font-size: 40px;
+    			line-height: 40px;
+				}
+			}
+	}
+	@media (max-width: 767px) {
+			.new-caption {
+				h2 {
+					font-size: 30px;
+    			line-height: 35px;
+					span {
+						line-height: 30px;
+					}
+				}
+			}
+	}
+	@media (max-width: 500px) {
+		.new-caption {
+			padding-top: 20%;
+			max-width: 100%;
+		}
+		img {
+			max-width: 100%;
+		}
+	}
+
+}
+@media (max-width: 992px) {
+	#slider .parallax-container {
+		background-position-x: 80% !important;
+	}
+}
+
 /*=====  End of Srdjan CSS  ======*/

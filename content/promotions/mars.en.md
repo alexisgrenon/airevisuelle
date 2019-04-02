@@ -9,6 +9,7 @@ i18nlanguage: en
 startdate: March 1st, 2019
 enddate: March 31st, 2019
 weight: 0
+draft: true
 ---
 
 50$ off on the Dolce & Gabbana collection in March

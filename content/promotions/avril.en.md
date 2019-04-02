@@ -1,15 +1,14 @@
 ---
-title: "L'Aire Visuelle | April and May Promotion"
-titre: "April and May Promotion"
+title: "L'Aire Visuelle | April romotion"
+titre: "April Promotion"
 description: "L'Aire Visuelle offers you unbeatable services and promotions near you."
-slug: discount-on-the-dior-collection
+slug: discount-on-prodesign-denmark
 identifiant: avril
-image: /img/aire-visuelle-promo-avril-en.jpg
+image: /img/prodesign-en.jpg
 i18nlanguage: en
-startdate: April 1st, 2018
-enddate: May 31st, 2018
+startdate: April 1st, 2019
+enddate: April 30th, 2019
 weight: 0
-draft: true
 ---
 
-50$ off on the Dior collection in April and May
+Get 50$ off on the Prodesign Denmark collection in April

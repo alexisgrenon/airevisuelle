@@ -1,12 +1,12 @@
 general:
   fr:
     title: Promotion du mois
-    description: Obtenez 50$ de rabais sur la collection Dolce & Gabbana en mars
+    description: Obtenez 50$ de rabais sur la collection Prodesign Denmark en avril
     btntxt: En savoir plus
     btnurl: promotions
   en:
     title: Deal of the month
-    description: Get a 50$ discount on our Dolce & Gabbana collection in March
+    description: Get a 50$ discount on our Prodesign Denmark collection in April
     btntxt: More details
     btnurl: en/promotions
 services:
@@ -24,9 +24,9 @@ footer:
   image: /img/opticien-1.jpg
   fr:
     title: Promotions du mois
-    description: Obtenez 50$ de rabais sur la collection Dolce & Gabbana en mars
+    description: Obtenez 50$ de rabais sur la collection Prodesign Denmark en avril
     link: promotionsPage
   en:
     title: Deal of the month
-    description: Get a 50$ discount on our Dolce & Gabbana collection in March
+    description: Get a 50$ discount on our Prodesign Denmark collection in April
     link: promotionsPage

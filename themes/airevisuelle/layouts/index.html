@@ -1,12 +1,10 @@
 {{ define "main" }}
 <main class="main" id="homepage">
 	<!-- Inspiro Slider -->
-  <div id="slider" class="inspiro-slider slider-fullscreen arrows-large arrows-creative dots-creative" data-height-xs="360">
-      <!-- Slide 1 -->
+  <!-- <div id="slider" class="inspiro-slider slider-fullscreen arrows-large arrows-creative dots-creative" data-height-xs="360">
       <div class="slide background-overlay-dark" data-parallax-image="{{.Params.image}}">
           <div class="container">
               <div class="slide-captions text-light">
-                  <!-- Captions -->
                   <h1>{{ .Params.titre }}</h1>
                   <p data-animation="fadeInUp" data-animation-delay="300" class=""><a href='{{ $.Scratch.Get "promotionsPage" }}' class="business"><span class="business">{{.Params.slidertext}}</span></a>
                   </p>
@@ -14,18 +12,30 @@
                       <a class="btn btn-rounded btn-reveal btn-reveal-left" href='{{ $.Scratch.Get "promotionsPage" }}'><span>{{ i18n "our_promotions" }}</span><i class="fa fa-arrow-right"></i></a>
                       <a class="btn btn-rounded btn-reveal btn-reveal-left btn-light" href='{{.Site.Data.settings.rdvlink}}&language={{- .Lang -}}' target="_blank"><span class="btn-label">{{ i18n "book_online" }}</span><i class="fa fa-arrow-right"></i></a>
                   </div>
-                  <!-- end: Captions -->
               </div>
           </div>
       </div>
-      <!-- end: Slide 1 -->
+  </div> -->
+  <div id="slider" class="inspiro-slider slider-fullscreen arrows-large arrows-creative dots-creative" data-height-xs="360">
+      <div class="slide background-overlay-grey" data-parallax-image="/img/bg-prodesign.jpg">
+          <div class="container">
+              <div class="slide-captions text-light">
+                <a href='{{.Site.Data.settings.rdvlink}}&language={{- .Lang -}}' target="_blank">
+                  <div class="new-caption">
+                    <h2>{{ .Params.slidertext | markdownify }}</h2>
+                  </div>
+                  <img src="/quart/img/prodesign-logo.jpg" alt="Prodesign Logo" />
+                </a>
+              </div>
+          </div>
+      </div>
   </div>
   <!--end: Inspiro Slider -->
   <div class="container" id="description">
   	<div class="row">
   		<div class="col-md-12">
   			<div class="heading text-left">
-  				<h2>{{.Params.block2.titre}}</h2>
+  				<h1>{{.Params.block2.titre}}</h1>
   				<hr>
   			</div>
   			<p>{{.Params.block2.text}}</p>

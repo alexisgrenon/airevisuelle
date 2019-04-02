@@ -39,9 +39,9 @@ designers:
 header:
   transparent: true
   dark: true
-slidertext: "Obtenez 50$ rabais sur la collection Dolce & Gabbana en mars"
+slidertext: "<span>En avril, obtenez</span>50$ de rabais<span>sur la collection</span>"
 block2:
-  titre: L'Aire Visuelle
+  titre: Vos professionels de la vue au coeur de Laval
   text: >-
     Depuis plus de 30 ans, les professionnels de L'Aire Visuelle sont à votre service. Cette équipe d’expérience saura vous diriger vers ce qu’il y a de mieux dans l’industrie. Avec un large inventaire de montures de qualité, vous trouverez assurément celle qui répond à vos besoins.
 block3:
@@ -66,7 +66,7 @@ block3:
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
     titre: PROMOTIONS DU MOIS
-    desc: "Obtenez 50$ rabais sur la collection Dolce & Gabbana en mars"
+    desc: "Obtenez 50$ rabais sur la collection Prodesign Denmark en avril"
     btn: Voir la promotion
     haut: false
 block4:

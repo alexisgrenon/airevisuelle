@@ -1,15 +1,14 @@
 ---
-title: "L'Aire Visuelle | Promotion pour Avril et Mai"
-titre: "Promotion pour Avril et Mai"
+title: "L'Aire Visuelle | Promotion pour Avril"
+titre: "Promotion pour Avril"
 description: "L'Aire Visuelle vous offre des promotions imbattables sur tous produits de la vue."
-slug: rabais-sur-la-collection-dior
+slug: rabais-sur-la-prodesign-denmark
 identifiant: avril
-image: /img/aire-visuelle-promo-avril.jpg
+image: /img/promo-prodesign.jpg
 i18nlanguage: fr
-startdate: 1er Avril 2018
-enddate: 31 Mai 2018
+startdate: 1er Avril 2019
+enddate: 30 Avril 2019
 weight: 0
-draft: true
 ---
 
-50$ de rabais sur la collection Dior en Avril et en Mai
+50$ de rabais sur la collection Prodesign Denmark en Avril

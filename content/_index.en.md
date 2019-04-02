@@ -39,9 +39,9 @@ designers:
 header:
   transparent: true
   dark: true
-slidertext: "Get a 50$ discount on our Dolce & Gabbana collection in March"
+slidertext: "<span>In April, get a</span>50$ discount<span>on our collection</span>"
 block2:
-  titre: L'Aire Visuelle
+  titre: Optometrist, Optician And Eyewear in Laval
   text: >-
     For more than 30 years, the professionals of L’Aire Visuelle are at your service. This experienced team will guide you towards the best in the industry. With a large inventory of quality frames, you will certainly find one that meets your needs.
 block3:
@@ -66,7 +66,7 @@ block3:
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
     titre: Monthly offers
-    desc: Get a 50$ discount on our Dolce & Gabbana collection in March
+    desc: Get a 50$ discount on our Prodesign Denmark collection in April
     btn: See our promotion
     haut: false
 block4:
