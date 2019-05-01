@@ -39,7 +39,7 @@ designers:
 header:
   transparent: true
   dark: true
-slidertext: "<span>In April, get a</span>50$ discount<span>on our collection</span>"
+slidertext: "<span>In May, get a</span>50$ discount<span>on our Maui Jim collection</span>"
 block2:
   titre: Optometrist, Optician And Eyewear in Laval
   text: >-
@@ -66,7 +66,7 @@ block3:
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
     titre: Monthly offers
-    desc: Get a 50$ discount on our Prodesign Denmark collection in April
+    desc: Get a 50$ discount on our Maui Jim collection in May
     btn: See our promotion
     haut: false
 block4:

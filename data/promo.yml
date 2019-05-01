@@ -1,12 +1,12 @@
 general:
   fr:
     title: Promotion du mois
-    description: Obtenez 50$ de rabais sur la collection Prodesign Denmark en avril
+    description: Obtenez 50$ de rabais sur la collection Maui Jim en mai
     btntxt: En savoir plus
     btnurl: promotions
   en:
     title: Deal of the month
-    description: Get a 50$ discount on our Prodesign Denmark collection in April
+    description: Get a 50$ discount on our Maui Jim collection in May
     btntxt: More details
     btnurl: en/promotions
 services:
@@ -24,9 +24,9 @@ footer:
   image: /img/opticien-1.jpg
   fr:
     title: Promotions du mois
-    description: Obtenez 50$ de rabais sur la collection Prodesign Denmark en avril
+    description: Obtenez 50$ de rabais sur la collection Maui Jim en mai
     link: promotionsPage
   en:
     title: Deal of the month
-    description: Get a 50$ discount on our Prodesign Denmark collection in April
+    description: Get a 50$ discount on our Maui Jim collection in May
     link: promotionsPage

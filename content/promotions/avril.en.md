@@ -9,6 +9,7 @@ i18nlanguage: en
 startdate: April 1st, 2019
 enddate: April 30th, 2019
 weight: 0
+draft: true
 ---
 
 Get 50$ off on the Prodesign Denmark collection in April

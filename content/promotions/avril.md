@@ -9,6 +9,7 @@ i18nlanguage: fr
 startdate: 1er Avril 2019
 enddate: 30 Avril 2019
 weight: 0
+draft: true
 ---
 
 50$ de rabais sur la collection Prodesign Denmark en Avril

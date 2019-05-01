@@ -39,7 +39,7 @@ designers:
 header:
   transparent: true
   dark: true
-slidertext: "<span>En avril, obtenez</span>50$ de rabais<span>sur la collection</span>"
+slidertext: "<span>En mai, obtenez</span>50$ de rabais<span>sur la collection Maui Jim</span>"
 block2:
   titre: Vos professionels de la vue au coeur de Laval
   text: >-
@@ -66,7 +66,7 @@ block3:
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
     titre: PROMOTIONS DU MOIS
-    desc: "Obtenez 50$ rabais sur la collection Prodesign Denmark en avril"
+    desc: "Obtenez 50$ rabais sur la collection Maui Jim en mai"
     btn: Voir la promotion
     haut: false
 block4:
