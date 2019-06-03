@@ -9,6 +9,7 @@ i18nlanguage: fr
 startdate: 1er Mai 2019
 enddate: 31 Mai 2019
 weight: 0
+draft: true
 ---
 
 50$ de rabais sur la collection Maui Jim en Mai

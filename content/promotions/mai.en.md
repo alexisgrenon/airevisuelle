@@ -9,6 +9,7 @@ i18nlanguage: en
 startdate: May 1st, 2019
 enddate: May 31st, 2019
 weight: 0
+draft: true
 ---
 
 Get 50$ off on the Maui Jim collection in May

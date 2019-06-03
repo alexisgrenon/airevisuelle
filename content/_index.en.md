@@ -39,7 +39,7 @@ designers:
 header:
   transparent: true
   dark: true
-slidertext: "<span>In May, get a</span>50$ discount<span>on our Maui Jim collection</span>"
+slidertext: "<span>In June and July, get a</span>25% discount<span>on our selected sun glasses</span>"
 block2:
   titre: Optometrist, Optician And Eyewear in Laval
   text: >-
@@ -66,7 +66,7 @@ block3:
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
     titre: Monthly offers
-    desc: Get a 50$ discount on our Maui Jim collection in May
+    desc: Get a 25% discount on our selected sun glasses in June and July
     btn: See our promotion
     haut: false
 block4:

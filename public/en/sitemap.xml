@@ -204,6 +204,20 @@
   </url>
   
   <url>
+    <loc>https://www.lairevisuelle.com/en/promotions/discount-on-sunglasses/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.lairevisuelle.com/promotions/rabais-sur-les-lunettes-de-soleil/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.lairevisuelle.com/en/promotions/discount-on-sunglasses/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.lairevisuelle.com/en/services/optician/</loc>
     <xhtml:link
                 rel="alternate"
@@ -214,20 +228,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.lairevisuelle.com/en/services/optician/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.lairevisuelle.com/en/promotions/discount-on-maui-jim/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.lairevisuelle.com/promotions/rabais-sur-maui-jim/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.lairevisuelle.com/en/promotions/discount-on-maui-jim/"
                 />
   </url>
   
