@@ -1,68 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>http://airevisuelle.com/</loc>
-  </url>
-  
-  <url>
-    <loc>http://airevisuelle.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://airevisuelle.com/nous-rejoindre/</loc>
-  </url>
-  
-  <url>
-    <loc>http://airevisuelle.com/services/opticien/</loc>
-  </url>
-  
-  <url>
-    <loc>http://airevisuelle.com/promotions/</loc>
-  </url>
-  
-  <url>
-    <loc>http://airevisuelle.com/</loc>
-  </url>
-  
-  <url>
-    <loc>http://airevisuelle.com/services/</loc>
-  </url>
-  
-  <url>
-    <loc>http://airevisuelle.com/examen-de-la-vue/</loc>
-  </url>
-  
-  <url>
-    <loc>http://airevisuelle.com/services/optometrie/</loc>
-  </url>
-  
-  <url>
-    <loc>http://airevisuelle.com/services/lunetterie/</loc>
-  </url>
-  
-  <url>
-    <loc>http://airevisuelle.com/a-propos/</loc>
-  </url>
-  
-  <url>
-    <loc>http://airevisuelle.com/singles/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://airevisuelle.com/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://airevisuelle.com/articles/</loc>
-  </url>
-  
-  <url>
-    <loc>http://airevisuelle.com/articles/single1/</loc>
-  </url>
-  
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>https://www.lairevisuelle.com/en/sitemap.xml</loc>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://www.lairevisuelle.com/fr/sitemap.xml</loc>
+		
+	   	<lastmod>2018-08-11T00:00:00+00:00</lastmod>
+		
+	</sitemap>
+	
+</sitemapindex>

@@ -1,0 +1,57 @@
+
+<!-- Header -->
+<header id="header" class="{{ if .Params.header.transparent }}header-transparent{{ end }} {{ if .Params.header.dark }}dark{{ end }}">
+    <div id="header-wrap">
+        <div class="container">
+            <!--Logo-->
+            <div id="logo" style="padding: 10px;">
+                <a href="/" class="logo">
+                    {{- partial "header/logo-svg.html" . -}}
+                </a>
+            </div>
+            <!--End: Logo-->
+
+            <!--Top Search Form-->
+            <div id="top-search">
+                <form action="search-results-page.html" method="get">
+                    <input type="text" name="q" class="form-control" value="" placeholder="Start typing & press  &quot;Enter&quot;">
+                </form>
+            </div>
+            <!--end: Top Search Form-->
+
+            <!--Header Extras-->
+            <div class="header-extras">
+                <ul>
+                    <!-- <li>
+                        <a id="top-search-trigger" href="#" class="toggle-item">
+                            <i class="fa fa-search"></i>
+                            <i class="fa fa-close"></i>
+                        </a>
+                    </li> -->
+                    <li>
+                        <div class="topbar-dropdown">
+                            {{ if .Params.translationlink }}
+                                {{ $link := .Params.translationlink }}
+                                <a href='{{ $link | absURL }}' class="title lang">{{ if eq $.Lang "fr" }}EN{{ else if eq $.Lang "en" }}FR{{ end }}</a>
+                            {{ else if .Translations }}
+                                {{ range .Translations }}
+                                <a href="{{.Permalink}}" class="title lang">{{ upper .Lang}}</a>
+                                {{ end }}
+                            {{ end }}
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--end: Header Extras-->
+
+            <!--Navigation Resposnive Trigger-->
+            <div id="mainMenu-trigger">
+                <button class="lines-button x"> <span class="lines"></span> </button>
+            </div>
+            <!--end: Navigation Resposnive Trigger-->
+
+            {{- partial "header/nav.html" . -}}
+        </div>
+    </div>
+</header>
+<!-- end: Header -->

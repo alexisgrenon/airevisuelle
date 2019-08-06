@@ -1,0 +1,15 @@
+{{ if eq .Lang "fr" }}
+<ul class="dropdown-menu">
+    <li><a href="{{.Site.BaseURL}}services/lunetterie">Lunetterie</a></li>
+    <li><a href="{{.Site.BaseURL}}services/opticien">Opticien</a></li>
+    <li><a href="{{.Site.BaseURL}}services/optometrie">Optométrie</a></li>
+    <li><a href="{{.Site.BaseURL}}services/verres-de-contact">Verres de contact</a></li>
+</ul>
+{{ else if eq .Lang "en" }}
+<ul class="dropdown-menu">
+    <li><a href="{{.Site.BaseURL}}en/services/eyewear-glasses">Eyewear and glasses</a></li>
+    <li><a href="{{.Site.BaseURL}}en/services/optician">Optician</a></li>
+    <li><a href="{{.Site.BaseURL}}en/services/optometry">Optometry</a></li>
+    <li><a href="{{.Site.BaseURL}}en/services/contact-lenses">Contact lenses</a></li>
+</ul>
+{{ end }}

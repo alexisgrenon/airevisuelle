@@ -4,7 +4,7 @@ socials:
   twitterurl: ''
   youtubeurl: ''
   instagramurl: 'https://www.instagram.com/laire_visuelle/'
-  googleplusurl: '#'
+  googleplusurl: ''
   pinteresturl: ""
   vimeourl: ""
   dribbleurl: ""
@@ -12,16 +12,37 @@ twitter:
   share: false
   id: ""
 address:
-  road:
-  app:
-  city:
-  province:
-  postal:
-  country:
-phone: 
-mphone: '+'
-email: 
-sitedescription: ""
-sitetitle: ""
-defaultsocialimage: "/images/logo-share.jpg"
-removefromexternalsearch: true
+  road: 380 boul. Dagenais Est, suite 102 
+  app: suite 102
+  city: Laval
+  province: Québec
+  postal: H7M 5H4
+  country: Canada
+ouverture:
+  fr:
+    - jour: Lundi - Jeudi
+      heures: 09:00 - 20:00
+    - jour: Vendredi
+      heures: 09:00 - 18:00
+    - jour: Samedi
+      heures: Fermé
+    - jour: Dimanche
+      heures: Fermé
+  en:
+    - jour: Monday - Thursday
+      heures: 09:00 - 20:00
+    - jour: Friday
+      heures: 09:00 - 18:00
+    - jour: Saturday
+      heures: Closed
+    - jour: Sunday
+      heures: Closed
+phone: '(450) 669-1686'
+mphone: '+14506691686'
+email: 'info@lairevisuelle.com'
+sitedescription: "L'Aire Visuelle vous offre des prix compétitif et un service d'optométrie et de lunetterie imbattable dans la région de Laval"
+sitetitle: "L'Aire Visuelle | Optométriste , Opticien et Lunetterie à Laval"
+titleautocompletion: false
+defaultsocialimage: "/img/logo-share.jpg"
+removefromexternalsearch: false
+rdvlink: "https://pp.lairevisuelle.com/PP11020/User/List?Company=384D91A1-09C1-4615-B0AC-2FE440E9957A"

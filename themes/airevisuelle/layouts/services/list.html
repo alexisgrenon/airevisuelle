@@ -1,10 +1,52 @@
 {{ define "main" }}
 <main class="main" id="{{ .Type }}-list">
-		{{ .Content}}
-			{{ range $i, $e := sort .Pages ".Params.ordre" "asce" }}
-			{{ $mod1 := modBool $i 1}}
-			{{ $mod2 := modBool $i 2}}
-			{{ $mod3 := modBool $i 3}}
-		{{ end }}
+	
+        <!-- Page title -->
+        <section id="page-title" class="background-image background-overlay-dark header-single-blog" style="background-image:url('{{.Params.image}}'); background-position: top;">
+            <div class="container">
+
+                <div class="page-title">
+                    <div data-animation="fadeIn" class="text-light">
+                    	
+                        <h1 data-animation="fadeInUp" data-animation-delay="1000">{{.Params.titre}}</h1></div>
+                </div>
+            </div>
+        </section>
+        <!-- end: Page title -->	
+
+
+     <!-- Content -->
+<section id="page-content">
+    <div class="container">
+
+
+                <!-- Portfolio -->
+                <div id="portfolio" class="grid-layout portfolio-2-columns" data-margin="0">
+
+                    {{ range where .Site.RegularPages "Type" "services"}}
+                    <!-- portfolio item -->
+                    <div class="portfolio-item img-zoom pf-uielements pf-media pf-icons pf-uielements pf-graphics">
+                        <div class="portfolio-item-wrap">
+                            <div class="portfolio-image">
+                                <a href="{{.Permalink}}"><img src="/half/{{.Params.image}}" alt=""></a>
+                            </div>
+                            <div class="portfolio-description">
+                                <a href="{{.Permalink}}">
+                                    <h3>{{.Params.resume.title}}</h3>
+                                    <span>{{.Params.resume.description}}</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: portfolio item -->
+                    {{ end }}
+
+                </div>
+                <!-- end: Portfolio -->
+
+            </div>
+        </section>
+        <!-- end: Content -->        
+
 </main>
 {{ end }}

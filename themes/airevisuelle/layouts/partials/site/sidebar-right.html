@@ -1,0 +1,36 @@
+<!-- Sidebar-->
+<div class="sidebar col-md-3">
+    <div class="pinOnScroll">
+        <!--widget newsletter-->
+        <!-- <div class="widget  widget-newsletter">
+        <form id="widget-search-form-sidebar" action="search-results-page.html" method="get" class="form-inline">
+            <div class="input-group">
+                <input type="text" aria-required="true" name="q" class="form-control widget-search-form" placeholder="Search for pages..."> <span class="input-group-btn">
+              <button type="submit" id="widget-widget-search-form-button" class="btn btn-default"><i class="fa fa-search"></i></button>
+              </span> </div>
+        </form>
+             
+        </div> -->
+        <!--end: widget newsletter-->
+
+        <!--Services-->
+        <div class="widget clearfix widget-categories">
+            <h4 class="widget-title">{{ i18n "services" }}</h4>
+            <ul class="list list-arrow-icons">
+                {{ range where .Site.RegularPages "Type" "services"}}
+                <li><a title="{{.Params.resume.title}}" href="{{.Permalink}}">{{.Params.resume.title}}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+        <!--End: Services-->
+
+        <!--Services-->
+        <div class="widget clearfix widget-categories">
+            <h4 class="widget-title">{{ i18n "financement" }}</h4>
+            <img src="/img/accord-d-desjardins.png" alt="Accord D" style="max-width: 80%">
+        </div>
+        <!--End: Services-->
+
+    </div>
+</div>
+<!-- end: Sidebar-->

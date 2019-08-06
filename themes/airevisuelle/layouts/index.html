@@ -1,5 +1,134 @@
 {{ define "main" }}
 <main class="main" id="homepage">
-	
+	<!-- Inspiro Slider -->
+  <!-- <div id="slider" class="inspiro-slider slider-fullscreen arrows-large arrows-creative dots-creative" data-height-xs="360">
+      <div class="slide background-overlay-dark" data-parallax-image="{{.Params.image}}">
+          <div class="container">
+              <div class="slide-captions text-light">
+                  <h1>{{ .Params.titre }}</h1>
+                  <p data-animation="fadeInUp" data-animation-delay="300" class=""><a href='{{ $.Scratch.Get "promotionsPage" }}' class="business"><span class="business">{{.Params.slidertext}}</span></a>
+                  </p>
+                  <div id="ctas">
+                      <a class="btn btn-rounded btn-reveal btn-reveal-left" href='{{ $.Scratch.Get "promotionsPage" }}'><span>{{ i18n "our_promotions" }}</span><i class="fa fa-arrow-right"></i></a>
+                      <a class="btn btn-rounded btn-reveal btn-reveal-left btn-light" href='{{.Site.Data.settings.rdvlink}}&language={{- .Lang -}}' target="_blank"><span class="btn-label">{{ i18n "book_online" }}</span><i class="fa fa-arrow-right"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div> -->
+  <div id="slider" class="inspiro-slider slider-fullscreen arrows-large arrows-creative dots-creative" data-height-xs="360">
+      <div class="slide background-overlay-grey" style="background-image: url('/img/header-aout.jpg')">
+          <div class="container">
+              <div class="slide-captions text-light">
+                <a href='{{.Site.Data.settings.rdvlink}}&language={{- .Lang -}}' target="_blank">
+                  <div class="new-caption">
+                    <h2>{{ .Params.slidertext | markdownify }}</h2>
+                  </div>
+                  <!-- <img src="/quart/img/prodesign-logo.jpg" alt="Prodesign Logo" /> -->
+                </a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!--end: Inspiro Slider -->
+  <div class="container" id="description">
+  	<div class="row">
+  		<div class="col-md-12">
+  			<div class="heading text-left">
+  				<h1>{{.Params.block2.titre}}</h1>
+  				<hr>
+  			</div>
+  			<p>{{.Params.block2.text}}</p>
+  		</div>
+    </div>
+  </div>
+  <section id="actions">
+  		<div class="container">
+  	 <!-- Portfolio -->
+            <div id="portfolio" class="grid-layout portfolio-3-columns">
+
+              {{ range .Params.block3 }}
+              {{ $link := .link }}
+                <!-- portfolio item -->
+                <div class="portfolio-item {{ if .haut }}haut{{ end }} img-zoom pf-illustrations pf-media pf-icons pf-Media">
+                    <div class="portfolio-item-wrap">
+                        <div class="portfolio-image">
+                            <a href='{{ $.Scratch.Get $link }}'><img src="/quart{{.image}}" alt=""></a>
+                        </div>
+                        <div class="portfolio-description">
+                            <a href='{{ $.Scratch.Get $link }}'>
+                                <h3>{{.titre}}</h3>
+                                <span>{{.desc}}</span>
+                                <a class="btn btn-rounded" style="margin-top: 20px;" href='{{ $.Scratch.Get $link }}'><span>{{.btn}}</span></a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end: portfolio item -->
+                {{ end }}
+
+            </div>
+            <!-- end: Portfolio -->
+      </div>
+  </section>
+  <!-- PORTFOLIO -->
+  <section class="p-b-40">
+      <div class="container">
+          <div class="heading text-left">
+              <h2>{{.Params.block4.titre}}</h2>
+              <hr>
+          </div>
+          <p style="margin-bottom: 80px; font-size: 1.35714286em; line-height: 1.68421053em; font-weight: 300;">{{.Params.block4.text}} </p>
+          <div class="portfolio">
+		          <!-- Portfolio Items -->
+		          <div id="portfolio" class="grid-layout portfolio-3-columns" data-margin="0">
+									{{ range .Params.designers.brands}}
+		              <!-- portfolio item -->
+		              <div class="portfolio-item img-zoom pf-illustrations pf-media hover-3d pf-icons pf-Media">
+                    <a href="{{.url}}" target="_blank">
+		                  <div class="portfolio-item-wrap">
+		                      <div class="portfolio-image">
+		                          <a href="{{.url}}" target="_blank"><img src="/quart{{.image}}" alt="{{.nom}}"></a>
+		                      </div>
+		                      <div class="portfolio-description">
+		                          <a href="{{.url}}" target="_blank">
+		                              <h3>{{ i18n "see_products" }}</h3>
+		                              <span>{{.nom}}</span> </a>
+		                      </div>
+		                  </div>
+                    </a>
+		              </div>
+		              <!-- end: portfolio item -->
+		              {{ end }}
+                  {{ if .Params.designers.extra.need }}
+                  <!-- portfolio item -->
+                  <div class="portfolio-item img-zoom pf-illustrations pf-media hover-3d pf-icons pf-Media">
+                    <a href='{{.Params.designers.extra.link}}' target="_blank">
+                      <div class="portfolio-item-wrap">
+                          <div class="portfolio-image">
+                              <a href='{{.Params.designers.extra.link}}' target="_blank"><img src="/quart{{.Params.designers.extra.image}}" alt="Vision Avenue"></a>
+                          </div>
+                          <div class="portfolio-description">
+                              <a href='{{.Params.designers.extra.link}}' target="_blank">
+                                  <h3>{{.Params.designers.extra.titre}}</h3>
+                              </a>
+                          </div>
+                      </div>
+                    </a>
+                  </div>
+                  <!-- end: portfolio item -->
+                  {{ end }}
+		          </div>
+		          <!-- end: Portfolio Items -->
+
+		      </div>
+      </div>
+
+  </section>
+  {{ partial "site/promocta.html" . }}
+  <!-- end: PORTFOLIO -->
+  <!-- Testimonial Carousel -->
+        <!-- end: Testimonial Carousel -->
+
 </main>
 {{ end }}

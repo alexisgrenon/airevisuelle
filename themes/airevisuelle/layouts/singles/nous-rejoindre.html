@@ -1,10 +1,111 @@
 {{ define "main" }}
 <main class="main" id="contact">
+		<!-- CONTENT -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-uppercase">{{.Params.titre}}</h1>
+                    {{.Content}}
+                    <div class="row m-t-40">
+                        <div class="col-md-6">
+                            <address>
+                                <strong>L'Aire Visuelle</strong><br>
+                                {{.Site.Data.settings.address.road}} <br>
+                                {{.Site.Data.settings.address.city}} ({{.Site.Data.settings.address.province}})<br>
+                                {{ i18n "corner" }}<br>
+                                <a href="tel:{{.Site.Data.settings.mphone}}" class="visible-xs">{{.Site.Data.settings.phone}}</a><span class="hidden-xs" style="color:#000!important">{{.Site.Data.settings.phone}}</span>
+                            </address>
+                        </div>
+                        <div class="col-md-6">
+                            <address>
+    						  <strong>{{ i18n "opening_hrs" }}</strong><br>
+    						  {{- if eq .Lang "fr" -}}
+                                {{- range .Site.Data.settings.ouverture.fr -}}
+                                  {{.jour}}: <strong>{{.heures}}</strong> <br>
+                                {{- end -}}
+                              {{- else if eq .Lang "en" -}}
+                                {{- range .Site.Data.settings.ouverture.en -}}
+                                      {{.jour}}: <strong>{{.heures}}</strong> <br>
+                                 {{- end -}}
+                              {{- end -}}
+							</address>
+                        </div>
+                        <div class="social-icons m-t-20 m-b-20 social-icons-colored col-md-12">
+                        		<ul>
+									{{with .Site.Data.settings.socials.facebookurl}}
+									<li class="social-facebook"><a href="{{.}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+									{{ end }}
+									{{with .Site.Data.settings.socials.twitterurl}}
+									<li class="social-twitter"><a href="{{.}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+									{{ end }}
+									{{with .Site.Data.settings.socials.instagramurl}}
+									<li class="social-instagram"><a href="{{.}}" target="_blank"><i class="fa fa-instagram"></i></a></li>
+									{{ end }}
+									{{with .Site.Data.settings.socials.googleplusurl}}
+									<li class="social-google"><a href="{{.}}" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+									{{ end }}
+									{{with .Site.Data.settings.socials.pinteresturl}}
+									<li class="social-pinterest"><a href="{{.}}" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+									{{ end }}
+									{{with .Site.Data.settings.socials.vimeourl}}
+									<li class="social-vimeo"><a href="{{.}}" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>
+									{{ end }}
+									{{with .Site.Data.settings.socials.linkedinurl}}
+									<li class="social-linkedin"><a href="{{.}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+									{{ end }}
+									{{with .Site.Data.settings.socials.dribbleurl}}
+									<li class="social-dribbble"><a href="{{.}}" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+									{{ end }}
+									{{with .Site.Data.settings.socials.youtubeurl}}
+									<li class="social-youtube"><a href="{{.}}" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+									{{ end }}
+									{{with .Site.Data.settings.socials.rssurl}}
+									<li class="social-rss"><a href="{{.}}" target="_blank"><i class="fa fa-rss"></i></a></li>
+									{{ end }}
+								</ul>
+		                    </div>
+		                  </div>
+                </div>
 
-				{{ range $i, $e := sort $.Site.Data.equipe.equipe "ordre" "asce"}}
-					{{ $mod1 := modBool $i 1}}
-					{{ $mod2 := modBool $i 2}}
-					{{ $mod3 := modBool $i 3}}
-				{{ end }}
+                <div class="col-md-6">
+                    <form class="widget-contact-form" action='{{ if eq .Lang "en" }}/en/thank-you{{else}}/merci{{end}}' name="contact-{{.Lang}}" role="form" method="post" netlify>
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label for="name">{{ i18n "name" }}</label>
+                                <input type="text" aria-required="true" name="widget-contact-form-name" class="form-control required name" placeholder='{{ i18n "enter_name" }}' required>
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label for="email">{{ i18n "email" }}</label>
+                                <input type="email" aria-required="true" name="widget-contact-form-email" class="form-control required email" placeholder='{{ i18n "enter_email" }}' type="email" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-sm-12">
+                                <label for="subject">{{ i18n "subject" }}</label>
+                                <input type="text" name="widget-contact-form-subject" class="form-control" placeholder='{{ i18n "subject" }}...'>
+                            </div>
+                        </div>                                
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea type="text" name="widget-contact-form-message" rows="5" class="form-control" placeholder='{{ i18n "enter_message" }}'></textarea>
+                        </div>
+
+                        <button class="btn btn-default" type="submit" id="form-submit"><i class="fa fa-paper-plane"></i>&nbsp;{{ i18n "send_message" }}</button>
+                    </form>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end: CONTENT -->
+
+    <!-- MAP -->
+    <section class="no-padding">
+        <!-- Google map sensor -->
+        <div class="map" data-map-address="380 boul. Dagenais Est, Laval, Québec" data-map-zoom="13" data-map-icon="/img/marker-airevisuelle.png" data-map-type="ROADMAP"></div>
+    </section>
+    <!-- end: MAP -->
 </main>
 {{ end }}

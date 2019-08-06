@@ -1,0 +1,48 @@
+{{ define "main" }}
+<main class="main" id="promotions">
+
+        <!-- Page title -->
+        <section id="page-title" class="background-image background-overlay-dark" style="background-image:url('{{.Params.image}}');">
+            <div class="container">
+
+                <div class="page-title">
+                    <div data-animation="fadeIn" class="text-light">
+                        <h1 data-animation="fadeInUp" data-animation-delay="1000">{{.Params.titre}}</h1></div>
+                </div>
+            </div>
+        </section>
+        <!-- end: Page title -->    
+
+
+   <!-- Content -->
+        <section id="page-content">
+            <div class="container">
+
+
+                <!-- Blog -->
+                <div id="blog" class="post-thumbnails promotions-listing" data-lightbox="gallery"> 
+                    {{ range (sort (where .Site.RegularPages "Type" "promotions") ".Params.weight" "asce") }}
+                    <!-- Post item-->
+                    <div class="post-item">
+                        <div class="post-item-wrap">
+                            <div class="post-image">
+                                <a class="image-hover-zoom" href="{{.Params.image}}" data-lightbox="gallery-item"><img alt="" src="/quart{{.Params.image}}"></a>
+                            </div>
+                            <div class="post-item-description">
+                                
+                                <h2><a href="#nothing">{{.Params.titre}}</a></h2>
+                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>{{ if .Params.annuel }}{{ i18n "permanent_discount" }}{{else}}{{.Params.startdate}} - {{.Params.enddate}}{{end}}</span>
+                                <p>{{ .Content | markdownify }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: Post item-->
+
+                    <hr>
+                    {{ end }}
+            </div>
+        </section>
+        <!-- end: Content -->        
+
+</main>
+{{ end }}

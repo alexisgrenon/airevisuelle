@@ -1,5 +1,141 @@
 {{ define "main" }}
 <main class="main" id="a-propos">
+		<!-- Page title -->
+        <section id="page-title" class="background-image background-overlay-dark" style="background-image:url('{{.Params.image}}');">
+            <div class="container">
 
+                <div class="page-title">
+                    <div data-animation="fadeIn" class="text-light">
+                        <h1 data-animation="fadeInUp" data-animation-delay="1000">{{.Params.titre}}</h1></div>
+                </div>
+            </div>
+        </section>
+        <!-- end: Page title -->
+
+		<section class="about">
+			<div class="container">
+				<div class="row p-b-40">
+					<div class="col-md-3">
+						<div class="heading heading text-left">
+							<h2>{{- .Params.section1.title -}}</h2>
+						</div>
+					</div>
+					<div class="col-md-9">
+						<div class="col-md-6">
+							{{- .Params.section1.column1 | markdownify -}} 
+						</div>
+						<div class="col-md-6">
+							{{- .Params.section1.column2 | markdownify -}}
+						</div>
+					</div>
+
+				</div>
+				
+				{{partial "site/promocta.html" .}}
+			</div>
+		</section>
+
+			
+		<section class="box-fancy section-fullwidth text-light p-b-0">
+				<div class="row">
+					<div style="background-color:#00AE41" class="col-md-4 col-eq-height steps">
+						<h6 class="text-large text-uppercase">01.</h6>
+						<img src="/img/logo-bg-w.png" alt="Aire visuelle" class="logo-bg">
+		        <h3>{{- .Params.section2.column1.title -}}</h3>
+						<span>{{- .Params.section2.column1.text -}}</span>
+					</div>
+
+					<div style="background-color:rgba(0,174,65,0.72)" class="col-md-4 col-eq-height steps">
+						<h6 class="text-large text-uppercase">02.</h6>
+						<img src="/img/logo-bg-w.png" alt="Aire visuelle" class="logo-bg">
+		        <h3>{{- .Params.section2.column2.title -}}</h3>
+						<span>{{- .Params.section2.column2.text -}}</span>
+					</div>
+
+					<div style="background-color:rgba(0,174,65,0.5)" class="col-md-4 col-eq-height steps">
+						<h6 class="text-large text-uppercase">03.</h6>
+						<img src="/img/logo-bg-w.png" alt="Aire visuelle" class="logo-bg">
+		        <h3>{{- .Params.section2.column3.title -}}</h3>
+						<span>{{- .Params.section2.column3.text -}}</span>
+					</div>
+				</div>
+		</section>
+
+		<section class="background-grey">
+			<div class="container">
+				<div class="heading heading-center">
+					<h2>{{- .Params.section3.title -}}</h2>
+					<span class="lead">{{- .Params.section3.text -}}</span>
+				</div>
+				<div class="row team-members team-members-shadow m-b-40">
+					{{ range sort .Site.Data.equipe.equipe ".ordre"}}
+					{{ if eq $.Lang "fr" }}
+					{{ if eq .group "ood" }}
+					{{ $.Scratch.Set "cliclink" ("rendez-vous-opticien/" |  absLangURL) }}
+					{{ else }}
+					{{ $.Scratch.Set "cliclink" ("rendez-vous-optometriste/" | absLangURL) }}
+					{{ end }}
+					{{ else if eq $.Lang "en" }}
+					{{ if eq .group "ood" }}
+					{{ $.Scratch.Set "cliclink" ("appointment-optician/" |  absLangURL) }}
+					{{ else }}
+					{{ $.Scratch.Set "cliclink" ("appointment-optometrist/" |  absLangURL) }}
+					{{ end }}
+					{{ end }}
+            <div class="col-md-3">
+                <div class="team-member">
+                    <div class="team-desc">
+                        <h3>{{ if eq $.Lang "en" }}{{.nameen}}{{else}}{{.name}}{{end}}</h3>
+                        <p>{{ if eq $.Lang "en" }}{{.titleen}}{{else}}{{.title}}{{end}}</p>
+                        <div class="align-center">
+                            <!-- <a class="btn btn-xs btn-slide btn-light" href="#">
+                                <i class="fa fa-facebook"></i>
+                                <span>Facebook</span>
+                            </a>
+                            <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">
+                                <i class="fa fa-twitter"></i>
+                                <span>Twitter</span>
+                            </a> -->
+                            <a class="btn btn-xs btn-slide btn-light" href='{{$.Scratch.Get "cliclink"}}' data-width="130">
+                                <i class="fa fa-calendar"></i>
+                                <span>{{ i18n "book" }}</span>
+                            </a>
+                            <a class="btn btn-xs btn-slide btn-light" href="mailto:{{$.Site.Data.settings.email}}" data-width="115">
+                                <i class="fa fa-envelope"></i>
+                                <span>{{ i18n "email_plain" }}</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          {{ end }}
+        </div>
+			</div>
+		</section>
+		<section class="about">
+			<div class="container">
+				<div class="row p-b-40">
+					<div class="col-md-3">
+						<div class="heading heading text-left">
+							<h2>{{- .Params.section4.title -}}</h2>
+						</div>
+					</div>
+					<div class="col-md-9">
+						<p>{{- .Params.section4.text -}}</p>
+						<!-- Gallery -->
+              <div class="grid-layout grid-3-columns" data-margin="20" data-item="grid-item" data-lightbox="gallery">
+              	{{ range .Params.section4.images }}
+                  <div class="grid-item">
+                    	<a class="image-hover-zoom" href="/xl/{{.url}}" data-lightbox="gallery-item"><img src="/quart{{.url}}"></a>
+                  </div>
+                {{ end }}
+              </div>
+              <!-- end: Gallery -->
+					</div>
+
+				</div>
+        
+			</div>
+		</section>
 </main>
 {{ end }}

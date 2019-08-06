@@ -1,4 +1,4 @@
-baseURL = "http://airevisuelle.com"
+baseURL = "https://www.lairevisuelle.com/"
 DefaultContentLanguage = "fr"
 title = "L'Aire visuelle"
 theme = "airevisuelle"
@@ -22,17 +22,17 @@ defaultContentLanguageInSubdir = false
 #CUSTOM PARAMS
 [params]
   ## Include google maps, with API Key
-  googleapikey = ""
+  googleapikey = "AIzaSyCUq8w95L-UQnrXxDfX1zfn804SNDzbUj4"
   ## This is used when the BaseURL does not need to modified (eg, in share links)
-  siteaddress = "/"
-  siteaddressno = ""
+  siteaddress = "https://www.lairevisuelle.com/"
+  siteaddressno = "https://www.lairevisuelle.com"
   ## FB share info
   fbpagename = ""
   fbappid = ""
   ## Business name in Schema.org
-  schemabiz = ""
+  schemabiz = "L'Aire Visuelle"
   ## Google Tag Manager tracking ID
-  gtmid = ""
+  gtmid = "GTM-MMRPN34"
 
 # MARKDOWN
 ## Configuration for BlackFriday markdown parser: https://github.com/russross/blackfriday
@@ -45,7 +45,16 @@ defaultContentLanguageInSubdir = false
 [permalinks]
   singles = "/:slug/"
 
-# [Languages.fr]
+[Languages]
+[Languages.en]
+[Languages.en.permalinks]
+  singles = "/:slug/"
+  catalogue = "/catalog/:slug/"
+
+[Languages.fr]
+[Languages.fr.permalinks]
+  singles = "/:slug/"
+
 # [Languages.fr.Taxonomies]
 # category = "categories"
 # createur = "createurs"

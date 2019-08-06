@@ -95,12 +95,10 @@
     }
     .slide {
         background-position: 50% 20%;
-        background-repeat: repeat-y;
+        background-repeat: no-repeat;
         background-size: cover;
-        display: table-cell;
         height: 100%;
         position: relative;
-        vertical-align: middle;
         width: 100%;
         z-index: 2;
     }
@@ -117,9 +115,9 @@
             letter-spacing: -0.5px;
         }*/
         h1 {
-            font-size: 80px;
+            font-size: 50px;
             font-weight: 700;
-            line-height: 80px;
+            line-height: 55px;
             margin-bottom: 30px;
             color: $white;
         }

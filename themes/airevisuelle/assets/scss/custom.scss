@@ -1,0 +1,455 @@
+/* Header */
+#topbar .top-menu li.separated a:after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    width: 1px;
+    height: 15px;
+    margin: 0 0px 0 15px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#slider {
+	top: -120px;
+	margin-bottom: -80px;
+}
+
+#header.dark {
+	#svglogo {
+		fill: #fff;
+	}
+}
+/* Rendez-vous */
+
+#rdv  {
+	h1 {
+		font-size: 2em;
+		margin-bottom: 20px;
+	}
+	.team-members .team-member .team-desc {
+		p {
+			margin-bottom: 5px;
+		}
+	}
+	.row .col-sm-1:nth-child(12n+13), .row .col-sm-2:nth-child(6n+7), .row .col-sm-3:nth-child(4n+5), .row .col-sm-6:nth-child(2n+3) {
+		clear: none;
+	}
+	div.od-box {
+		@media (max-width: 991px) {
+			h2 {
+				margin-top: 30px;
+			}
+		}
+	}
+}
+
+/* Catalogue */
+
+#catalogue-list {
+	.heading {
+		h1 {
+			font-size: 30px;
+			line-height: 36px;
+		}
+	}
+	p {
+		margin-bottom: 80px; 
+		font-size: 1.35714286em; 
+		line-height: 1.68421053em; 
+		font-weight: 300;
+	}
+	.call-to-action.call-to-action-dark p {
+		margin-bottom: 0;
+	}
+	.portfolio {
+		.col-eq-height {
+			.call-to-action {
+				height: 100%;
+				@media (max-width: 767px) {
+					height: auto;
+				}
+			}
+		}
+	}
+}
+
+/* À propos */
+
+#a-propos {
+	.heading {
+		h2 {
+			font-size: 26px;
+			line-height: 30px;
+		}
+	}
+	#slider {
+		.slide {
+			span {
+				padding-top: 10%;
+				@media (max-width: 767px) {
+					padding-top: 100px;
+				}
+			}
+			h1 {
+				padding-top: 0;
+				max-width: none;
+			}
+		}
+	}
+	section.about {
+		padding: 40px 0 0;
+	}
+	.team-members .team-member .team-desc p {
+		font-size: 13px;
+	    color: #9d9d9d;
+	    line-height: 18px;
+	    margin-bottom: 2px;
+	}
+	.steps {
+		position: relative;
+		img.logo-bg {
+			position: absolute;
+			left: 0;
+			top: 100px;
+			opacity: 0.5;
+			width: 200px;
+		}
+	}
+}
+/* Contact */
+
+#contact {
+	h1 {
+		font-size: 1.78571429em;
+	}
+}
+/* General */
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+@media (max-width: 991px) {
+	#slider {
+		top: 0 !important;
+		margin-bottom: 30px !important;
+	}
+	#header.dark {
+		#svglogo {
+			fill: inherit;
+			max-width: 200px
+		}
+	}
+	#header #logo>a {
+		height: 80px;
+	}
+	.heading {
+		margin-bottom: 70px;
+	}
+	.sidebar {
+		&:before {
+	        display: none;
+	    }
+	    &.sidebar-modern {
+	        &:before {
+	            display: none;
+	        }
+	    }
+	    &.sidebar-plain {
+	        &:before {
+	            display: none;
+	        }
+	    }
+	}
+}
+/* Footer */
+
+.widget-contact-us {
+	.list-icon i {
+		width: 0;
+		margin-right: 20px;
+	}
+}
+/* Accueil */
+#slider .slide .slide-captions {
+	h1 {
+		max-width: 800px;
+		padding-top: 20%;
+	}
+	p {
+		padding-top: 2%;
+		margin-bottom: 20px;
+	}
+	#ctas {
+		padding-bottom: 7%;
+	}
+}
+#description {
+	margin-bottom: 20px;
+	&:before {
+		content: '';
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    top: 600px;
+	    height: 2000px;
+	    background: #f6f9fc;
+	    transform: skew(0,-12deg);
+	}
+	p {
+		font-size: 1.35714286em;
+    	line-height: 1.68421053em;
+    	font-weight: 300;
+	}
+	.col-md-6 {
+		padding: 5px;
+		.info {
+			border-radius: 4px;
+		    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+		    padding: 35px;
+		    background-image: url('/img/logo-bg-t.png');
+		    background-size: 35%;
+		    background-repeat: no-repeat;
+		    background-position: bottom left;
+		    position: relative;
+		    i.fa-arrow-right {
+		    	-webkit-transition: transform 0.7s;
+		    	-moz-transition: transform 0.7s;
+		    	-ms-transition: transform 0.7s;
+		    	-o-transition: transform 0.7s;
+		    	transition: transform 0.7s;
+		    	margin-left: 10px;
+		    }
+		    img {
+				position: absolute;
+    			right: 0;
+    			top: 0;
+		    }
+		    &::before {
+		    	position: absolute;
+			    top: 0;
+			    left: 0;
+			    background: rgba(255, 255, 255, 0.8);
+			    content: " ";
+			    width: 100%;
+			    height: 100%;
+			    display: block;
+			    -webkit-transition: 0.7s;
+			    -moz-transition: 0.7s;
+			    -ms-transition: 0.7s;
+			    -o-transition: 0.7s;
+			    transition: 0.7s;
+		    }
+		    p, h4 {
+		    	position: relative;
+		    	z-index: 500;
+		    }
+		    p {
+		    	min-height: 56px;
+		    }
+		}
+		&:hover {
+			.info {
+				// background-image: url('/img/logo-bg-w.png');
+				i {
+					transform: translateX(20px);
+				}
+				&::before {
+					background: #e1f5e9;
+				}
+			}
+		}
+	}
+}
+#actions {
+	padding-top: 20px;
+	#portfolio {
+		.portfolio-item {
+			.portfolio-description {
+				opacity: 1;
+			    visibility: visible;
+			}
+			.portfolio-image{
+				&:after {
+					opacity: 0.5;
+				}
+			}
+		}
+	}
+}
+.heading {
+	margin-bottom: 20px;
+	h2 {
+		margin-bottom:10px;
+		text-transform: uppercase;
+	}
+}
+section {
+	padding: 50px 0;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	#actions #portfolio {
+		.portfolio-item {
+			.portfolio-image{
+				max-height: 214px;
+			}
+			&.haut {
+				.portfolio-image {
+					max-height: 425px;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 1200px) {
+	#actions #portfolio {
+		.portfolio-item {
+			.portfolio-image{
+				max-height: 245px;
+			}
+			&.haut {
+				.portfolio-image {
+					max-height: 510px;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 500px) {
+	#header #logo>a {
+		max-width: 40%;
+		svg#svglogo {
+			max-width: 100% !important;
+		}
+	}
+}
+
+/* Merci */
+#merci {
+	padding: 40px;
+    margin: auto;
+    max-width: 800px;
+    p {
+    	text-align: justify;
+    	a {
+    		text-decoration: underline;
+    	}
+    }
+}
+	
+
+/*==================================
+=            Srdjan CSS            =
+==================================*/
+
+.inner-header {
+	height:500px;
+	background:red;
+	width:100%;
+}
+
+#blog-listing {
+	hr {
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+	.post-item {
+		margin-bottom: 30px;
+	}
+}
+
+.header-single-blog {
+	.small {
+		color:#fff;
+		a {
+			color:#fff;
+			&:hover {
+				color:$base-color;
+			}
+		}
+	}
+}
+
+.promotions-listing {
+	.post-image {
+		width: 35%!important;
+		@media screen and (max-width:640px) {
+			width: 100%!important;
+		}
+	}
+	.post-item-description {
+		width: 63%!important;
+		@media screen and (max-width:640px) {
+			width: 100%!important;
+		}		
+	}
+	hr {
+		margin-bottom: 20px;
+	}
+}
+
+.slide-captions {
+	.new-caption {
+		max-width: 400px;
+		text-align: center;
+		padding: 15% 10px 5px;
+		h2 {
+			font-size: 50px;
+	    font-weight: 700;
+	    line-height: 55px;
+			margin-bottom: 0px;
+			padding-top: 20%;
+			span {
+				display: block;
+				font-size: 0.5em;
+				line-height: 50px;
+			}
+		}
+	}
+	img {
+		max-width: 400px;
+		height: auto;
+	}
+	@media (max-width: 992px) {
+			.new-caption {
+				h2 {
+					font-size: 40px;
+    			line-height: 40px;
+				}
+			}
+	}
+	@media (max-width: 767px) {
+			.new-caption {
+				h2 {
+					font-size: 30px;
+    			line-height: 35px;
+					span {
+						line-height: 30px;
+					}
+				}
+			}
+	}
+	@media (max-width: 500px) {
+		.new-caption {
+			padding-top: 20%;
+			max-width: 100%;
+		}
+		img {
+			max-width: 100%;
+		}
+	}
+
+}
+@media (max-width: 992px) {
+	#slider .parallax-container {
+		background-position-x: 80% !important;
+	}
+}
+
+/*=====  End of Srdjan CSS  ======*/

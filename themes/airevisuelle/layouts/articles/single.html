@@ -1,5 +1,76 @@
 {{ define "main" }}
+{{ $mymonths := $.Site.Data.mois.mois }}
+{{ $mydays := $.Site.Data.jour.jour }}
+
 <main class="main" id="{{ .Type }}-indiv">
+
+        <!-- Page title -->
+        <section id="page-title" class="background-image background-overlay-dark header-single-blog" style="background-image:url('/xl{{.Params.image}}');{{ with .Params.background }} background-position: {{ . }};{{ end }}">
+            <div class="container">
+
+                <div class="page-title">
+                    <div data-animation="fadeIn" class="text-light">
+                    	
+                        <h1 data-animation="fadeInUp" data-animation-delay="1000">{{.Title}}</h1></div>
+                        <div class="small m-b-20" data-animation="fadeInUp"  data-animation-delay="1500">{{ if eq $.Lang "fr" }}{{.Date.Day}} {{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}} {{ index $mydays .Date.Day }},{{ end }} {{.Date.Year}} | {{ i18n "by" }} L'Aire visuelle <!-- <span class="post-meta-category"> | <a href="">Technology</a></span></div> -->
+                </div>
+            </div>
+        </section>
+        <!-- end: Page title -->	
+
+    <!-- Page Content -->
+        <section id="page-content" class="sidebar-right">
+            <div class="container">
+                <div class="row">
+                    <!-- content -->
+                    <div class="content col-md-9">
+                        <!-- Blog -->
+                        <div id="blog" class="single-post">
+                            <!-- Post single item-->
+                            <div class="post-item">
+                                <div class="post-item-wrap">
+                                    <div class="post-item-description">
+                                        {{.Content}}
+
+                                    </div>
+                                    <!-- <div class="post-tags">
+                                        <a href="#">Life</a>
+                                        <a href="#">Sport</a>
+                                        <a href="#">Tech</a>
+                                        <a href="#">Travel</a>
+                                    </div> -->
+                                    <div class="post-navigation">
+                                        {{if .PrevInSection }}
+                                        <a href="{{.PrevInSection.Permalink}}" class="post-prev">
+                                            <div class="post-prev-title"><span>{{ i18n "previous_post" }}</span>{{.PrevInSection.Title}}</div>
+                                        </a>
+                                        {{ end }}
+                                        <a href="/articles" class="post-all">
+                                            <i class="fa fa-th"></i>
+                                        </a>
+                                        {{ if .NextInSection }}
+                                        <a href="{{.NextInSection.Permalink}}" class="post-next">
+                                            <div class="post-next-title"><span>{{ i18n "next_post" }}</span>{{.NextInSection.Title}}</div>
+                                        </a>
+                                        {{ end }}
+                                    </div>
+                                    <!-- Comments -->
+ 
+                                </div>
+                            </div>
+                            <!-- end: Post single item-->
+                        </div>
+
+                    </div>
+                    <!-- end: content -->
+
+                    {{ partial "site/sidebar-right.html" . }}
+
+
+                </div>
+            </div>
+        </section>
+        <!-- end: Page Content -->        
 	
 </main>
 {{ end }}

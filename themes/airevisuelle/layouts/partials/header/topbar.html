@@ -1,0 +1,52 @@
+<!-- Topbar -->
+<div id="topbar" class="{{ if .Params.header.transparent }}topbar-transparent{{ end }} {{ if .Params.header.dark }}dark{{ end }}">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<ul class="top-menu">
+					<li class="separated"><a href="tel:{{.Site.Data.settings.mphone}}">{{.Site.Data.settings.phone}}</a></li>
+					<li><a href="mailto:{{.Site.Data.settings.email}}">{{.Site.Data.settings.email}}</a></li>
+					<li><a href="https://www.visionavenue.ca/fr/" target="_blank" style="display: inline-block;" class="hidden-xs hidden-sm">Vision Avenue</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-6 hidden-xs">
+				<div class="social-icons social-icons-colored-hover">
+					<ul>
+						{{with .Site.Data.settings.socials.facebookurl}}
+						<li class="social-facebook"><a href="{{.}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						{{ end }}
+						{{with .Site.Data.settings.socials.twitterurl}}
+						<li class="social-twitter"><a href="{{.}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						{{ end }}
+						{{with .Site.Data.settings.socials.instagramurl}}
+						<li class="social-instagram"><a href="{{.}}" target="_blank"><i class="fa fa-instagram"></i></a></li>
+						{{ end }}
+						{{with .Site.Data.settings.socials.googleplusurl}}
+						<li class="social-google"><a href="{{.}}" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+						{{ end }}
+						{{with .Site.Data.settings.socials.pinteresturl}}
+						<li class="social-pinterest"><a href="{{.}}" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+						{{ end }}
+						{{with .Site.Data.settings.socials.vimeourl}}
+						<li class="social-vimeo"><a href="{{.}}" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>
+						{{ end }}
+						{{with .Site.Data.settings.socials.linkedinurl}}
+						<li class="social-linkedin"><a href="{{.}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+						{{ end }}
+						{{with .Site.Data.settings.socials.dribbleurl}}
+						<li class="social-dribbble"><a href="{{.}}" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+						{{ end }}
+						{{with .Site.Data.settings.socials.youtubeurl}}
+						<li class="social-youtube"><a href="{{.}}" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+						{{ end }}
+						{{with .Site.Data.settings.socials.rssurl}}
+						<li class="social-rss"><a href="{{.}}" target="_blank"><i class="fa fa-rss"></i></a></li>
+						{{ end }}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end: Topbar -->
+    

@@ -452,6 +452,10 @@ Tablets (≥768px)
     .profile-content .profile-bio {
         width: 470px;
     }
+    .inspiro-slider .slide-captions h1, .inspiro-slider .slide-captions h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
 }
 @media (min-width: 480px) and (max-width: 767px) {
     .container {

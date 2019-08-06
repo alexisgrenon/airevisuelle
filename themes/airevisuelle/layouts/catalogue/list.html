@@ -1,0 +1,73 @@
+{{ define "main" }}
+<main class="main" id="{{ .Type }}-list">
+	<!-- PORTFOLIO -->
+  <section class="p-b-40">
+      <div class="container">
+          <div class="heading text-left">
+              <h1>{{.Params.titre}}</h1>
+              <hr>
+          </div>
+          {{.Content}}
+          <div class="portfolio row no-gutters row-eq-height">
+          	 	<div class="col-md-9 col-sm-12 col-eq-height">
+          	 			<!-- Portfolio Items -->
+				          <div id="portfolio" class="grid-layout portfolio-3-columns" data-margin="0">
+											{{ range first 4 .Params.designers}}
+				              		{{- partial "site/portfolio-item.html" . -}}
+				              {{ end }}
+				              <!-- portfolio item -->
+				              <div class="portfolio-item img-zoom pf-illustrations pf-media hover-3d pf-icons pf-Media">
+				              	<a href='{{ $.Scratch.Get "bookingPage" }}' target="_blank">
+				                  <div class="portfolio-item-wrap">
+				                      <div class="portfolio-image">
+				                          <a href='{{ $.Scratch.Get "bookingPage" }}' target="_blank"><img src="/quart/img/airevisuelle-vert.jpg" alt="Aire Visuelle"></a>
+				                      </div>
+				                      <div class="portfolio-description">
+				                          <a href='{{ $.Scratch.Get "bookingPage" }}' target="_blank">
+				                              <h3>{{ i18n "in_store" }}</h3>
+				                              <span>Aire Visuelle</span> </a>
+				                      </div>
+				                  </div>
+				                </a>
+				              </div>
+				              <!-- end: portfolio item -->
+				              {{ range after 4 .Params.designers}}
+				              		{{- partial "site/portfolio-item.html" . -}}
+				              {{ end }}
+				              <!-- portfolio item -->
+		                  <div class="portfolio-item img-zoom pf-illustrations pf-media hover-3d pf-icons pf-Media">
+		                  	<a href='{{ i18n "visionavenue" }}' target="_blank">
+		                      <div class="portfolio-item-wrap">
+		                          <div class="portfolio-image">
+		                              <a href='{{ i18n "visionavenue" }}' target="_blank"><img src="/quart/img/vision-avenue.png" alt="Vision Avenue"></a>
+		                          </div>
+		                          <div class="portfolio-description">
+		                              <a href='{{ i18n "visionavenue" }}' target="_blank">
+		                                  <h3>{{ i18n "buy_visionavenue" }}</h3>
+		                              </a>
+		                          </div>
+		                      </div>
+		                    </a>
+		                  </div>
+		                  <!-- end: portfolio item -->
+				          </div>
+				          <!-- end: Portfolio Items -->
+          	 	</div>
+							<div class="col-md-3 col-sm-12 col-eq-height">
+                  <!--call-to-action colored background -->
+                  <div class="call-to-action call-to-action-dark">
+                      {{ .Params.rightcta | markdownify }} 
+                      <a class="btn btn-outline btn-light" href='{{ $.Scratch.Get "bookingOptiPage" }}'>{{ i18n "book" }}</a>
+                   </div>
+
+                  <!--END: call-to-action colored background -->
+              </div>
+		      </div>
+      </div>
+      
+  </section>
+  {{ partial "site/promocta.html" . }}
+  <!-- end: PORTFOLIO -->
+
+</main>
+{{ end }}

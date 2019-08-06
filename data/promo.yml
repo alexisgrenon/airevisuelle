@@ -1,0 +1,32 @@
+general:
+  fr:
+    title: Promotion du mois
+    description: En Août, obtenez 50$ de rabais sur la collection Etnia Barcelona.
+    btntxt: En savoir plus
+    btnurl: promotions
+  en:
+    title: Deal of the month
+    description: In August, get a 50$ discount on the Etnia Barcelona collection
+    btntxt: More details
+    btnurl: en/promotions
+services:
+  fr:
+    title: Rendez-vous en ligne
+    description: Réservez une plage horaire avec un expert facilement grâce à notre système de réservation en ligne.
+    btntxt: En savoir plus
+    btnurl: rendez-vous
+  en:
+    title: Online appointment
+    description: Easily book a time slot with an expert with our online booking system.
+    btntxt: More details
+    btnurl: en/appointment
+footer:
+  image: /img/opticien-1.jpg
+  fr:
+    title: Promotions du mois
+    description: En Août, obtenez 50$ de rabais sur la collection Etnia Barcelona.
+    link: promotionsPage
+  en:
+    title: Deal of the month
+    description: In August, get a 50$ discount on the Etnia Barcelona collection
+    link: promotionsPage

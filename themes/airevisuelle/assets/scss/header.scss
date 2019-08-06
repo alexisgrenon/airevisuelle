@@ -34,6 +34,7 @@
                     transition: all .4s ease-in-out;
                     height: $header-height;
                     width: auto;
+                    padding: 15px 0px;
                 }
             }
         }
@@ -100,6 +101,9 @@
         // #top-search-trigger {
         .header-extras {
             i {
+                color: $white;
+            }
+            .lang.title {
                 color: $white;
             }
             .lines,
@@ -451,6 +455,9 @@ Main Menu
                     border-color: transparent;
                     transition: all .3s ease;
                     line-height: normal;
+                    @media only screen and (min-width : 1101px) and (max-width : 1250px) {
+                        padding: 11px 5px;
+                    }
                     >i {
                         margin-left: 2px;
                         margin-right: 6px;
@@ -2156,7 +2163,7 @@ HEADER: Responsive
     }
 }*/
 
-@media (max-width: 991px) {
+@media (max-width: 1100px) {
     /*TopBar*/
     #topbar {
         &.topbar-transparent.dark {
@@ -2189,6 +2196,7 @@ HEADER: Responsive
             padding: 0 !important;
             >a {
                 display: inline-block;
+                padding: 10px
             }
         }
         &.header-transparent,
@@ -2739,5 +2747,14 @@ HEADER: Responsive
                 }
             }
         }
+    }
+    #header.dark {
+        #svglogo {
+            fill: inherit;
+            max-width: 200px
+        }
+    }
+    #header #logo>a {
+        height: 80px;
     }
 }

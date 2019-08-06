@@ -1,7 +1,38 @@
 equipe:
-  - description: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto cupiditate, reiciendis impedit unde similique sit nesciunt ex sapiente quidem aspernatur provident expedita corrupti nulla laborum corporis incidunt vel nostrum! Debitis?
-    nom: 'John Doe'
+  - name: Suzie Pelletier 
+    nameen: Suzie Pelletier 
+    title: Opticienne
+    titleen: Optician
     ordre: 1
-    photo: /images/johndoe.jpg
-    titre: A really good guy
+    group: ood
+  - name: Pierluigi Merolla 
+    nameen: Pierluigi Merolla 
+    title: Opticien
+    titleen: Optician
+    ordre: 2
+    group: ood
+  - name: Laurent Brassard 
+    nameen: Laurent Brassard
+    title: Opticien
+    titleen: Optician
+    ordre: 3
+    group: ood
+  - name: Docteur Sylvain Duquette 
+    nameen: Doctor Sylvain Duquette
+    title: Optométriste
+    titleen: Optometrist
+    ordre: 5
+    group: od
+  - name: Docteure Geneviève Brassard 
+    nameen: Doctor Geneviève Brassard
+    title: Optométriste
+    titleen: Optometrist
+    ordre: 6
+    group: od
+  - name: Docteure Marie-Pier Gascon 
+    nameen: Doctor Marie-Pier Gascon
+    title: Optométriste
+    titleen: Optometrist
+    ordre: 7
+    group: od
+

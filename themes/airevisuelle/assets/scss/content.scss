@@ -45,7 +45,15 @@ $light-grey: #eee;
     &.sidebar-modern {
         &:before {
             background-color: #fbfbfb;
-            width: 3000px;
+            @media (min-width: 768px) {
+                width: 750px;
+            }
+            @media (min-width: 992px){
+                width: 970px;
+            }
+            @media (min-width: 1200px) {
+                width: 1170px;
+            }
         }
     }
     &.sidebar-plain {
@@ -85,7 +93,7 @@ $light-grey: #eee;
             padding-left: 25px;
             &:before {
                 right: auto;
-                border-right-width: 0;
+                border-right-width: 1px;
                 border-left-width: 1px;
                 left: 0;
             }

@@ -1,0 +1,133 @@
+[contact]
+  other = "Contactez-nous"
+
+[home]
+  other = "Accueil"
+
+[services]
+  other = "Nos services"
+
+[about]
+  other = "À propos"
+
+[clients]
+  other = "Nos clients"
+
+[blog]
+  other = "Blogue"
+
+[find]
+  other = "Nous trouver"
+
+[email]
+  other = "Courriel"
+
+[email_plain]
+  other = "Courriel"
+
+[call]
+  other = "Appelez-nous"
+
+[sitemap]
+  other = "Plan du site"
+
+[copyright]
+  other = 'Tous droits réservés. Conçu avec <i class="fa fa-heart"></i> par <a href="http://www.akiamarketing.ca" target="_blank">Akia Marketing</a>'
+
+[readmore]
+  other = "Lire la suite"
+
+[recent_articles]
+  other = "Articles récents"
+
+[visionavenue]
+  other = "https://www.visionavenue.ca/fr/"
+
+[previous_post]
+  other = "Article précédent"
+
+[next_post]
+  other = "Article suivant"
+
+[book_online]
+  other = "Prendre rendez-vous"
+
+[our_promotions]
+  other = "Nos promotions"
+
+[see_products]
+  other = "Voir nos produits"
+
+[corner]
+  other = "Coin René-Laennec"
+
+[catalog]
+  other = "Catalogue"
+
+[recent_articles_title]
+  other = "Nos articles les plus récents"
+
+[discover_partners]
+  other = "Découvrez nos partenaires"
+
+[opening_hrs]
+  other = "Heures d'ouverture"
+
+[by]
+  other = "par"
+
+[in_store]
+  other = "Sélection en magasin"
+
+[book]
+  other = "Rendez-vous"
+
+[buy_visionavenue]
+  other = "Achetez en ligne chez Vision Avenue"
+
+[permanent_discount]
+  other = "Rabais permanent"
+
+[name]
+  other = "Nom"
+
+[enter_name]
+  other = "Entrez votre nom"
+
+[enter_email]
+  other = "Entrez votre courriel"
+
+[subject]
+  other = "Sujet"
+
+[enter_message]
+  other = "Entrez votre message"
+
+[send_message]
+  other = "Envoyez votre message"
+
+[age]
+  other = "Âge"
+
+[already_client]
+  other = "Déjà un client?"
+
+[preference]
+  other = "Préférence"
+
+[wear_eyeglasses]
+  other = "Port de lunettes"
+
+[wear_lenses]
+  other = "Port de verres de contact"
+
+[yes]
+  other = "Oui"
+
+[no]
+  other = "Non"
+
+[financement]
+  other = "Financement disponible"
+
+

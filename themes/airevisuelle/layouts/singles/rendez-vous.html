@@ -1,0 +1,178 @@
+{{ define "main" }}
+<main class="main" id="rdv">
+		<!-- CONTENT -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 clearfix">
+                   <h1 class="text-uppercase {{ if not .Params.both }}text-center{{ end }}">{{.Params.titre}}</h1> 
+                </div>
+                {{ if .Params.od }}
+                <div class="col-md-6 {{ if not .Params.both }}col-md-offset-3{{ end }}">
+                    {{ if .Params.both }}<h2 class="text-uppercase">O.D</h2>{{ end }}
+                    <div class="row team-members team-members-shadow">
+                        {{ range sort .Site.Data.equipe.equipe ".ordre"}}
+                        {{ if eq .group "od"}}
+                        <div class="col-md-6">
+                            <div class="team-member">
+                                <div class="team-desc">
+                                    <h3>{{ if eq $.Lang "en" }}{{.nameen}}{{else}}{{.name}}{{end}}</h3>
+                                    <p>{{ if eq $.Lang "en" }}{{.titleen}}{{else}}{{.title}}{{end}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        {{ end }}
+                        {{ end }}
+                        <div class="col-md-12">
+                            <p>{{ .Params.odcontent.ligne1 | markdownify -}}</p>
+                            <p>{{ .Params.odcontent.ligne2 | markdownify -}}</p>
+                            <a class="btn btn-rounded btn-reveal btn-reveal-left" href='{{.Site.Data.settings.rdvlink}}&language={{- .Lang -}}' target="_blank" style="display: inline-block;"><span class="btn-label">{{ i18n "book_online" }}</span><i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="row m-t-40 hidden-xs hidden-sm">
+                        <div class="col-sm-6">
+                            <address>
+                                <strong>L'Aire Visuelle</strong><br>
+                                {{.Site.Data.settings.address.road}} <br>
+                                {{.Site.Data.settings.address.city}} ({{.Site.Data.settings.address.province}})<br>
+                                {{ i18n "corner" }}<br>
+                                <a href="tel:{{.Site.Data.settings.mphone}}" class="visible-xs">{{.Site.Data.settings.phone}}</a><span class="hidden-xs" style="color:#000!important">{{.Site.Data.settings.phone}}</span>
+                            </address>
+                        </div>
+                        <div class="col-sm-6">
+                            <address>
+                                <strong>{{ i18n "opening_hrs" }}</strong><br>
+                                {{- if eq .Lang "fr" -}}
+                                    {{- range .Site.Data.settings.ouverture.fr -}}
+                                      {{.jour}}: <strong>{{.heures}}</strong> <br>
+                                    {{- end -}}
+                                {{- else if eq .Lang "en" -}}
+                                    {{- range .Site.Data.settings.ouverture.en -}}
+                                      {{.jour}}: <strong>{{.heures}}</strong> <br>
+                                    {{- end -}}
+                                {{- end -}}
+                            </address>
+                        </div>
+                    </div>
+
+                </div>
+                {{ end }}
+                {{ if .Params.ood }}
+                <div class="col-md-6 od-box {{ if not .Params.both }}col-md-offset-3{{ end }}">
+                    {{ if .Params.both }}<h2 class="text-uppercase">O.O.D</h2>{{ end }}
+                    <div class="row team-members team-members-shadow">
+                        {{ range sort .Site.Data.equipe.equipe ".ordre"}}
+                        {{ if eq .group "ood"}}
+                        <div class="col-md-6">
+                            <div class="team-member">
+                                <div class="team-desc">
+                                    <h3>{{ if eq $.Lang "en" }}{{.nameen}}{{else}}{{.name}}{{end}}</h3>
+                                    <p>{{ if eq $.Lang "en" }}{{.titleen}}{{else}}{{.title}}{{end}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        {{ end }}
+                        {{ end }}
+                        <div class="col-md-12">
+                            <p>{{.Params.oodcontent}}</p>
+                        </div>
+                    </div>
+                    <form class="widget-contact-form" action="/merci" role="form" method="post" name="{{.Params.identifiant}}-{{.Lang}}" netlify>
+                        
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label for="name">{{ i18n "name" }}</label>
+                                <input type="text" name="widget-contact-form-name" class="form-control name" placeholder='{{ i18n "enter_name" }}' required>
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label for="email">{{ i18n "email" }}</label>
+                                <input type="email" aria-required="true" name="widget-contact-form-email" class="form-control required email" placeholder='{{ i18n "enter_email" }}' type="email" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-sm-6 col-md-3">
+                                <label for="message">{{ i18n "age" }}</label>
+                                <input type="text" name="age" aria-required="true" class="form-control required" placeholder='{{ i18n "age" }}'>
+                            </div>
+                            <div class="form-group col-sm-6 col-md-3">
+                                <label for="message">{{ i18n "already_client" }}</label>
+                                <select name="deja_client" id="">
+                                    <option value="oui">{{ i18n "yes" }}</option>
+                                    <option value="non">{{ i18n "no" }}</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label for="name">{{ i18n "preference" }}</label>
+                                <select name="preference" id="">
+                                    <option value="AM">AM</option>
+                                    <option value="PM">PM</option>
+                                </select>
+                            </div>
+                        </div> 
+                        <div class="row">
+                            <div class="form-group col-sm-6 col-md-3">
+                                <label for="subject">{{ i18n "wear_eyeglasses" }}</label>
+                                <select name="port_lunettes" id="">
+                                    <option value="oui">{{ i18n "yes" }}</option>
+                                    <option value="non">{{ i18n "no" }}</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-sm-6 col-md-3">
+                                <label for="message">{{ i18n "wear_lenses" }}</label>
+                                <select name="port_verre" id="">
+                                    <option value="oui">{{ i18n "yes" }}</option>
+                                    <option value="non">{{ i18n "no" }}</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label for="message">Message</label>
+                                <textarea type="text" name="widget-contact-form-message" rows="5" class="form-control" placeholder='{{ i18n "enter_message" }}'></textarea>
+                            </div>
+                        </div>
+                        <button class="btn btn-rounded btn-reveal btn-reveal-left" type="submit" id="form-submit"><span class="btn-label">{{ i18n "book_online" }}</span><i class="fa fa-arrow-right"></i></button>
+                    </form>
+                </div>
+                {{ end }}
+            </div>
+
+            <div class="row m-t-40 hidden-md hidden-lg">
+                <div class="col-md-4 col-sm-6">
+                    <address>
+                        <strong>L'Aire Visuelle</strong><br>
+                        {{.Site.Data.settings.address.road}} <br>
+                        {{.Site.Data.settings.address.city}} ({{.Site.Data.settings.address.province}})<br>
+                        {{ i18n "corner" }}<br>
+                        <a href="tel:{{.Site.Data.settings.mphone}}" class="visible-xs">{{.Site.Data.settings.phone}}</a><span class="hidden-xs" style="color:#000!important">{{.Site.Data.settings.phone}}</span>
+                    </address>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <address>
+                        <strong>{{ i18n "opening_hrs" }}</strong><br>
+                        {{- if eq .Lang "fr" -}}
+                            {{- range .Site.Data.settings.ouverture.fr -}}
+                              {{.jour}}: <strong>{{.heures}}</strong> <br>
+                            {{- end -}}
+                        {{- else if eq .Lang "en" -}}
+                            {{- range .Site.Data.settings.ouverture.en -}}
+                              {{.jour}}: <strong>{{.heures}}</strong> <br>
+                            {{- end -}}
+                        {{- end -}}
+                    </address>
+                </div>
+            </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end: CONTENT -->
+
+    <!-- MAP -->
+    <section class="no-padding">
+        <!-- Google map sensor -->
+        <div class="map" data-map-address="380 boul. Dagenais Est, Laval, Québec" data-map-zoom="13" data-map-icon="/img/marker-airevisuelle.png" data-map-type="ROADMAP"></div>
+    </section>
+    <!-- end: MAP -->
+</main>
+{{ end }}
