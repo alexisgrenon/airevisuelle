@@ -8,7 +8,7 @@
                   <h1>{{ .Params.titre }}</h1>
                   <p data-animation="fadeInUp" data-animation-delay="300" class=""><a href='{{ $.Scratch.Get "promotionsPage" }}' class="business"><span class="business">{{.Params.slidertext}}</span></a>
                   </p>
-                  <div id="ctas"> 
+                  <div id="ctas">
                       <a class="btn btn-rounded btn-reveal btn-reveal-left" href='{{ $.Scratch.Get "promotionsPage" }}'><span>{{ i18n "our_promotions" }}</span><i class="fa fa-arrow-right"></i></a>
                       <a class="btn btn-rounded btn-reveal btn-reveal-left btn-light" href='{{.Site.Data.settings.rdvlink}}&language={{- .Lang -}}' target="_blank"><span class="btn-label">{{ i18n "book_online" }}</span><i class="fa fa-arrow-right"></i></a>
                   </div>
@@ -17,7 +17,7 @@
       </div>
   </div> -->
   <div id="slider" class="inspiro-slider slider-fullscreen arrows-large arrows-creative dots-creative" data-height-xs="360">
-      <div class="slide background-overlay-grey" style="background-image: url('/img/header-juin-juillet.jpg')">
+      <div class="slide background-overlay-grey" style="background-image: url('/img/header-aout.jpg')">
           <div class="container">
               <div class="slide-captions text-light">
                 <a href='{{.Site.Data.settings.rdvlink}}&language={{- .Lang -}}' target="_blank">
@@ -123,12 +123,12 @@
 
 		      </div>
       </div>
-      
+
   </section>
   {{ partial "site/promocta.html" . }}
   <!-- end: PORTFOLIO -->
   <!-- Testimonial Carousel -->
         <!-- end: Testimonial Carousel -->
-        
+
 </main>
 {{ end }}
