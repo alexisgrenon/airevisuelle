@@ -39,7 +39,7 @@ designers:
 header:
   transparent: true
   dark: true
-slidertext: '<span>En juin et juillet, obtenez</span>25% de rabais<span style="line-height: 35px">sur les lunettes solaires sélectionnées</span>'
+slidertext: '<span>En Août, obtenez</span>50$ de rabais<span style="line-height: 35px">sur la collection Etnia Barcelona.</span>'
 block2:
   titre: Vos professionels de la vue au coeur de Laval
   text: >-
@@ -66,7 +66,7 @@ block3:
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
     titre: PROMOTIONS DU MOIS
-    desc: "Obtenez 25% rabais sur les lunettes solaires sélectionnées en juin et juillet"
+    desc: En Août, obtenez 50$ de rabais sur la collection Etnia Barcelona.
     btn: Voir la promotion
     haut: false
 block4:

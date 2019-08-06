@@ -1,12 +1,12 @@
 general:
   fr:
     title: Promotion du mois
-    description: Obtenez 25% rabais sur les lunettes solaires sélectionnées en juin et juillet
+    description: En Août, obtenez 50$ de rabais sur la collection Etnia Barcelona.
     btntxt: En savoir plus
     btnurl: promotions
   en:
     title: Deal of the month
-    description: Get a 25% discount on our selected sun glasses in June and July
+    description: In August, get a 50$ discount on the Etnia Barcelona collection
     btntxt: More details
     btnurl: en/promotions
 services:
@@ -24,9 +24,9 @@ footer:
   image: /img/opticien-1.jpg
   fr:
     title: Promotions du mois
-    description: Obtenez 25% rabais sur les lunettes solaires sélectionnées en juin et juillet
+    description: En Août, obtenez 50$ de rabais sur la collection Etnia Barcelona.
     link: promotionsPage
   en:
     title: Deal of the month
-    description: Get a 25% discount on our selected sun glasses in June and July
+    description: In August, get a 50$ discount on the Etnia Barcelona collection
     link: promotionsPage

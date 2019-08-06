@@ -9,7 +9,7 @@ i18nlanguage: en
 startdate: June 1st, 2019
 enddate: July 31st, 2019
 weight: 0
-draft: false
+draft: true
 ---
 
 Get a 25% discount on our selected sun glasses in June and July

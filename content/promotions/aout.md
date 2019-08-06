@@ -6,10 +6,10 @@ slug: rabais-sur-la-etnia-barcelona
 identifiant: aout
 image: /img/aire-visuelle-promo-aout-fr.jpg
 i18nlanguage: fr
-startdate: 1er Août 2018
-enddate: 31 Août 2018
+startdate: 1er Août 2019
+enddate: 31 Août 2019
 weight: 0
-draft: true
+draft: false
 ---
 
-Obtenez 50$ de rabais sur la collection Etnia Barcelona en Août
+En Août, obtenez 50$ de rabais sur la collection Etnia Barcelona.
