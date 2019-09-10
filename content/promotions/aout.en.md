@@ -6,8 +6,8 @@ slug: september-promotion
 identifiant: aout
 image: /img/aire-visuelle-promo-septembre2019-en.jpg
 i18nlanguage: en
-startdate: August 1st, 2019
-enddate: August 31st, 2019
+startdate: September 1st, 2019
+enddate: September 30, 2019
 weight: 0
 draft: false
 ---
