@@ -1,12 +1,12 @@
 general:
   fr:
     title: Promotion du mois
-    description: En Août, obtenez 50$ de rabais sur la collection Etnia Barcelona.
+    description: En septembre, obtenez 50$ de rabais sur la collection Bellinger.
     btntxt: En savoir plus
     btnurl: promotions
   en:
     title: Deal of the month
-    description: In August, get a 50$ discount on the Etnia Barcelona collection
+    description: In September, get a 50$ discount on the Bellinger collection
     btntxt: More details
     btnurl: en/promotions
 services:
@@ -24,9 +24,9 @@ footer:
   image: /img/opticien-1.jpg
   fr:
     title: Promotions du mois
-    description: En Août, obtenez 50$ de rabais sur la collection Etnia Barcelona.
+    description: En septembre, obtenez 50$ de rabais sur la collection Bellinger.
     link: promotionsPage
   en:
     title: Deal of the month
-    description: In August, get a 50$ discount on the Etnia Barcelona collection
+    description: In September, get a 50$ discount on the Bellinger collection
     link: promotionsPage
