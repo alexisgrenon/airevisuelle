@@ -1,13 +1,13 @@
 ---
-title: "L'Aire Visuelle | Promotion pour Août"
-titre: "Promotion pour Août"
+title: "L'Aire Visuelle | Promotion pour Septembre"
+titre: "Promotion pour Septembre"
 description: "L'Aire Visuelle vous offre des promotions imbattables sur tous produits de la vue."
-slug: rabais-sur-la-etnia-barcelona
-identifiant: aout
+slug: promotion-pour-septembre
+identifiant: septembre
 image: /img/aire-visuelle-promo-septembre2019-fr.jpg
 i18nlanguage: fr
-startdate: 1er Août 2019
-enddate: 31 Août 2019
+startdate: 1er Septembre 2019
+enddate: 30 Septembre 2019
 weight: 0
 draft: false
 ---
