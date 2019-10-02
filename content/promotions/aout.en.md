@@ -4,7 +4,7 @@ titre: "October Promotion"
 description: "L'Aire Visuelle offers you unbeatable services and promotions near you."
 slug: october-promotion
 identifiant: october
-image: /img/aire-visuelle-promo-septembre2019-en.jpg
+image: /img/ENGLISH- Promo 250$ remboursement - Aire Visuelle - EN.jpg
 i18nlanguage: en
 startdate: October 1st, 2019
 enddate: October 31, 2019
