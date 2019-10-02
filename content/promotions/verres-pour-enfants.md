@@ -13,4 +13,4 @@ annuel: true
 weight: 0
 ---
 
-Verres et montures pour enfants à partir de 149$ sur modèles sélectionnés
+Verres et montures pour enfants a partir de 149$ sur modèles sélectionnés
