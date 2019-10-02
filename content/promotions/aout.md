@@ -4,7 +4,7 @@ titre: "Promotion pour Octobre"
 description: "L'Aire Visuelle vous offre des promotions imbattables sur tous produits de la vue."
 slug: promotion-pour-octobre
 identifiant: octobre
-image: /img/aire-visuelle-promo-septembre2019-fr.jpg
+image: /img/promotionoctobrefr.jpg
 i18nlanguage: fr
 startdate: 1er Octobre 2019
 enddate: 31 octobre 2019
