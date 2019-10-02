@@ -39,7 +39,7 @@ designers:
 header:
   transparent: true
   dark: true
-slidertext: "<span>In September, get a</span>50$ discount<span>on the Bellinger collection</span>"
+slidertext: "<span>In October, get a</span>50$ discount<span>on the Orgreen collection</span>"
 block2:
   titre: Optometrist, Optician And Eyewear in Laval
   text: >-
@@ -66,7 +66,7 @@ block3:
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
     titre: Monthly offers
-    desc: In September, get a 50$ discount on the Bellinger collection
+    desc: In October, get a 50$ discount on the Orgreen collection
     btn: See our promotion
     haut: false
 block4:
