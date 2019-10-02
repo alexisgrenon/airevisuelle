@@ -1,12 +1,12 @@
 general:
   fr:
     title: Promotion du mois
-    description: En septembre, obtenez 50$ de rabais sur la collection Bellinger.
+    description: En octobre, obtenez 50$ de rabais sur la collection Orgreen.
     btntxt: En savoir plus
     btnurl: promotions
   en:
     title: Deal of the month
-    description: In September, get a 50$ discount on the Bellinger collection
+    description: In October, get a 50$ discount on the Orgreen collection
     btntxt: More details
     btnurl: en/promotions
 services:
@@ -24,9 +24,9 @@ footer:
   image: /img/opticien-1.jpg
   fr:
     title: Promotions du mois
-    description: En septembre, obtenez 50$ de rabais sur la collection Bellinger.
+    description: En octobre, obtenez 50$ de rabais sur la collection Orgreen.
     link: promotionsPage
   en:
     title: Deal of the month
-    description: In September, get a 50$ discount on the Bellinger collection
+    description: In October, get a 50$ discount on the Orgreen collection
     link: promotionsPage
