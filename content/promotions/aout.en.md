@@ -1,15 +1,15 @@
 ---
-title: "L'Aire Visuelle | September Promotion"
-titre: "September Promotion"
+title: "L'Aire Visuelle | October Promotion"
+titre: "October Promotion"
 description: "L'Aire Visuelle offers you unbeatable services and promotions near you."
-slug: september-promotion
-identifiant: aout
+slug: october-promotion
+identifiant: october
 image: /img/aire-visuelle-promo-septembre2019-en.jpg
 i18nlanguage: en
-startdate: September 1st, 2019
-enddate: September 30, 2019
+startdate: October 1st, 2019
+enddate: October 31, 2019
 weight: 0
 draft: false
 ---
 
-In September, get a 50$ discount on the Bellinger collection
+In October, get a 50$ discount on the Orgreen collection
