@@ -39,7 +39,7 @@ designers:
 header:
   transparent: true
   dark: true
-slidertext: '<span>En septembre, obtenez</span>50$ de rabais<span style="line-height: 35px">sur la collection Bellinger.</span>'
+slidertext: '<span>En octobre, obtenez</span>50$ de rabais<span style="line-height: 35px">sur la collection Orgreen.</span>'
 block2:
   titre: Vos professionels de la vue au coeur de Laval
   text: >-
@@ -66,7 +66,7 @@ block3:
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
     titre: PROMOTIONS DU MOIS
-    desc: En septembre obtenez 50$ de rabais sur la collection Bellinger.
+    desc: En octobre obtenez 50$ de rabais sur la collection Orgreen.
     btn: Voir la promotion
     haut: false
 block4:
