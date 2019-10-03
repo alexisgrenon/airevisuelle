@@ -1,6 +1,6 @@
 ---
 title: "L'Aire Visuelle | Programme de rabais pour les 15 ans et moins"
-titre: "Programme de renouvellement de verres pour les 15 ans et moins"
+titre: "<a href="www.google.ca">Programme de renouvellement de verres pour les 15 ans et moins"</a>
 description: "L'Aire Visuelle vous offre des promotions imbattables sur tous produits de la vue."
 slug: programme-rabais-pour-les-15-ans-et-mois
 identifiant: jeunes
