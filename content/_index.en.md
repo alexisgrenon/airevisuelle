@@ -3,6 +3,7 @@ title: "L'Aire Visuelle | Optometrist, Optician and Eyewear Store."
 titre: "Optometrist, Optician And Eyewear in Laval"
 description: "L'Aire Visuelle offers you a quality customer experience for any eye care. We offer you high-end glasses and frames and offer you the best treatments in Laval."
 image: "/img/slider-1.jpg"
+link: en/promotionsPage
 i18nlanguage: en
 draft: false
 designers:
