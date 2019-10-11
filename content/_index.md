@@ -3,6 +3,7 @@ title: "L'Aire Visuelle | Optométriste , Opticien et Lunetterie à Laval"
 titre: "Vos professionels de la vue au coeur de Laval"
 description: "L'Aire Visuelle vous offre des prix compétitif et un service d'optométrie et de lunetterie imbattable dans la région de Laval"
 image: "/img/slider-1.jpg"
+link: promotionsPage
 i18nlanguage: fr
 draft: false
 designers:
