@@ -17,12 +17,10 @@
   "author": "Akia Marketing",
   "license": "MIT",
   "dependencies": {
-    "concurrent-transform": "^1.0.0",
-    "del": "^3.0.0",
-    "gulp": "^3.9.1",
-    "gulp-image-resize": "^0.13.0",
-    "gulp-imagemin": "^3.4.0",
-    "gulp-shell": "^0.6.3",
-    "run-sequence": "^2.2.0"
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-image-resize": "^0.13.1",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-shell": "^0.7.1"
   }
 }

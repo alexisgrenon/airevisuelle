@@ -1,3 +1,6 @@
 node_modules
 .DS_Store
 themes/airevisuelle/prepros-6.config
+
+# Ignore /public/ built by Hugo
+public/
