@@ -1,8 +1,6 @@
 const gulp = require('gulp');
 const imagemin = require("gulp-imagemin");
 const imageresize = require('gulp-image-resize');
-const parallel = require("concurrent-transform");
-var runSequence = require('run-sequence');
 var del = require('del');
 var exec = require('child_process').exec;
 
@@ -52,19 +50,12 @@ gulp.task("hugo", function (cb) {
 
 // watching images and resizing
 gulp.task("watch", function() {
-  gulp.watch('themes/airevisuelle/source-images/*.{jpg,png,jpeg,gif}', function(){ runSequence('clean-image', 'image-resize') });
+  gulp.watch('themes/airevisuelle/source-images/*.{jpg,png,jpeg,gif}', gulp.series('clean-image', 'image-resize'));
 });
 
 // watching images and resizing
-gulp.task("dev",  function(callback) {
-  runSequence('clean-image',
-              'image-resize',
-              'watch');
-});
+gulp.task("dev", gulp.series("clean-image", "image-resize", "watch"));
+
 
 // optimizing images and calling hugo for production
-gulp.task("prod",  function(callback) {
-  runSequence('clean-image',
-              'image-resize',
-              'hugo');
-});
+gulp.task("prod", gulp.series('clean-image', 'image-resize', 'hugo'));
