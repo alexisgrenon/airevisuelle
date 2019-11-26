@@ -40,7 +40,7 @@ designers:
 header:
   transparent: true
   dark: true
-slidertext: "<span>In October, get a</span>50$ discount<span>on the Orgreen collection</span>"
+slidertext: "<span>From December 1st to January 31</span>get from 50$ off to 50% discount<span>on selected glasses</span>"
 block2:
   titre: Optometrist, Optician And Eyewear in Laval
   text: >-
