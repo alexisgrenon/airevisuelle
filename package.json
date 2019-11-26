@@ -21,6 +21,7 @@
     "gulp": "^4.0.2",
     "gulp-image-resize": "^0.13.1",
     "gulp-imagemin": "^6.2.0",
+    "gulp-sass": "^4.0.2",
     "gulp-shell": "^0.7.1"
   }
 }

@@ -1,12 +1,12 @@
 general:
   fr:
-    title: Promotion du mois
-    description: En octobre, obtenez 50$ de rabais sur la collection Orgreen.
+    title: Promotion pour décembre et janvier
+    description: De 50$ d'escompte jusqu'à 50% de rabais sur les montures sélectionnées
     btntxt: En savoir plus
     btnurl: promotions
   en:
-    title: Deal of the month
-    description: In October, get a 50$ discount on the Orgreen collection
+    title: From December 1st to January 31
+    description: Get from 50$ off to 50% discount on selected glasses
     btntxt: More details
     btnurl: en/promotions
 services:
@@ -23,10 +23,10 @@ services:
 footer:
   image: /img/opticien-1.jpg
   fr:
-    title: Promotions du mois
-    description: En octobre, obtenez 50$ de rabais sur la collection Orgreen.
+    title: Promotion pour décembre et janvier
+    description: De 50$ d'escompte jusqu'à 50% de rabais sur les montures sélectionnées
     link: promotionsPage
   en:
-    title: Deal of the month
-    description: In October, get a 50$ discount on the Orgreen collection
+    title: From December 1st to January 31
+    description: Get from 50$ off to 50% discount on selected glasses
     link: promotionsPage
