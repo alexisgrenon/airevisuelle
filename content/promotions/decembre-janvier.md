@@ -12,4 +12,4 @@ weight: 0
 draft: false
 ---
 
-En décembre et janvier obtenez de 50$ d'escompte jusqu'à 50% de rabais sur les montures sélectionnées
+Du 1er décembre au 31 janvier, obtenez jusqu'à 50% de rabais sur les montures sélectionnées
