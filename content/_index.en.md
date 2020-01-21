@@ -53,24 +53,35 @@ block3:
     desc: choose the date and time that suit you best in the comfort of your home
     btn: Book now
     haut: true
+    full: false
   - image: "/img/opticien-1.jpg"
     link: contactPage
     titre: Come see us in store
     desc: In Laval on the Dagenais boulevard, near the 19
     btn: Our informations
     haut: false
+    full: false
   - image: "/img/optometriste-1.jpg"
     link: catalogPage
     titre: Many choices
     desc: Several lenses and frames to try on in store. Take a look at our online catalogue for a sneak peek!
     btn: See our catalogue
     haut: true
+    full: false
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
     titre: Monthly offers
     desc: In October, get a 50$ discount on the Orgreen collection
     btn: See our promotion
     haut: false
+    full: false
+  - image: "/img/optometriste-4.jpg"
+    link: http://www.ramq.gouv.qc.ca/en/citizens/aid-programs/Pages/eyeglasses-lenses-children.aspx
+    titre: 250$ reimbursement for kids under 18
+    desc: Get a 250$ reinbursement following the purchase of eyeglasses or contact lenses for any child under the age of 18.
+    btn: More information
+    haut: false
+    full: true
 block4:
   titre: Our most popular designers
   text: >-

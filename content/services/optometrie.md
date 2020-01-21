@@ -55,4 +55,5 @@ Nos Optométristes :
 
 - Sylvain Duquette, OD
 - Geneviève Brassard, OD
-- Marie-Pier Gascon, OD 
+- Marie-Pier Gascon, OD
+- Judy Breskott O.D

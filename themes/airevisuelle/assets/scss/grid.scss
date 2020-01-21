@@ -107,16 +107,21 @@
     }
 }
 
+.grid-item.full-width,
+.portfolio-item.full-width,
+.post-item.full-width {
+    width: 100%;
+}
+
 @media (max-width: 1380px) {
-        .grid-5-columns .grid-item,
-        .post-5-columns .post-item,
-        .portfolio-5-columns .portfolio-item {
-            width: 25%;
-            &.large-width {
-                width: 50%;
-            }
+    .grid-5-columns .grid-item,
+    .post-5-columns .post-item,
+    .portfolio-5-columns .portfolio-item {
+        width: 25%;
+        &.large-width {
+            width: 50%;
         }
-    
+    }
 }
 
 

@@ -53,24 +53,35 @@ block3:
     desc: Choisissez la date et l’heure qui vous conviennent dans le confort de votre salon
     btn: Prendre rendez-vous
     haut: true
+    full: false
   - image: "/img/opticien-1.jpg"
     link: contactPage
     titre: VENEZ NOUS VOIR EN MAGASIN
     desc: À Laval sur le boulevard Dagenais, près de la 19
     btn: Nos coordonnées
     haut: false
+    full: false
   - image: "/img/optometriste-1.jpg"
     link: catalogPage
     titre: DE NOMBREUX CHOIX
     desc: Plusieurs choix de lentilles et de montures à venir essayer en magasin. Regardez notre catalogue en ligne pour un aperçu!
     btn: Voir le catalogue
     haut: true
+    full: false
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
     titre: PROMOTIONS DU MOIS
     desc: En octobre obtenez 50$ de rabais sur la collection Orgreen.
     btn: Voir la promotion
     haut: false
+    full: false
+  - image: "/img/optometriste-4.jpg"
+    link: http://www.ramq.gouv.qc.ca/fr/citoyens/programmes-aide/Pages/lunettes-verres-enfants.aspx
+    titre: Remboursement de 250$ pour les enfants
+    desc: Obtenez un remboursement de 250$ à l’achat de lunettes et verres pour votre enfant en bas de 18 ans.
+    btn: En savoir plus
+    haut: false
+    full: true
 block4:
   titre: Nos designers les plus populaires
   text: >-
