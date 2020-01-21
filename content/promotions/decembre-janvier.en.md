@@ -12,4 +12,4 @@ weight: 0
 draft: false
 ---
 
-In December and January, get from 50$ off to 50% discount on selected glasses
+From December 1st to January 31 get up to 50% discount on selected glasses

@@ -40,7 +40,8 @@ designers:
 header:
   transparent: true
   dark: true
-slidertext: '<span>Du 1er décembre au 31 janvier, obtenez</span>de 50$ d’escompte jusqu’à 50% de rabais<span style="line-height: 35px">sur les montures sélectionnées</span>'
+sliderurl: /promotions/
+slidertext: '<span>Du 1er décembre au 31 janvier, obtenez</span>jusqu’à 50% de rabais<span style="line-height: 35px">sur les montures sélectionnées</span>'
 block2:
   titre: Vos professionels de la vue au coeur de Laval
   text: >-

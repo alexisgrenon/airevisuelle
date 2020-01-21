@@ -40,7 +40,8 @@ designers:
 header:
   transparent: true
   dark: true
-slidertext: "<span>From December 1st to January 31</span>get from 50$ off to 50% discount<span>on selected glasses</span>"
+sliderurl: /en/promotions/
+slidertext: "<span>From December 1st to January 31</span>get up to 50% discount<span>on selected glasses</span>"
 block2:
   titre: Optometrist, Optician And Eyewear in Laval
   text: >-
