@@ -20,7 +20,7 @@
       <div class="slide background-overlay-grey" style="background-image: url('/img/airevisuelle-banner-decembre-janvier-2019.jpg')">
           <div class="container">
               <div class="slide-captions text-light">
-                <a href='{{.Site.Data.settings.rdvlink}}&language={{- .Lang -}}' target="_blank">
+                <a href='{{.Site.Data.settings.rdvlink}}&Language={{- .Lang -}}' target="_blank">
                   <div class="new-caption" style="max-width: 600px;">
                     <h2>{{ .Params.slidertext | markdownify }}</h2>
                   </div>
@@ -47,10 +47,10 @@
   	 <!-- Portfolio -->
             <div id="portfolio" class="grid-layout portfolio-3-columns">
 
-              {{ range .Params.block3 }}
-              {{ $link := .link }}
+                {{ range .Params.block3 }}
+                {{ $link := .link }}
                 <!-- portfolio item -->
-                <div class="portfolio-item {{ if .haut }}haut{{ end }} img-zoom pf-illustrations pf-media pf-icons pf-Media">
+                <div class="portfolio-item {{ if .haut }}haut{{ end }} img-zoom pf-illustrations pf-media pf-icons pf-Media"{{ if .full }} style="width: 100%;"{{ end }}>
                     <div class="portfolio-item-wrap">
                         <div class="portfolio-image">
                             <a href='{{ $.Scratch.Get $link }}'><img src="/quart{{.image}}" alt=""></a>
@@ -59,7 +59,9 @@
                             <a href='{{ $.Scratch.Get $link }}'>
                                 <h3>{{.titre}}</h3>
                                 <span>{{.desc}}</span>
-                                <a class="btn btn-rounded" style="margin-top: 20px;" href='{{ $.Scratch.Get $link }}'><span>{{.btn}}</span></a>
+                                <a class="btn btn-rounded"
+                                    style="margin-top: 20px;{{ if .full }}max-width: 270px;{{ end }}"
+                                    href='{{ if .full }}{{.link}}{{ else }}{{ $.Scratch.Get $link }}{{ end }}'><span>{{.btn}}</span></a>
                             </a>
                         </div>
                     </div>

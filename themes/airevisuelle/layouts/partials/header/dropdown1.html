@@ -1,5 +1,6 @@
 {{ if eq .Lang "fr" }}
 <ul class="dropdown-menu">
+    <li> <a href="{{.Site.BaseURL}}services/examen-de-la-vue">Examen de la vue</a></li>
     <li><a href="{{.Site.BaseURL}}services/lunetterie">Lunetterie</a></li>
     <li><a href="{{.Site.BaseURL}}services/opticien">Opticien</a></li>
     <li><a href="{{.Site.BaseURL}}services/optometrie">Optométrie</a></li>
@@ -7,6 +8,7 @@
 </ul>
 {{ else if eq .Lang "en" }}
 <ul class="dropdown-menu">
+    <li> <a href="{{.Site.BaseURL}}en/services/eye-exam">Eye exam</a></li>
     <li><a href="{{.Site.BaseURL}}en/services/eyewear-glasses">Eyewear and glasses</a></li>
     <li><a href="{{.Site.BaseURL}}en/services/optician">Optician</a></li>
     <li><a href="{{.Site.BaseURL}}en/services/optometry">Optometry</a></li>

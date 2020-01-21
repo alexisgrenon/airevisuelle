@@ -35,4 +35,9 @@ equipe:
     titleen: Optometrist
     ordre: 7
     group: od
-
+  - name: Docteure Judy Breskott
+    nameen: Doctor Judy Breskott
+    title: Optométriste
+    titleen: Optometrist
+    ordre: 8
+    group: od
