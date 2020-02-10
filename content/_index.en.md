@@ -40,8 +40,8 @@ designers:
 header:
   transparent: true
   dark: true
-sliderurl: /en/promotions/
-slidertext: "<span>From December 1st to January 31</span>get up to 50% discount<span>on selected glasses</span>"
+sliderurl: 
+slidertext: "<span></span>L'Aire Visuelle<span>Optometrist, Optician And Eyewear in Laval</span>"
 block2:
   titre: Optometrist, Optician And Eyewear in Laval
   text: >-

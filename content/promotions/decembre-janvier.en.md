@@ -9,7 +9,7 @@ i18nlanguage: en
 startdate: December 1st 2019
 enddate: January 31 2020
 weight: 0
-draft: false
+draft: true
 ---
 
 From December 1st to January 31 get up to 50% discount on selected glasses

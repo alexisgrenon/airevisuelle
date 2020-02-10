@@ -9,7 +9,7 @@ i18nlanguage: fr
 startdate: 1er décembre 2019
 enddate: 31 janvier 2020
 weight: 0
-draft: false
+draft: true
 ---
 
 Du 1er décembre au 31 janvier, obtenez jusqu'à 50% de rabais sur les montures sélectionnées

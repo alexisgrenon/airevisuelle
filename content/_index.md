@@ -40,8 +40,8 @@ designers:
 header:
   transparent: true
   dark: true
-sliderurl: /promotions/
-slidertext: '<span>Du 1er décembre au 31 janvier, obtenez</span>jusqu’à 50% de rabais<span style="line-height: 35px">sur les montures sélectionnées</span>'
+sliderurl: 
+slidertext: '<span>Bienvenue chez</span>l'Aire Visuelle<span style="line-height: 35px">Vos professionels de la vue au coeur de Laval</span>'
 block2:
   titre: Vos professionels de la vue au coeur de Laval
   text: >-
