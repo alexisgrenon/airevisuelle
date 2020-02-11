@@ -40,7 +40,7 @@ designers:
 header:
   transparent: true
   dark: true
-sliderurl: 
+sliderurl: /en/appointment-optometrist/
 slidertext: "<span></span>L'Aire Visuelle<span>Optometrist, Optician And Eyewear in Laval</span>"
 block2:
   titre: Optometrist, Optician And Eyewear in Laval
