@@ -40,6 +40,7 @@ designers:
 header:
   transparent: true
   dark: true
+  sliderurl: /promotions/
 slidertext: '<span>Bienvenue chez</span>l'Aire Visuelle<span style="line-height: 35px">Vos professionels de la vue au coeur de Laval</span>'
 block2:
   titre: Vos professionels de la vue au coeur de Laval
