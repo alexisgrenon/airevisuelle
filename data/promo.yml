@@ -1,12 +1,12 @@
 general:
   fr:
-    title: Promotions du mois
-    description: Consultez les promotions en cours pour le mois.
+    title: Promotion du mois
+    description: Obtenez 50$ de rabais sur la collection Pro Design Denmark
     btntxt: En savoir plus
     btnurl: promotions
   en:
-    title: Monthly promotions
-    description: Check out our active promotions for the month.
+    title: Monthly Discount
+    description: Get 50$ off on the Pro Design Denmark collection
     btntxt: More details
     btnurl: en/promotions
 services:
