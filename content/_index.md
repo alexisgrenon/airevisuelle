@@ -42,7 +42,7 @@ header:
   dark: true
   sliderurl: /promotions/
 slidertext: >-
-  <span>Bienvenue chez</span>l'Aire Visuelle<span style="line-height: 35px">Vos professionels de la vue au coeur de Laval</span>
+  <span>Du 1er mars au 31 mars, obtenez</span>50$ de rabais<span style="line-height: 35px">sur la collection Pro Design Denmark.</span>
 block2:
   titre: Vos professionels de la vue au coeur de Laval
   text: >-

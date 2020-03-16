@@ -41,7 +41,7 @@ header:
   transparent: true
   dark: true
   sliderurl: /en/promotions/
-slidertext: "<span>Come see us at</span>L'Aire Visuelle<span>Optometrist, Optician And Eyewear in Laval</span>"
+slidertext: "<span>From March 1st to March 31</span>get 50$ off<span>Pro Design Denmark collection.</span>"
 block2:
   titre: Optometrist, Optician And Eyewear in Laval
   text: >-
