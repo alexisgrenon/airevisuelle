@@ -1,12 +1,16 @@
 general:
   fr:
     title: Promotion du mois
-    description: Malgré la situation que nous vivons tous ensemble, nous vous offrons le service de commande en ligne, livré directement chez vous! En partenariat avec la marque canadienne Vision Avenue, obtenez des lunettes de prescription simple vision à partir de 159 $.
+    description: |
+      Malgré la situation que nous vivons tous ensemble, nous vous offrons le service de commande en ligne, livré directement chez vous!<br />
+      En partenariat avec la marque canadienne Vision Avenue, obtenez des lunettes de prescription simple vision à partir de 159 $.
     btntxt: Magasiner en ligne
     btnurl: https://www.visionavenue.ca
   en:
     title: Monthly Discount
-    description: In partnership with the Canadian brand Vision Avenue, get a vision prescription eyewear starting at 159 $. We offer an online ordering service, delivered directly to your home!
+    description: |
+      In partnership with the Canadian brand Vision Avenue, get a vision prescription eyewear starting at 159 $.<br />
+      We offer an online ordering service, delivered directly to your home!
     btntxt: Shop Online
     btnurl: https://www.visionavenue.ca
 services:
