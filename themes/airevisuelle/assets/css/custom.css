@@ -207,3 +207,14 @@ section {
   width: 100%; }
 
 /*=====  End of Srdjan CSS  ======*/
+
+.info-banner {
+  background-color: #00AE41;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.info-banner_link {
+  color: #ffffff;
+  display: block;
+}
