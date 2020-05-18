@@ -4,16 +4,6 @@
 Topbar
 -----------------------------------------------------------------*/
 
-.info-banner {
-    background-color: $base-color;
-    padding: 5px 0;
-    text-align: center;
-    a {
-        color: $white;
-        display: block;
-    }
-}
-
 #topbar {
     position: relative;
     z-index: 200;
