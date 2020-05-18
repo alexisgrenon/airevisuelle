@@ -1,4 +1,17 @@
 <!-- Topbar -->
+{{ if .Site.Data.settings.info_banner }}
+<div class="info-banner">
+	{{- if eq .Lang "fr" -}}
+		{{- range .Site.Data.settings.info_banner.fr -}}
+			<a href="{{.url}}" target="_blank">{{.text}}</a>
+		{{- end -}}
+		{{- else if eq .Lang "en" -}}
+		{{- range .Site.Data.settings.info_banner.en -}}
+			<a href="{{.url}}" target="_blank">{{.text}}</a>
+		{{- end -}}
+	{{- end -}}
+</div>
+{{ end }}
 <div id="topbar" class="{{ if .Params.header.transparent }}topbar-transparent{{ end }} {{ if .Params.header.dark }}dark{{ end }}">
 	<div class="container">
 		<div class="row">

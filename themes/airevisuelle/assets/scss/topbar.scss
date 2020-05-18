@@ -4,6 +4,16 @@
 Topbar
 -----------------------------------------------------------------*/
 
+.info-banner {
+    background-color: $base-color;
+    padding: 5px 0;
+    text-align: center;
+    a {
+        color: $white;
+        display: block;
+    }
+}
+
 #topbar {
     position: relative;
     z-index: 200;
@@ -69,7 +79,7 @@ border-top: 1px solid $light;
     &.topbar-colored.dark {
         background-color: $base-color;
     }
-  
+
 }
 // Top bar dropdowns
 .topbar-dropdown {
@@ -210,7 +220,7 @@ border-top: 1px solid $light;
         right: -20px;
     }
 }
-// topbar fullwidth 
+// topbar fullwidth
 #topbar.topbar-fullwidth > .container {
     width: 100%;
     padding: 0 30px;
@@ -234,7 +244,7 @@ border-top: 1px solid $light;
         }
     }
 }
-// topbar transparent 
+// topbar transparent
 .topbar-transparent {
     margin-top: -2px;
     &.topbar-dark .topbar-dropdown .title a,
@@ -285,4 +295,3 @@ border-top: 1px solid $light;
         }
     }
 }
-

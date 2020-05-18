@@ -12,7 +12,7 @@ twitter:
   share: false
   id: ""
 address:
-  road: 380 boul. Dagenais Est, suite 102 
+  road: 380 boul. Dagenais Est, suite 102
   app: suite 102
   city: Laval
   province: Québec
@@ -46,3 +46,11 @@ titleautocompletion: false
 defaultsocialimage: "/img/logo-share.jpg"
 removefromexternalsearch: false
 rdvlink: "https://booking.opto.com/5d4c72368c0f8/laire-visuelle-optometristes-opticiens/"
+
+info_banner:
+  fr:
+    - text: Malgré la situation que nous vivons tous ensemble, nous vous offrons le service de commande en ligne, livré directement chez vous!
+      url: https://www.visionavenue.ca/
+  en:
+    - text: In spite of the situation, we still offer an online ordering service. Delivered directly to your home!
+      url: https://www.visionavenue.ca/
