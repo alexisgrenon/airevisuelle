@@ -1,14 +1,14 @@
 general:
   fr:
     title: Promotion du mois
-    description: Obtenez 50$ de rabais sur la collection Pro Design Denmark
-    btntxt: En savoir plus
-    btnurl: promotions
+    description: Malgré la situation que nous vivons tous ensemble, nous vous offrons le service de commande en ligne, livré directement chez vous! En partenariat avec la marque canadienne Vision Avenue, obtenez des lunettes de prescription simple vision à partir de 159 $.
+    btntxt: Magasiner en ligne
+    btnurl: https://www.visionavenue.ca
   en:
     title: Monthly Discount
-    description: Get 50$ off on the Pro Design Denmark collection
-    btntxt: More details
-    btnurl: en/promotions
+    description: In partnership with the Canadian brand Vision Avenue, get a vision prescription eyewear starting at 159 $. We offer an online ordering service, delivered directly to your home!
+    btntxt: Shop Online
+    btnurl: https://www.visionavenue.ca
 services:
   fr:
     title: Rendez-vous en ligne
