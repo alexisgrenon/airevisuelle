@@ -42,7 +42,8 @@ header:
   dark: true
   sliderurl: /promotions/
 slidertext: >-
-  <span>Du 1er mars au 31 mars, obtenez</span>50$ de rabais<span style="line-height: 35px">sur la collection Pro Design Denmark.</span>
+  <span>En partenariat avec la marque canadienne Vision Avenue, obtenez des lunettes de prescription simple vision à partir
+  </span> de 159 $.<span style="line-height: 35px">Nous vous offrons le service de commande en ligne, livré directement chez vous!</span>
 block2:
   titre: Vos professionels de la vue au coeur de Laval
   text: >-

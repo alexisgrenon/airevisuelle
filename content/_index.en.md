@@ -41,7 +41,7 @@ header:
   transparent: true
   dark: true
   sliderurl: /en/promotions/
-slidertext: "<span>From March 1st to March 31</span>get 50$ off<span>Pro Design Denmark collection.</span>"
+slidertext: "<span>In partnership with the Canadian brand Vision Avenue, get a pair of glasses </span>starting at 159 $.<span>We offer an online ordering service, delivered directly to your home!</span>"
 block2:
   titre: Optometrist, Optician And Eyewear in Laval
   text: >-
