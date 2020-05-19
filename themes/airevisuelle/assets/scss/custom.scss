@@ -53,9 +53,9 @@
 		}
 	}
 	p {
-		margin-bottom: 80px; 
-		font-size: 1.35714286em; 
-		line-height: 1.68421053em; 
+		margin-bottom: 80px;
+		font-size: 1.35714286em;
+		line-height: 1.68421053em;
 		font-weight: 300;
 	}
 	.call-to-action.call-to-action-dark p {
@@ -342,7 +342,7 @@ section {
     	}
     }
 }
-	
+
 
 /*==================================
 =            Srdjan CSS            =
@@ -387,7 +387,7 @@ section {
 		width: 63%!important;
 		@media screen and (max-width:640px) {
 			width: 100%!important;
-		}		
+		}
 	}
 	hr {
 		margin-bottom: 20px;
@@ -453,3 +453,17 @@ section {
 }
 
 /*=====  End of Srdjan CSS  ======*/
+.info-banner {
+	background-color: $base-color;
+	padding: 5px 0;
+	text-align: center;
+	&_link {
+		color: $white;
+		display: block;
+		&:hover,
+		&:focus,
+		&:active {
+			color: $white;
+		}
+	}
+}

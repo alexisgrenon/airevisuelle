@@ -209,12 +209,16 @@ section {
 /*=====  End of Srdjan CSS  ======*/
 
 .info-banner {
-  background-color: #00AE41;
+  background-color: #00ae41;
   padding: 5px 0;
   text-align: center;
 }
-
 .info-banner_link {
-  color: #ffffff;
+  color: #fff;
   display: block;
+}
+.info-banner_link:hover,
+.info-banner_link:focus,
+.info-banner_link:active {
+  color: #fff;
 }
