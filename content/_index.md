@@ -42,7 +42,10 @@ header:
   dark: true
   sliderurl: /promotions/
 slidertext: >-
-  <span>Obtenez de lunettes de prescription simple vision</span>à partir de 159$<span style="line-height: 35px">Avec notre partenaires Vision Avenue</span>
+  <span>Obtenez des lunettes</span>
+  <span>de prescription simple vision</span>
+  à partir de 159$
+  <span style="line-height: 35px">avec notre partenaire Vision Avenue</span>
 block2:
   titre: Vos professionels de la vue au coeur de Laval
   text: >-
