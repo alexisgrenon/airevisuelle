@@ -20,19 +20,31 @@ address:
   country: Canada
 ouverture:
   fr:
-    - jour: Lundi - Jeudi
-      heures: 09:00 - 20:00
+    - jour: Lundi
+      heures: 09:30 - 17:00
+    - jour: Mardi
+      heures: 09:30 - 20:00
+    - jour: Mercredi
+      heures: 09:30 - 17:00
+    - jour: Jeudi
+      heures: 09:30 - 20:00
     - jour: Vendredi
-      heures: 09:00 - 18:00
+      heures: 09:30 - 16:00
     - jour: Samedi
       heures: Fermé
     - jour: Dimanche
       heures: Fermé
   en:
-    - jour: Monday - Thursday
-      heures: 09:00 - 20:00
+    - jour: Monday
+      heures: 09:30 - 17:00
+    - jour: Tuesday
+      heures: 09:30 - 20:00
+    - jour: Wednesday
+      heures: 09:30 - 17:00
+    - jour: Thursday
+      heures: 09:30 - 20:00
     - jour: Friday
-      heures: 09:00 - 18:00
+      heures: 09:30 - 16:00
     - jour: Saturday
       heures: Closed
     - jour: Sunday
