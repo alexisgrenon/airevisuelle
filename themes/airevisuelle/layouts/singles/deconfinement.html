@@ -23,14 +23,12 @@
           <div class="col-md-6">
             {{- .Params.section1.column1 | markdownify -}}
             {{- .Params.section1.list | markdownify -}}
-            <!-- {{- .Params.section1.list | markdownify | replaceRE "<ul>" "<ul class=\"list\">" | safeHTML -}} -->
           </div>
           <div class="col-md-6">
             {{- .Params.section1.column2 | markdownify -}}
           </div>
         </div>
       </div>
-      <!-- {{partial "site/promocta.html" .}} -->
     </div>
   </section>
 </main>
