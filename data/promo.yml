@@ -4,13 +4,13 @@ general:
     description: |
       Promotion de réouverture: toutes les montures sont a 50$ de rabais à l'achat d'une paire de lunettes complètes.
     btntxt: Voir nos promotions
-    btnurl: /promotions/
+    btnurl: promotions/
   en:
     title: Promotions
     description: |
       Re-opening promotion: All frames are 50$ off at the purchase of a complete pair of glasses.
     btntxt: More promotions
-    btnurl: /en/promotions/
+    btnurl: en/promotions/
 services:
   fr:
     title: Rendez-vous en ligne
