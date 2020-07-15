@@ -43,7 +43,7 @@ header:
   sliderurl: /promotions/
 slidertext: >-
   <span>Promotion de réouverture:</span>
-  <span>toutes les montures sont a 50$ de rabais à l'achat d'une paire de lunettes complètes.</span>
+  <span>toutes les montures sont à 50$ de rabais à l'achat d'une paire de lunettes complètes.</span>
 block2:
   titre: Vos professionels de la vue au coeur de Laval
   text: >-

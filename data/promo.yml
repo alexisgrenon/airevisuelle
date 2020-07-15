@@ -2,7 +2,7 @@ general:
   fr:
     title: Promotions
     description: |
-      Promotion de réouverture: toutes les montures sont a 50$ de rabais à l'achat d'une paire de lunettes complètes.
+      Promotion de réouverture: toutes les montures sont à 50$ de rabais à l'achat d'une paire de lunettes complètes.
     btntxt: Voir nos promotions
     btnurl: promotions/
   en:
