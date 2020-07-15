@@ -61,8 +61,8 @@ rdvlink: "https://www.visionavenue.ca/"
 
 info_banner:
   fr:
-    - text: Malgré la situation que nous vivons tous ensemble, nous vous offrons le service de commande en ligne, livré directement chez vous!
-      url: https://www.visionavenue.ca/
+    - text: Retour graduel aux activités habituelles suite au déconfinement. En savoir plus en cliquant ici.
+      #url: /deconfinement
   en:
-    - text: In spite of the situation, we still offer an online ordering service. Delivered directly to your home!
-      url: https://www.visionavenue.ca/
+    - text: Gradual return to usual activities following deconfinement. For more information, click here.
+      #url: https://www.visionavenue.ca/
