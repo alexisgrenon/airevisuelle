@@ -13,4 +13,4 @@ annuel: true
 weight: 0
 ---
 
-Promotion de réouverture: toutes les montures sont à 50$ de rabais à l'achat d'une paire de lunettes complètes. À l'exception des forfaits, monture et verres ophtalmiques.
+Promotion de réouverture: toutes les montures sont à 50$ de rabais à l'achat d'une paire de lunettes complète. À l'exception des forfaits, monture et verres ophtalmiques.
