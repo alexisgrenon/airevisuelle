@@ -42,10 +42,8 @@ header:
   dark: true
   sliderurl: /promotions/
 slidertext: >-
-  <span>Obtenez des lunettes</span>
-  <span>de prescription simple vision</span>
-  à partir de 159$
-  <span style="line-height: 35px">avec notre partenaire Vision Avenue</span>
+  <span>Promotion de réouverture:</span>
+  <span>toutes les montures sont a 50$ de rabais à l'achat d'une paire de lunettes complètes.</span>
 block2:
   titre: Vos professionels de la vue au coeur de Laval
   text: >-
