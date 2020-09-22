@@ -1,16 +1,16 @@
 ---
 title: "L'Aire Visuelle | Promotion pour le mois de mars"
-titre: "Promotion pour le mois de mars"
+titre: "Promotion de réouverture"
 description: "En mars obtenez 50$ de rabais sur la collection Pro Design Denmark"
 slug: rabais-sur-denmark-collection
 identifiant: march
-image: /img/promo-march-fr.png
+image: /img/promo-june-2020-fr.png
 i18nlanguage: fr
-startdate: 1er mars 2020
-enddate: 31 mars 2020
+startdate:
+enddate:
 draft: false
 annuel: true
 weight: 0
 ---
 
-En mars obtenez 50$ de rabais sur la collection Pro Design Denmark
+Promotion de réouverture: toutes les montures sont à 50$ de rabais à l'achat d'une paire de lunettes complète. À l'exception des forfaits, monture et verres ophtalmiques.

@@ -41,7 +41,9 @@ header:
   transparent: true
   dark: true
   sliderurl: /en/promotions/
-slidertext: "<span>Get single vision prescription glasses</span>starting at $159<span>With our partners Vision Avenue</span>"
+slidertext: "<span>Re-opening promotion:</span>
+  50$ off all frames
+  <span>at the purchase of a complete pair of glasses.</span>"
 block2:
   titre: Optometrist, Optician And Eyewear in Laval
   text: >-

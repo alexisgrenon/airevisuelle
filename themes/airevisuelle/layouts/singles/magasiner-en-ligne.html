@@ -1,0 +1,55 @@
+{{ define "main" }}
+<main class="main" id="services-list">
+  <!-- Page title -->
+  <section id="page-title" class="background-image background-overlay-dark" style="background-image:url('/xl/{{.Params.image}}'); background-position: center;">
+    <div class="container">
+      <div class="page-title">
+        <div data-animation="fadeIn" class="text-light">
+          <h1 data-animation="fadeInUp" data-animation-delay="1000">{{.Params.titre}}</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end: Page title -->
+  <!-- Page Content -->
+  <section class="about">
+    <div class="container">
+      <div class="row p-b-40">
+        <div class="col-md-3">
+          <div class="heading heading text-left">
+            <h2>{{- .Params.section1.title -}}</h2>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="col-md-offset-4 col-md-8">
+            {{- .Params.section1.text | markdownify -}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="page-content">
+    <div class="container">
+      <!-- Portfolio -->
+      <div id="portfolio" class="grid-layout portfolio-2-columns" data-margin="0">
+        {{ range .Params.section2 }}
+        <!-- portfolio item -->
+        <div class="portfolio-item no-overlay pf-uielements pf-media pf-icons pf-uielements pf-graphics">
+          <div class="portfolio-item-wrap">
+            <div class="portfolio-image">
+              <a href="{{.link}}" target="_blank">
+                <img src="/half/{{.image}}" alt="portfolio-img" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- end: portfolio item -->
+        {{ end }}
+      </div>
+      <!-- end: Portfolio -->
+    </div>
+  </section>
+  {{partial "site/promocta.html" .}}
+  <!-- end: Page Content -->
+</main>
+{{ end }}

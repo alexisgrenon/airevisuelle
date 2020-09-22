@@ -1,13 +1,13 @@
 <!-- Topbar -->
 {{ if .Site.Data.settings.info_banner }}
-<div class="info-banner">
+<div class="info-banner" style="background-color: #232323;">
 	{{- if eq .Lang "fr" -}}
 		{{- range .Site.Data.settings.info_banner.fr -}}
-			<a class="info-banner_link" href="{{.url}}" target="_blank">{{.text}}</a>
+			<a class="info-banner_link" href='{{ $.Scratch.Get "deconfinementPage"}}'>{{.text}}</a>
 		{{- end -}}
 		{{- else if eq .Lang "en" -}}
 		{{- range .Site.Data.settings.info_banner.en -}}
-			<a class="info-banner_link" href="{{.url}}" target="_blank">{{.text}}</a>
+			<a class="info-banner_link" href='{{ $.Scratch.Get "deconfinementPage"}}'>{{.text}}</a>
 		{{- end -}}
 	{{- end -}}
 </div>
@@ -19,7 +19,12 @@
 				<ul class="top-menu">
 					<li class="separated"><a href="tel:{{.Site.Data.settings.mphone}}">{{.Site.Data.settings.phone}}</a></li>
 					<li><a href="mailto:{{.Site.Data.settings.email}}">{{.Site.Data.settings.email}}</a></li>
-					<li><a href="https://www.visionavenue.ca/fr/" target="_blank" style="display: inline-block;" class="hidden-xs hidden-sm">Vision Avenue</a></li>
+					<li>
+						<a class="btn hidden-xs hidden-sm" href='{{ $.Scratch.Get "magasinerEnLignePage"}}'
+							style="display: inline-block; margin: 0; height: 20px; padding: 2px 6px;; text-shadow: none; text-transform: none;">
+							{{- if eq .Lang "fr" -}}{{.Site.Data.settings.shopping.fr.text}}{{- else if eq .Lang "en" -}}{{.Site.Data.settings.shopping.en.text}}{{- end -}}
+						</a>
+					</li>
 				</ul>
 			</div>
 			<div class="col-sm-6 hidden-xs">

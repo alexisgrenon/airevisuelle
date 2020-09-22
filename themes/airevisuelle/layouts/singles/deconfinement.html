@@ -1,0 +1,35 @@
+{{ define "main" }}
+<main class="main" id="a-propos">
+  <!-- Page title -->
+  <section id="page-title" class="background-image background-overlay-dark" style="background-image:url('{{.Params.image}}');">
+      <div class="container">
+
+          <div class="page-title">
+              <div data-animation="fadeIn" class="text-light">
+                  <h1 data-animation="fadeInUp" data-animation-delay="1000">{{.Params.titre}}</h1></div>
+          </div>
+      </div>
+  </section>
+  <!-- end: Page title -->
+  <section class="about">
+    <div class="container">
+      <div class="row p-b-40">
+        <div class="col-md-3">
+          <div class="heading heading text-left">
+            <h2>{{- .Params.section1.title -}}</h2>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="col-md-6">
+            {{- .Params.section1.column1 | markdownify -}}
+            {{- .Params.section1.list | markdownify -}}
+          </div>
+          <div class="col-md-6">
+            {{- .Params.section1.column2 | markdownify -}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+{{ end }}
