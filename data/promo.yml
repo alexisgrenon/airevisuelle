@@ -2,13 +2,13 @@ general:
   fr:
     title: Promotions
     description: |
-      Promotion de réouverture: toutes les montures sont à 50$ de rabais à l'achat d'une paire de lunettes complète.
+      En octobre, obtenez 30% de rabais sur la deuxième paire de lunettes complète.
     btntxt: Voir nos promotions
     btnurl: promotions/
   en:
     title: Promotions
     description: |
-      Re-opening promotion: All frames are 50$ off at the purchase of a complete pair of glasses.
+      Get 30% off on the second complete pair of glasses in October.
     btntxt: More promotions
     btnurl: en/promotions/
 services:

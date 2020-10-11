@@ -41,9 +41,9 @@ header:
   transparent: true
   dark: true
   sliderurl: /en/promotions/
-slidertext: "<span>Re-opening promotion:</span>
-  50$ off all frames
-  <span>at the purchase of a complete pair of glasses.</span>"
+slidertext: "<span>In October,</span>
+  Get 30% off
+  <span>on the second complete pair of glasses.</span>"
 block2:
   titre: Optometrist, Optician And Eyewear in Laval
   text: >-

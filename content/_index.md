@@ -42,9 +42,8 @@ header:
   dark: true
   sliderurl: /promotions/
 slidertext: >-
-  <span>Promotion de réouverture:</span>
-  <span>toutes les montures sont à</span>
-  50$ de rabais
+  <span>En octobre,</span>
+  obtenez 30% de rabais
   <span style="line-height: 35px">à l'achat d'une paire de lunettes complète.</span>
 block2:
   titre: Vos professionels de la vue au coeur de Laval
