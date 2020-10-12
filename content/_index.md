@@ -44,7 +44,7 @@ header:
 slidertext: >-
   <span>En octobre, obtenez</span>
   30% de rabais
-  <span style="line-height: 35px">à l'achat d'une paire de lunettes complète.</span>
+  <span style="line-height: 35px">à l'achat d'une deuxième paire de lunettes complète.</span>
 block2:
   titre: Vos professionels de la vue au coeur de Laval
   text: >-

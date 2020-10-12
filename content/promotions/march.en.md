@@ -1,5 +1,5 @@
 ---
-title: "L'Aire Visuelle | March promotion"
+title: "L'Aire Visuelle | October promotion"
 titre: "October promotion"
 description: "Get 30% off on the second complete pair of glasses in October."
 slug: discount-october-2020
