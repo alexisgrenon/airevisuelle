@@ -7,7 +7,7 @@ identifiant: october
 image: /img/promo-october 2020-en.png
 i18nlanguage: en
 startdate: October 1st 2020
-enddate:October 31 2020
+enddate: October 31 2020
 draft: false
 annuel: false
 weight: 0
