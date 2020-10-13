@@ -15,11 +15,11 @@ section1:
   column1: >-
     L’aire Visuelle is in gradual deconfinement mode. With the latest government announcements regarding the COVID situation, we are adapting our schedule to offer more availability. Here are the new hours of operation:<br/> <br/>
   list: |
-    - Monday: 9:30 am - 5:00 pm
-    - Tuesday: 9:30 am - 8:00 pm
-    - Wednesday: 9:30 am - 5:00 pm
-    - Thursday: 9:30 am - 8:00 pm
-    - Friday: 9:30 am - 4:00 pm
+    - Monday: 9:00 am - 6:00 pm
+    - Tuesday: 9:00 am - 8:00 pm
+    - Wednesday: 9:00 am - 8:00 pm
+    - Thursday: 9:00 am - 8:00 pm
+    - Friday: 9:00 am - 4:00 pm
     - Saturday: Closed
     - Sunday: Closed
   column2: >-
