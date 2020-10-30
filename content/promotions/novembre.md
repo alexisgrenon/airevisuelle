@@ -1,15 +1,15 @@
 ---
 title: "L'Aire Visuelle | Promotion pour Novembre"
 titre: "Promotion pour Novembre"
-description: "L'Aire Visuelle vous offre des promotions imbattables sur tous produits de la vue."
-slug: rabais-sur-la-collection-entourage-of-7
+description: "En novembre, obtenez 30% de rabais sur la deuxième paire de lunettes complète."
+slug: promo-novembre-2020
 identifiant: novembre
-image: /img/promo-novembre-fr.jpg
+image: /img/promo-nov-2020-fr.png
 i18nlanguage: fr
-startdate: 1er Novembre 2018
-enddate: 30 Novembre 2018
+startdate: 1er Novembre 2020
+enddate: 30 Novembre 2020
 weight: 0
-draft: true
+draft: false
 ---
 
-Obtenez 50$ de rabais sur la collection Entourage of 7 en Novembre
+En novembre, obtenez 30% de rabais sur la deuxième paire de lunettes complète.
