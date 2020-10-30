@@ -8,7 +8,7 @@ image: /img/promo-octobre-2020-fr.png
 i18nlanguage: fr
 startdate: 1er octobre 2020
 enddate: 31 octobre 2020
-draft: false
+draft: true
 annuel: false
 weight: 0
 ---

@@ -41,7 +41,7 @@ header:
   transparent: true
   dark: true
   sliderurl: /en/promotions/
-slidertext: "<span>In October,</span>
+slidertext: "<span>In November,</span>
   Get 30% off
   <span>on the second complete pair of glasses.</span>"
 block2:

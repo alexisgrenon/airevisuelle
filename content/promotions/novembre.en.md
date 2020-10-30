@@ -1,15 +1,15 @@
 ---
 title: "L'Aire Visuelle | November Promotion"
 titre: "November Promotion"
-description: "L'Aire Visuelle offers you unbeatable services and promotions near you."
-slug: discount-on-entourage-of-7-collection
+description: "Get 30% off on the second complete pair of glasses in November."
+slug: promotion-november-2020
 identifiant: novembre
-image: /img/promo-novembre-en.jpg
+image: /img/promo-nov-2020-en.png 
 i18nlanguage: en
-startdate: 1er November 2018
-enddate: 30 November 2018
+startdate: November 1st 2020
+enddate: November 30 2020
 weight: 0
-draft: true
+draft: false
 ---
 
-Get a 50$ discount on our Entourage of 7 collection in November
+Get 30% off on the second complete pair of glasses in November.
