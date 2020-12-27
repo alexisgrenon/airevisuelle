@@ -2,13 +2,13 @@ general:
   fr:
     title: Promotions
     description: |
-      En novembre, obtenez 30% de rabais sur la deuxième paire de lunettes complète.
+      Obtenez 30% de rabais sur la deuxième paire de lunettes complète.
     btntxt: Voir nos promotions
     btnurl: promotions/
   en:
     title: Promotions
     description: |
-      Get 30% off on the second complete pair of glasses in November.
+      Get 30% off on the second complete pair of glasses.
     btntxt: More promotions
     btnurl: en/promotions/
 services:

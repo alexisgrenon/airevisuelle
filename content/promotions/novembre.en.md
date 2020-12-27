@@ -9,7 +9,7 @@ i18nlanguage: en
 startdate: November 1st 2020
 enddate: November 30 2020
 weight: 0
-draft: false
+draft: true
 ---
 
 Get 30% off on the second complete pair of glasses in November.

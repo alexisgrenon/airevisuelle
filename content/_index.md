@@ -42,7 +42,7 @@ header:
   dark: true
   sliderurl: /promotions/
 slidertext: >-
-  <span>En novembre, obtenez</span>
+  <span>Obtenez</span>
   30% de rabais
   <span style="line-height: 35px">à l'achat d'une deuxième paire de lunettes complète.</span>
 block2:

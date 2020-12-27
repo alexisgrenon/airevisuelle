@@ -9,7 +9,7 @@ i18nlanguage: fr
 startdate: 1er Novembre 2020
 enddate: 30 Novembre 2020
 weight: 0
-draft: false
+draft: true
 ---
 
 En novembre, obtenez 30% de rabais sur la deuxième paire de lunettes complète.
