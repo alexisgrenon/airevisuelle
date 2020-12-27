@@ -18,5 +18,5 @@ section2:
   - image: "img/mag-des-lunettes-en.png"
     link: "https://www.visionavenue.ca/"
   - image: "img/mag-des-verres-de-contact-en.png"
-    link: "https://vision.store/lairevisuelle/en/"
+    link: "https://www.visionavenue.ca/"
 ---
