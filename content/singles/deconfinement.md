@@ -16,9 +16,9 @@ section1:
     L’aire Visuelle est en mode déconfinement graduel. Avec les dernières annonces du gouvernement concernant la situation de la COVID, nous adaptons notre horaire pour offrir plus de disponibilités. Voici les nouvelles heures d’ouverture:<br/> <br/>
   list: |
     - Lundi: 9:00 - 18:00
-    - Mardi: 9:00 - 20:00
-    - Mercredi: 9:00 - 20:00
-    - Jeudi: 9:00 - 20:00
+    - Mardi: 9:00 - 19:00
+    - Mercredi: 9:00 - 19:00
+    - Jeudi: 9:00 - 19:00
     - Vendredi: 9:00 - 16:00
     - Samedi: Fermé
     - Dimanche: Fermé
