@@ -23,11 +23,11 @@ ouverture:
     - jour: Lundi
       heures: 9:00 - 18:00
     - jour: Mardi
-      heures: 9:00 - 19:00
+      heures: 9:00 - 20:00
     - jour: Mercredi
-      heures: 9:00 - 19:00
+      heures: 9:00 - 20:00
     - jour: Jeudi
-      heures: 9:00 - 19:00
+      heures: 9:00 - 20:00
     - jour: Vendredi
       heures: 9:00 - 16:00
     - jour: Samedi
@@ -38,11 +38,11 @@ ouverture:
     - jour: Monday
       heures: 9:00 - 18:00
     - jour: Tuesday
-      heures: 9:00 - 19:00
+      heures: 9:00 - 20:00
     - jour: Wednesday
-      heures: 9:00 - 19:00
+      heures: 9:00 - 20:00
     - jour: Thursday
-      heures: 9:00 - 19:00
+      heures: 9:00 - 20:00
     - jour: Friday
       heures: 9:00 - 16:00
     - jour: Saturday
