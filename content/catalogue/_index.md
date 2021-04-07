@@ -6,9 +6,10 @@ image:
 i18nlanguage: fr
 draft: false
 designers:
-  - id: "dior"
-    nom: Dior
-    url: https://www.dior.com/couture/en_int/womens-fashion/sunglasses
+  - id: "saint-laurent"
+    nom: "Saint Laurent"
+    url: https://www.ysl.com/en-ca/
+    imageExtension: png
   - id: "ogreen"
     url: https://orgreenoptics.com/
     nom: Orgreen

@@ -3,7 +3,7 @@
     <a href="{{.url}}" target="_blank">
         <div class="portfolio-item-wrap">
             <div class="portfolio-image">
-                <a href="{{.url}}" target="_blank"><img src="/quart/img/{{.id}}-airevisuelle.jpg" alt=""></a>
+                <a href="{{.url}}" target="_blank"><img src="/quart/img/{{.id}}-airevisuelle.{{.imageExtension | default `jpg`}}" alt=""></a>
             </div>
             <div class="portfolio-description">
                 <a href="{{.url}}" target="_blank">

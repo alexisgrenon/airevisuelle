@@ -65,6 +65,7 @@ shopping:
   en:
     text: Shop online
 
+# Remove sharp symbols('#') below for showing info banner at top of website
 #info_banner:
 #  fr:
 #    - text: Nous serons fermé le 31 décembre ainsi que le 1er janvier.

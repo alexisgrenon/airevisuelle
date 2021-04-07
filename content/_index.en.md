@@ -11,9 +11,9 @@ designers:
     - image: "/img/etnia-airevisuelle.jpg"
       url: https://www.etniabarcelona.com/
       nom: Etnia Barcelona
-    - image: "/img/dior-airevisuelle.jpg"
-      nom: Dior
-      url: https://www.dior.com/couture/en_int/womens-fashion/sunglasses
+    - image: "/img/saint-laurent-airevisuelle.png"
+      nom: "Saint Laurent"
+      url: https://www.ysl.com/en-ca/
     - image: "/img/ogreen-airevisuelle.jpg"
       url: https://orgreenoptics.com/
       nom: Orgreen
