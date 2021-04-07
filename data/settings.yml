@@ -65,8 +65,8 @@ shopping:
   en:
     text: Shop online
 
-info_banner:
-  fr:
-    - text: Nous serons fermé le 31 décembre ainsi que le 1er janvier.
-  en:
-    - text: We will be closed on December 31 and January 1st.
+#info_banner:
+#  fr:
+#    - text: Nous serons fermé le 31 décembre ainsi que le 1er janvier.
+#  en:
+#    - text: We will be closed on December 31 and January 1st.
