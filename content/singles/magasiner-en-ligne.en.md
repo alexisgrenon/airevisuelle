@@ -17,4 +17,6 @@ section1:
 section2:
   - image: "img/mag-des-lunettes-en.png"
     link: "https://www.visionavenue.ca/"
+  - image: "img/mag-des-lunettes-visionavenue-en.png"
+    link: "https://www.visionavenue.ca/"
 ---
