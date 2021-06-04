@@ -42,8 +42,8 @@ header:
   dark: true
   sliderurl: /en/promotions/
 slidertext: "<span>For a limited time,</span>
-  Get 30% off
-  <span>on the second complete pair of glasses.</span>"
+  Get 25% off
+  <span>all sunglasses frames in store.</span>"
 block2:
   titre: Optometrist, Optician And Eyewear in Laval
   text: >-

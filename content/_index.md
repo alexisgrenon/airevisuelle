@@ -43,8 +43,8 @@ header:
   sliderurl: /promotions/
 slidertext: >-
   <span>Obtenez</span>
-  30% de rabais
-  <span style="line-height: 35px">à l'achat d'une deuxième paire de lunettes complète.</span>
+  25% de rabais
+  <span style="line-height: 35px">sur toutes les montures solaires en magasin.</span>
 block2:
   titre: Vos professionels de la vue au coeur de Laval
   text: >-
