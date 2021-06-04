@@ -65,9 +65,8 @@ shopping:
   en:
     text: Shop online
 
-# Remove sharp symbols('#') below for showing info banner at top of website
-#info_banner:
-#  fr:
-#    - text: Nous serons fermé le 31 décembre ainsi que le 1er janvier.
-#  en:
-#    - text: We will be closed on December 31 and January 1st.
+info_banner:
+  fr:
+    - text: Obtenez 25% de rabais sur toutes les montures solaires en magasin
+  en:
+    - text: Get 25% off all sunglasses frames in store
