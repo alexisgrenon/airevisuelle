@@ -1,21 +1,27 @@
 equipe:
-  - name: Suzie Pelletier 
-    nameen: Suzie Pelletier 
-    title: Opticienne
+  - name: Suzanne Huynh
+    nameen: Suzanne Huynh
+    title: Opticien
     titleen: Optician
     ordre: 1
     group: ood
+  - name: Antonio Canuto
+    nameen: Antonio Canuto
+    title: Optométriste
+    titleen: Optometrist
+    ordre: 2
+    group: od
   - name: Pierluigi Merolla 
     nameen: Pierluigi Merolla 
     title: Opticien
     titleen: Optician
-    ordre: 2
+    ordre: 3
     group: ood
   - name: Laurent Brassard 
     nameen: Laurent Brassard
     title: Opticien
     titleen: Optician
-    ordre: 3
+    ordre: 4
     group: ood
   - name: Docteur Sylvain Duquette 
     nameen: Doctor Sylvain Duquette

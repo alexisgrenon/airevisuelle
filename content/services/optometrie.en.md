@@ -23,7 +23,8 @@ At L'Aire Visuelle, our optometrists are accessible and ready to help you. They 
 
 Our Optometrists:
 
-- Sylvain Duquette, OD
-- Geneviève Brassard, OD
-- Marie-Pier Gascon, OD
+- Antonio Canuto, O.D
+- Sylvain Duquette, O.D
+- Geneviève Brassard, O.D
+- Marie-Pier Gascon, O.D
 - Judy Breskott O.D

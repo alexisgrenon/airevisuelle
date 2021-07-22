@@ -32,7 +32,7 @@ section2:
 section3:
   title: A TEAM OF PROFESSIONALS AT YOUR SERVICE
   text: >-
-    The members of our team of professionals are composed of 4 optometrists, 4 opticians as well as stylist-counselors
+    The members of our team of professionals are composed of optometrists, opticians as well as stylist-counselors
 section4:
   title: L'Aire Visuelle in pictures
   text: >-
