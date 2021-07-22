@@ -23,6 +23,6 @@ The 3-year training of opticians allows them to be able to advise the client in 
 
 Our Opticians:
 
-- Suzie Pelletier, OOD
+- Suzanne Huynh, OOD
 - Pierluigi Merolla, OOD
 - Laurent Brassard, OOD

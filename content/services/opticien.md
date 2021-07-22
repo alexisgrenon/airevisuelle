@@ -32,6 +32,6 @@ La formation de 3 ans des opticiens leur permet d’être en mesure de bien cons
 
 Nos Opticiens :
 
-- Suzie Pelletier, OOD
+- Suzanne Huynh, OOD
 - Pierluigi Merolla, OOD
 - Laurent Brassard, OOD

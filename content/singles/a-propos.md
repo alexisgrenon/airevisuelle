@@ -32,7 +32,7 @@ section2:
 section3:
   title: Une équipe de professionnels à votre service
   text: >-
-    Les membres de notre équipe de professionnels se composent de 4 optométristes, 4 opticiens ainsi que des conseillères-stylistes
+    Les membres de notre équipe de professionnels se composent de d'optométristes, d'opticiens ainsi que des conseillères-stylistes
 section4:
   title: L'Aire Visuelle en images
   text: >-

@@ -53,7 +53,8 @@ Le docteur en optométrie est le professionnel que vous voyez pour votre examen 
 
 Nos Optométristes :
 
-- Sylvain Duquette, OD
-- Geneviève Brassard, OD
-- Marie-Pier Gascon, OD
+- Antonio Canuto, O.D
+- Sylvain Duquette, O.D
+- Geneviève Brassard, O.D
+- Marie-Pier Gascon, O.D
 - Judy Breskott O.D
