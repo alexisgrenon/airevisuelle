@@ -1,6 +1,9 @@
 const gulp = require('gulp');
 const imagemin = require("gulp-imagemin");
 const imageresize = require('gulp-image-resize');
+const prefix = require('gulp-autoprefixer');
+const sass = require('gulp-sass')(require('sass'));
+var sourcemaps = require('gulp-sourcemaps');
 var del = require('del');
 var exec = require('child_process').exec;
 
@@ -48,14 +51,30 @@ gulp.task("hugo", function (cb) {
   });
 });
 
-// watching images and resizing
-gulp.task("watch", function() {
-  gulp.watch('themes/airevisuelle/source-images/*.{jpg,png,jpeg,gif}', gulp.series('clean-image', 'image-resize'));
+// optimizing images and calling hugo for production
+gulp.task("prod", gulp.series('clean-image', 'image-resize', 'hugo'));
+
+// building production version of styles
+gulp.task('sass-prod', () => {
+  return gulp.src('themes/airevisuelle/assets/scss/style.scss')
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+    .pipe(prefix('last 2 versions', '> 1%', 'ie 10', 'Android 2', 'Firefox ESR'))
+    .pipe(gulp.dest('themes/airevisuelle/static/css'));
+});
+
+// building developer version of Sass styles
+gulp.task('sass-dev', () => {
+  return gulp.src('themes/airevisuelle/assets/scss/style.scss')
+    .pipe(sourcemaps.init())
+    .pipe(sass().on('error', sass.logError))
+    .pipe(prefix('last 2 versions', '> 1%', 'ie 10', 'Android 2', 'Firefox ESR'))
+    .pipe(sourcemaps.write('./'))
+    .pipe(gulp.dest('themes/airevisuelle/static/css'));
 });
 
 // watching images and resizing
-gulp.task("dev", gulp.series("clean-image", "image-resize", "watch"));
-
-
-// optimizing images and calling hugo for production
-gulp.task("prod", gulp.series('clean-image', 'image-resize', 'hugo'));
+// building developer version of Sass styles (use `npm run build-styles:prod` to build styles for production)
+gulp.task("dev", function() {
+  gulp.watch('themes/airevisuelle/assets/scss/**/*.scss', gulp.series('sass-dev'));
+  gulp.watch('themes/airevisuelle/source-images/*.{jpg,png,jpeg,gif}', gulp.series('clean-image', 'image-resize'));
+});
