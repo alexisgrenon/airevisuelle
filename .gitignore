@@ -4,3 +4,4 @@ themes/airevisuelle/prepros-6.config
 
 # Ignore /public/ built by Hugo
 public/
+style.css.map

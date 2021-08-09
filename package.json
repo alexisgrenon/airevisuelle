@@ -4,7 +4,10 @@
   "description": "Basic gulp file to process images in hugo",
   "main": "no",
   "scripts": {
-    "test": "none"
+    "dev": "gulp dev",
+    "prod": "gulp prod",
+    "build-styles": "gulp sass-prod",
+    "build-styles:dev": "gulp sass-dev"
   },
   "repository": {
     "type": "git",
@@ -16,12 +19,18 @@
   ],
   "author": "Akia Marketing",
   "license": "MIT",
-  "dependencies": {
+  "engines": {
+    "node": "14.17.4",
+    "npm": "6.14.14"
+  },
+  "devDependencies": {
     "del": "^6.0.0",
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-image-resize": "^0.13.1",
     "gulp-imagemin": "^7.1.0",
-    "gulp-sass": "^4.1.0",
-    "gulp-shell": "^0.8.0"
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.37.0"
   }
 }
