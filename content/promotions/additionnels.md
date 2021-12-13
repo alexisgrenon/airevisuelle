@@ -4,13 +4,13 @@ titre: "Rabais sur les verres additionels"
 description: "L'Aire Visuelle vous offre des promotions imbattables sur tous produits de la vue."
 slug: rabais-sur-les-verres-additionnels
 identifiant: additionnels
-image: /img/promo-additionnels.jpg
+image: /img/promo-november-fr.png
 i18nlanguage: fr
 startdate: 
 enddate: 
 draft: false
 annuel: true
-weight: 2
+weight: 1
 ---
 
-Achetez une paire de verres et obtenez 30% d'escompte sur toutes les paires de verres additionnelles (excluant la monture)
+Achetez deux paires de lunettes de prescription et obtenez un rabais de 30% sur la deuxième.
