@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "L'Aire Visuelle | Magasinez en ligne avec L’Aire Visuelle"
 slug: magasiner-en-ligne
 identifiant: magasiner-en-ligne
@@ -17,5 +16,5 @@ section1:
     Magasinez en ligne pour vos lunettes, monture et verres de contact!
 section2:
   - image: "img/mag-des-lunettes-fr.png"
-    link: "https://www.visionavenue.ca/"
+    link: "https://www.avenueeyewear.ca/fr/"
 ---
