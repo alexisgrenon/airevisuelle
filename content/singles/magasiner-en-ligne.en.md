@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "L'Aire Visuelle | Shop online with L’Aire Visuelle"
 slug: online-shopping
 identifiant: magasiner-en-ligne
@@ -17,5 +16,5 @@ section1:
     Shop online for your glasses, frames and contact lenses!
 section2:
   - image: "img/mag-des-lunettes-en.png"
-    link: "https://www.visionavenue.ca/"
+    link: "https://www.avenueeyewear.ca/en/"
 ---
