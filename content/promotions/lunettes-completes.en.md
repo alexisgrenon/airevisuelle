@@ -13,4 +13,4 @@ annuel: true
 weight: 3
 ---
 
-Full glasses (lenses and frames) from 159$ with our partner [Vision Avenue](https://www.visionavenue.ca/en/)
+Full glasses (lenses and frames) from 159$ with our partner [Avenue Eyewear](https://www.avenueeyewear.ca/en/)

@@ -34,9 +34,9 @@ designers:
       nom: William Morris
   extra:
     need: true
-    image: /img/vision-avenue.png
-    titre: "Achetez en ligne chez Vision Avenue"
-    link: https://www.visionavenue.ca/fr/
+    image: /img/avenue-logo.png
+    titre: "Achetez en ligne chez Avenue Eyewear"
+    link: https://www.avenueeyewear.ca/fr/
 header:
   transparent: true
   dark: true
