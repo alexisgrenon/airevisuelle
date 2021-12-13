@@ -25,9 +25,10 @@ designers:
   - id: "bellinger"
     url: http://www.bellinger.dk/
     nom: Bellinger
-  - id: "silhouette"
-    url: http://www.silhouette.com/
-    nom: Silhouette
+  - id: "gucci"
+    url: https://www.gucci.com/ca/en/ca/women/accessories-for-women/eyewear-for-women-c-women-accessories-sunglasses
+    nom: Gucci
+    imageExtension: png
   - id: "tom"
     url: http://www.tomford.com/eyewear/
     nom: Tom Ford
@@ -37,9 +38,10 @@ designers:
   - id: "tiffany"
     url: https://www.tiffany.com/
     nom: Tiffany & Co
-  - id: "faconnable"
-    url: https://www.faconnable.com/fr/
-    nom: Façonnable
+  - id: "eo7"
+    url: https://eof7.com/
+    nom: Entourage of 7
+    imageExtension: png
 header:
   dark: false
   transparent: false

@@ -20,9 +20,9 @@ designers:
     - image: "/img/pro-airevisuelle.jpg"
       url: http://www.prodesigndenmark.com/
       nom: Prodesign
-    - image: "/img/silhouette-airevisuelle.jpg"
-      url: http://www.silhouette.com/
-      nom: Silhouette
+    - image: "/img/gucci-airevisuelle.png"
+      url: https://www.gucci.com/ca/en/ca/women/accessories-for-women/eyewear-for-women-c-women-accessories-sunglasses
+      nom: Gucci
     - image: "/img/tom-airevisuelle.jpg"
       url: http://www.tomford.com/eyewear/
       nom: Tom Ford
