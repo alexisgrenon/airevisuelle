@@ -59,11 +59,12 @@ defaultsocialimage: "/img/logo-share.jpg"
 removefromexternalsearch: false
 rdvlink: "https://www.visionavenue.ca/"
 
-shopping:
-  fr:
-    text: Magasiner en ligne
-  en:
-    text: Shop online
+# Remove sharp symbols('#') below for showing shop badge at top of website
+#shopping:
+#  fr:
+#    text: Magasiner en ligne
+#  en:
+#    text: Shop online
 
 # Remove sharp symbols('#') below for showing info banner at top of website
 #info_banner:
