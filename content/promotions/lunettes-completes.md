@@ -13,4 +13,4 @@ annuel: true
 weight: 3
 ---
 
-Lunettes complètes (verres et montures) à partir de 159$ avec notre partenaire [Vision Avenue](https://www.visionavenue.ca/fr/)
+Lunettes complètes (verres et montures) à partir de 159$ avec notre partenaire [Avenue Eyewear](https://www.avenueeyewear.ca/fr/)

@@ -40,8 +40,8 @@
 [recent_articles]
   other = "Recent articles"
 
-[visionavenue]
-  other = "https://www.visionavenue.ca/fr/"
+[avenue]
+  other = "https://www.avenueeyewear.ca/en/"
 
 [previous_post]
   other = "Previous post"
@@ -79,8 +79,8 @@
 [in_store]
   other = "In-store selection"
 
-[buy_visionavenue]
-  other = "Buy online with Vision Avenue"
+[buy_avenue]
+  other = "Buy online at Avenue Eyewear"
 
 [book]
   other = "Book online"
