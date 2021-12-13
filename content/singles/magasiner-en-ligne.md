@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "L'Aire Visuelle | Magasinez en ligne avec L’Aire Visuelle"
 slug: magasiner-en-ligne
 identifiant: magasiner-en-ligne
