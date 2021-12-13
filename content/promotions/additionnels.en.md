@@ -4,13 +4,13 @@ titre: "Discount on additional lenses"
 description: "L'Aire Visuelle offers you unbeatable services and promotions near you."
 slug: discount-on-additional-lenses
 identifiant: additionnels
-image: /img/aire-visuelle-30-pourcent-rabais-en.jpg
+image: /img/promo-november-en.png
 i18nlanguage: en
 startdate: 
 enddate: 
 draft: false
 annuel: true
-weight: 2
+weight: 1
 ---
 
-Buy one pair of lenses and get 30% off on any additional pair of lenses (excluding the frames)
+Buy two pairs of prescription glasses and get a 30% discount on the second
