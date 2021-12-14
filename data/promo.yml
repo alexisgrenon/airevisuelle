@@ -2,13 +2,13 @@ general:
   fr:
     title: Promotions
     description: |
-      Obtenez 25% de rabais sur toutes les montures solaires en magasin.
+      Achetez deux paires de lunettes de prescription et obtenez un rabais de 30% sur la deuxième.
     btntxt: Voir nos promotions
     btnurl: promotions/
   en:
     title: Promotions
     description: |
-      Get 25% off all sunglasses frames in store.
+      Buy two pairs of prescription glasses and get a 30% discount on the second.
     btntxt: More promotions
     btnurl: en/promotions/
 services:
