@@ -73,9 +73,9 @@ block3:
     full: false
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
-    titre: PROMOTIONS DU MOIS
-    desc: En octobre obtenez 50$ de rabais sur la collection Orgreen.
-    btn: Voir la promotion
+    titre: Consultez les dernières promotions offertes
+    desc: Achetez deux paires de lunettes de prescription et obtenez un rabais de 30% sur la deuxième.
+    btn: Consulter les promotions
     haut: false
     full: false
   - image: "/img/optometriste-4.jpg"

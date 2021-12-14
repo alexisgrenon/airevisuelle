@@ -72,9 +72,9 @@ block3:
     full: false
   - image: "/img/optometriste-2.jpg"
     link: promotionsPage
-    titre: Monthly offers
-    desc: In October, get a 50$ discount on the Orgreen collection
-    btn: See our promotion
+    titre: Check out our latest promotions
+    desc: Buy two pairs of prescription glasses and get a 30% discount on the second.
+    btn: See our promotions
     haut: false
     full: false
   - image: "/img/optometriste-4.jpg"
