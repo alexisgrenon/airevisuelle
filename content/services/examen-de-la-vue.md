@@ -25,7 +25,7 @@ ctalink: rendez-vous-optometriste
 À L’Aire Visuelle, nous offrons toute une gamme d’examens de la vue effectués par des optométristes qualifiés. Voici ce que vous pourrez trouver chez nous:
 
 - Examen visuel complet et analyse de la fonction visuelle
-- Équipement à la fine pointe de la technologie: caméra rétinienne, imagerie rétinienne (OCT), champ visuel automatisé, réfractomètre-tonomètre. Topographe cornéen [Myah](https://topconmyah.com/fr/)
+- Équipement à la fine pointe de la technologie: caméra rétinienne, imagerie rétinienne (OCT), champ visuel automatisé, réfractomètre-tonomètre, topographe cornéen [Myah](https://topconmyah.com/fr/).
 - Traitement des déficiences visuelles au moyen de l’orthoptique et de lentilles ophtalmiques, sous forme de lunettes ou de lentilles cornéennes;
 - Traitement de conditions oculaires infectieuses et inflammatoires (conjonctivites, blépharites, uvéites, corps étrangers, etc.) par la prescription de médicaments ou de recommandations appropriées;
 - Collaboration avec d’autres professionnels de la santé, notamment des ophtalmologistes, pour le suivi des patients ayant subi une chirurgie réfractive ou aux prises avec certaines conditions telles que le glaucome, le diabète ou autres;
