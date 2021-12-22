@@ -1,10 +1,12 @@
 {{ define "main" }}
 {{$settings := .Site.Data.settings}}
 {{$currentLang := .Site.Language.Lang}}
-{{$bannerUrl := slice}}
+{{$scratch := .Scratch}}
 {{with $settings.homeBannerUrls}}
-  {{$bannerUrl = index . $currentLang}}
+  {{$url := index . $currentLang}}
+  {{$scratch.Set "bannerUrl" ($url | relURL)}}
 {{end}}
+{{$bannerUrl := $scratch.Get "bannerUrl"}}
 
 <main class="main" id="homepage">
 	<!-- Inspiro Slider -->
@@ -28,7 +30,7 @@
           <div class="container">
               <div class="slide-captions text-light">
                 <!-- <a href='{{.Site.Data.settings.rdvlink}}?Language={{- .Lang -}}' target="_blank"> -->
-                <a href='{{relURL $bannerUrl | default ($.Scratch.Get "promotionsPage")}}'>
+                <a href='{{$bannerUrl | default ($.Scratch.Get "promotionsPage")}}'>
                   <div class="new-caption" style="max-width: 600px;">
                     <h2>{{ .Params.slidertext | markdownify }}</h2>
                   </div>
