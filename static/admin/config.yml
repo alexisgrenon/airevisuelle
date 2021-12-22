@@ -88,6 +88,15 @@ collections:
       - name: homeBanner
         label: Home banner image
         widget: image
+      - name: homeBannerUrls
+        label: Home banner urls
+        widget: object
+        collapsed: true
+        required: false
+        fields:
+        - {label: "French version", name: "fr", widget: "string"}
+        - {label: "English version", name: "en", widget: "string"}
+
 ### SETTINGS
   # - name: "settings"
   #   label: "Settings"

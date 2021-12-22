@@ -1,5 +1,11 @@
 {{ define "main" }}
-{{$bannerImage := .Site.Data.settings.homeBanner}}
+{{$settings := .Site.Data.settings}}
+{{$currentLang := .Site.Language.Lang}}
+{{$bannerUrl := slice}}
+{{with $settings.homeBannerUrls}}
+  {{$bannerUrl = index . $currentLang}}
+{{end}}
+
 <main class="main" id="homepage">
 	<!-- Inspiro Slider -->
   <!-- <div id="slider" class="inspiro-slider slider-fullscreen arrows-large arrows-creative dots-creative" data-height-xs="360">
@@ -18,11 +24,11 @@
       </div>
   </div> -->
   <div id="slider" class="inspiro-slider slider-fullscreen arrows-large arrows-creative dots-creative" data-height-xs="360">
-      <div class="slide background-overlay-grey"{{with $bannerImage}} style="background-image: url('{{.}}')"{{end}}>
+      <div class="slide background-overlay-grey"{{with $settings.homeBanner}} style="background-image: url('{{.}}')"{{end}}>
           <div class="container">
               <div class="slide-captions text-light">
                 <!-- <a href='{{.Site.Data.settings.rdvlink}}?Language={{- .Lang -}}' target="_blank"> -->
-                <a href='{{ $.Scratch.Get "promotionsPage"}}'>
+                <a href='{{relURL $bannerUrl | default ($.Scratch.Get "promotionsPage")}}'>
                   <div class="new-caption" style="max-width: 600px;">
                     <h2>{{ .Params.slidertext | markdownify }}</h2>
                   </div>
