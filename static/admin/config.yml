@@ -78,6 +78,16 @@ collections:
       - {label: "Importance (0 étant le plus important)", name: "ordre", widget: "number", default: 0, required: false}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+  - name: custom_pages
+    label: "Custom Pages"
+    files:
+    - file: "data/settings.yml"
+      label: "Settings"
+      name: "settings"
+      fields:
+      - name: homeBanner
+        label: Home banner image
+        widget: image
 ### SETTINGS
   # - name: "settings"
   #   label: "Settings"

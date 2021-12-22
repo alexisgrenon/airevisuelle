@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{$bannerImage := .Site.Data.settings.homeBanner}}
 <main class="main" id="homepage">
 	<!-- Inspiro Slider -->
   <!-- <div id="slider" class="inspiro-slider slider-fullscreen arrows-large arrows-creative dots-creative" data-height-xs="360">
@@ -17,7 +18,7 @@
       </div>
   </div> -->
   <div id="slider" class="inspiro-slider slider-fullscreen arrows-large arrows-creative dots-creative" data-height-xs="360">
-      <div class="slide background-overlay-grey" style="background-image: url('/img/banner-image-december2021.jpg')">
+      <div class="slide background-overlay-grey"{{with $bannerImage}} style="background-image: url('{{.}}')"{{end}}>
           <div class="container">
               <div class="slide-captions text-light">
                 <!-- <a href='{{.Site.Data.settings.rdvlink}}?Language={{- .Lang -}}' target="_blank"> -->
