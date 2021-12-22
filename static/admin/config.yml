@@ -96,6 +96,22 @@ collections:
         fields:
         - {label: "French version", name: "fr", widget: "string"}
         - {label: "English version", name: "en", widget: "string"}
+    - file: "data/equipe.yml"
+      label: "Membres de l'équipe"
+      name: "equipe"
+      description: "Votre équipe, ne pas mettre d'accent dans les noms de fichier svp!"
+      fields:
+      - name: equipe
+        label: Membre
+        widget: list
+        create: true
+        fields:
+        - {label: "Nom", name: "name", widget: "string"}
+        - {label: "Nom en", name: "nameen", widget: "string"}
+        - {label: "Titre", name: "title", widget: "string"}
+        - {label: "Titre en", name: "titleen", widget: "string"}
+        - {label: "Group", name: "group", widget: "string", hint: "ood - for Opticien, od - for Optométriste"}
+        - {label: "Ordre", name: "ordre", widget: "number", required: false}
 
 ### SETTINGS
   # - name: "settings"
