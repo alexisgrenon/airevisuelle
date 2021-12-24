@@ -157,6 +157,62 @@ collections:
           - {label: "Description", name: "description", widget: "markdown"}
           - {label: "Button title", name: "btntxt", widget: "string"}
           - {label: "Button url", name: "btnurl", widget: "string"}
+    - file: "content/_index.md"
+      label: "Homepage - FR"
+      name: "homepageFr"
+      fields:
+      - {label: "Banner text", name: "slidertext", widget: "text"}
+      - label: Text blog 1
+        name: block2
+        widget: object
+        fields:
+        - {label: "Titre", name: "titre", widget: "string"}
+        - {label: "Text", name: "text", widget: "markdown"}
+      - label: Text blog 2
+        name: block4
+        widget: object
+        fields:
+        - {label: "Titre", name: "titre", widget: "string"}
+        - {label: "Text", name: "text", widget: "markdown"}
+      - label: Tiles
+        name: block3
+        widget: list
+        fields:
+        - {label: "Titre", name: "titre", widget: "string"}
+        - {label: "Text", name: "desc", widget: "markdown"}
+        - {label: "Button text", name: "btn", widget: "string"}
+        - {label: "Background image url", name: "image", widget: "string"}
+        - {label: "Link", name: "link", widget: "string"}
+        - {label: "Haut view", name: "haut", widget: "boolean"}
+        - {label: "Full view", name: "full", widget: "boolean"}
+    - file: "content/_index.en.md"
+      label: "Homepage - EN"
+      name: "homepageEn"
+      fields:
+      - {label: "Banner text", name: "slidertext", widget: "text"}
+      - label: Text blog 1
+        name: block2
+        widget: object
+        fields:
+        - {label: "Titre", name: "titre", widget: "string"}
+        - {label: "Text", name: "text", widget: "markdown"}
+      - label: Text blog 2
+        name: block4
+        widget: object
+        fields:
+        - {label: "Titre", name: "titre", widget: "string"}
+        - {label: "Text", name: "text", widget: "markdown"}
+      - label: Tiles
+        name: block3
+        widget: list
+        fields:
+        - {label: "Titre", name: "titre", widget: "string"}
+        - {label: "Text", name: "desc", widget: "markdown"}
+        - {label: "Button text", name: "btn", widget: "string"}
+        - {label: "Background image url", name: "image", widget: "string"}
+        - {label: "Link", name: "link", widget: "string"}
+        - {label: "Haut view", name: "haut", widget: "boolean"}
+        - {label: "Full view", name: "full", widget: "boolean"}
 
 ### SETTINGS
   # - name: "settings"
