@@ -133,6 +133,30 @@ collections:
         - {label: "Titre en", name: "titleen", widget: "string"}
         - {label: "Group", name: "group", widget: "string", hint: "ood - for Opticien, od - for Optométriste"}
         - {label: "Ordre", name: "ordre", widget: "number", required: false}
+    - file: "data/promo.yml"
+      label: "Promo settings"
+      name: "promoSettings"
+      fields:
+      - name: general
+        label: Promo cta section
+        widget: object
+        fields:
+        - name: fr
+          label: French version
+          widget: object
+          fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "markdown"}
+          - {label: "Button title", name: "btntxt", widget: "string"}
+          - {label: "Button url", name: "btnurl", widget: "string"}
+        - name: en
+          label: English version
+          widget: object
+          fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "markdown"}
+          - {label: "Button title", name: "btntxt", widget: "string"}
+          - {label: "Button url", name: "btnurl", widget: "string"}
 
 ### SETTINGS
   # - name: "settings"
