@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   accept_roles: #optional - accepts all users if left out
     - admin
-  branch: development # Branch to update (master by default)
+  branch: master # Branch to update (master by default)
 
 media_folder: "themes/airevisuelle/source-images" # Folder where user uploaded files should go
 public_folder: "/img" # The src attribute for uploaded media will begin with
