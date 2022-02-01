@@ -24,21 +24,14 @@
 {{if .IsHome}}
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
 <script>
-  var routes = /(confirmation|invite|recovery|email_change)_token=([^&]+)/;
-  var errorRoute = /error=access_denied&error_description=403/;
-  var accessTokenRoute = /access_token=/;
-  var hash = (document.location.hash || '').replace(/^#\/?/, '');
-
-  if (routes.test(hash) || errorRoute.test(hash) || accessTokenRoute.test(hash)) {
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", function(user) {
-        if (!user) {
-          window.netlifyIdentity.on("login", function() {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", function(user) {
+      if (!user) {
+        window.netlifyIdentity.on("login", function() {
+          document.location.href = "/admin/";
+        });
+      }
+    });
   }
 </script>
 {{end}}
