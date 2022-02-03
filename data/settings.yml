@@ -1,24 +1,22 @@
-homeBanner: /img/banner-image-december2021.jpg
+mphone: "+14506691686"
+removefromexternalsearch: false
+titleautocompletion: false
 socials:
-  facebookurl: 'https://www.facebook.com/LAireVisuelle'
-  linkedinurl: ''
-  twitterurl: ''
-  youtubeurl: ''
-  instagramurl: 'https://www.instagram.com/laire_visuelle/'
-  googleplusurl: ''
-  pinteresturl: ""
+  facebookurl: https://www.facebook.com/LAireVisuelle
   vimeourl: ""
+  youtubeurl: ""
+  linkedinurl: ""
+  pinteresturl: ""
   dribbleurl: ""
-twitter:
-  share: false
-  id: ""
-address:
-  road: 380 boul. Dagenais Est, suite 102
-  app: suite 102
-  city: Laval
-  province: Québec
-  postal: H7M 5H4
-  country: Canada
+  googleplusurl: ""
+  twitterurl: ""
+  instagramurl: https://www.instagram.com/laire_visuelle/
+homeBanner: /img/volodymyr-hryshchenko-nqq_wkbjmz0-unsplash.jpg
+defaultsocialimage: /img/logo-share.jpg
+phone: (450) 669-1686
+homeBannerUrls:
+  fr: https://www.lairevisuelle.com/promotions/
+  en: https://www.lairevisuelle.com/en/promotions/
 ouverture:
   fr:
     - jour: Lundi
@@ -50,26 +48,18 @@ ouverture:
       heures: Closed
     - jour: Sunday
       heures: Closed
-phone: '(450) 669-1686'
-mphone: '+14506691686'
-email: 'info@lairevisuelle.com'
-sitedescription: "L'Aire Visuelle vous offre des prix compétitif et un service d'optométrie et de lunetterie imbattable dans la région de Laval"
-sitetitle: "L'Aire Visuelle | Optométriste , Opticien et Lunetterie à Laval"
-titleautocompletion: false
-defaultsocialimage: "/img/logo-share.jpg"
-removefromexternalsearch: false
-rdvlink: "https://www.avenueeyewear.ca/"
-
-# Remove sharp symbols('#') below for showing shop badge at top of website
-#shopping:
-#  fr:
-#    text: Magasiner en ligne
-#  en:
-#    text: Shop online
-
-# Remove sharp symbols('#') below for showing info banner at top of website
-#info_banner:
-#  fr:
-#    - text: Nous serons fermé le 31 décembre ainsi que le 1er janvier.
-#  en:
-#    - text: We will be closed on December 31 and January 1st.
+sitetitle: L'Aire Visuelle | Optométriste , Opticien et Lunetterie à Laval
+twitter:
+  share: false
+  id: ""
+address:
+  road: 380 boul. Dagenais Est, suite 102
+  app: suite 102
+  city: Laval
+  province: Québec
+  postal: H7M 5H4
+  country: Canada
+sitedescription: L'Aire Visuelle vous offre des prix compétitif et un service
+  d'optométrie et de lunetterie imbattable dans la région de Laval
+email: info@lairevisuelle.com
+rdvlink: https://www.avenueeyewear.ca/
