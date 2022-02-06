@@ -13,4 +13,4 @@ i18nlanguage: fr
 weight: 1
 annuel: true
 ---
-Achetez deux paires de lunettes de prescription et obtenez un rabais de 30% sur la deuxième. Jusqu'au 31 mars 2022, la promotion sur la deuxième paire peut être utilisée pour un membre de la famille (conjoints, parents ou enfants).
+Achetez deux paires de lunettes de prescription et obtenez un rabais de 30% sur la deuxième. Jusqu'au 31 mars 2022, cette promotion peut être utilisée pour un membre de la famille (conjoints, parents ou enfants).
