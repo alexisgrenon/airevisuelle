@@ -11,8 +11,8 @@ equipe:
     titleen: Optometrist
     ordre: 2
     group: od
-  - name: Pierluigi Merolla 
-    nameen: Pierluigi Merolla 
+  - name: Pierluigi Merolla
+    nameen: Pierluigi Merolla
     title: Opticien
     titleen: Optician
     ordre: 3
@@ -23,7 +23,7 @@ equipe:
     titleen: Optometrist
     ordre: 4
     group: od
-  - name: Laurent Brassard 
+  - name: Laurent Brassard
     nameen: Laurent Brassard
     title: Opticien
     titleen: Optician
@@ -34,12 +34,6 @@ equipe:
     title: Optométriste
     titleen: Optometrist
     ordre: 6
-    group: od
-  - name: Docteure Marie-Pier Gascon
-    nameen: Doctor Marie-Pier Gascon
-    title: Optométriste
-    titleen: Optometrist
-    ordre: 7
     group: od
   - name: Docteure Judy Breskott
     nameen: Doctor Judy Breskott
