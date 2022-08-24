@@ -6,7 +6,7 @@ general:
     btnurl: promotions/
   en:
     title: Promotions
-    description: Get 30% off your second pair of complete glasses
+    description: Get 30% off your second pair of glasses
     btntxt: More promotions
     btnurl: en/promotions/
 services:
