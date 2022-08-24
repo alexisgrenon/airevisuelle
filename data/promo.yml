@@ -1,12 +1,12 @@
 general:
   fr:
     title: Promotions
-    description: Obtenez 25% de rabais sur les montures solaires sélectionnées.
+    description: Obtenez 30% de rabais sur la deuxième paire de lunettes complètes.
     btntxt: Voir nos promotions
     btnurl: promotions/
   en:
     title: Promotions
-    description: Get 25% off on selected sunglasses frames.
+    description: Get 30% off your second pair of complete glasses
     btntxt: More promotions
     btnurl: en/promotions/
 services:
