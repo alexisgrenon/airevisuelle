@@ -12,4 +12,4 @@ i18nlanguage: en
 weight: 1
 annuel: true
 ---
-Buy two pairs of prescription glasses and get a 30% discount on the second. Until March 31, 2022, this promotion can be used for a family member (spouse, parents or children).
+Buy a pair of prescription glasses and get a 30% discount on the second one.
