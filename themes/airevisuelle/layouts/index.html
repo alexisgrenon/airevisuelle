@@ -31,7 +31,7 @@
               <div class="slide-captions text-light">
                 <!-- <a href='{{.Site.Data.settings.rdvlink}}?Language={{- .Lang -}}' target="_blank"> -->
                 <a href='{{$bannerUrl | default ($.Scratch.Get "promotionsPage")}}'>
-                  <div class="new-caption" style="max-width: 600px;">
+                  <div class="new-caption{{with $settings.homeBannerTextClass}} {{.}}{{end}}">
                     <h2>{{ .Params.slidertext | markdownify }}</h2>
                   </div>
                   <!-- <img src="/quart/img/prodesign-logo.jpg" alt="Prodesign Logo" /> -->

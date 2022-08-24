@@ -17,6 +17,7 @@ phone: (450) 669-1686
 homeBannerUrls:
   fr: https://www.lairevisuelle.com/promotions/
   en: https://www.lairevisuelle.com/en/promotions/
+homeBannerTextClass: hero-text-at-right
 ouverture:
   fr:
     - jour: Lundi
