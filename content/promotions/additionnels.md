@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 enddate: null
 titre: Rabais sur les verres additionels
 image: /img/promo-november-fr.png
