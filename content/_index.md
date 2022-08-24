@@ -1,7 +1,7 @@
 ---
 draft: false
-slidertext: '<span>Obtenez</span> 25% de rabais <span style="line-height:
-  35px">Sur les montures solaires sélectionées</span>'
+slidertext: '<span>Obtenez</span> 30% de rabais <span style="line-height:
+  35px">Sur la deuxième paire de lunettes complètes</span>'
 block2:
   titre: Vos professionels de la vue au coeur de Laval
   text: Depuis plus de 30 ans, les professionnels de L'Aire Visuelle sont à votre
