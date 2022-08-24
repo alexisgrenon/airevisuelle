@@ -1,6 +1,6 @@
 ---
 draft: false
-slidertext: <span>Get</span> 25% off <span>On selected sunglasses frames</span>
+slidertext: <span>Get</span> 30% off <span>Your second pair of glasses</span>
 block2:
   titre: Optometrist, Optician And Eyewear in Laval
   text: For more than 30 years, the professionals of L’Aire Visuelle are at your
