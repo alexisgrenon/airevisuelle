@@ -1,10 +1,4 @@
 equipe:
-  - name: Suzanne Huynh
-    nameen: Suzanne Huynh
-    title: Opticienne
-    titleen: Optician
-    ordre: 1
-    group: ood
   - name: Docteur Antonio Canuto
     nameen: Doctor Antonio Canuto
     title: Optométriste
@@ -41,3 +35,9 @@ equipe:
     titleen: Optometrist
     ordre: 8
     group: od
+  - name: Pierre-Olivier Fafard
+    nameen: Pierre-Olivier Fafard
+    title: Opticien
+    titleen: Optician
+    group: ood
+    ordre: 1
