@@ -444,7 +444,10 @@ section {
 			max-width: 100%;
 		}
 	}
+}
 
+.hero-text-at-right {
+	margin-left: auto;
 }
 @media (max-width: 992px) {
 	#slider .parallax-container {

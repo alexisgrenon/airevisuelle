@@ -117,6 +117,10 @@ collections:
         fields:
         - {label: "French version", name: "fr", widget: "string"}
         - {label: "English version", name: "en", widget: "string"}
+      - name: homeBannerTextClass
+        label: Home banner text class
+        widget: string
+        required: false
     - file: "data/equipe.yml"
       label: "Membres de l'équipe"
       name: "equipe"
