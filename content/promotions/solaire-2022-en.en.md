@@ -8,6 +8,6 @@ description: Get 25% off on selected sunglasses frames. Promotion valid until Ju
 startdate: 2022-06-12
 i18nlanguage: en
 weight: 1
-draft: false
+draft: true
 ---
 Get 25% off on selected sunglasses frames. Promotion valid until July 31 2022.
