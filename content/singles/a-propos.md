@@ -22,7 +22,7 @@ section2:
     text: >-
       La réussite de notre entreprise L’Aire Visuelle repose surtout sur notre équipe composée d’intervenants et de professionnels du domaine de l’optique. Toujours à l’affût des nouvelles technologies, ils sont passionnés de leur travail.
   column2:
-    title: IDENDITÉ
+    title: IDENTITÉ
     text: >-
       Notre liberté en tant que bureau d’optométristes et opticiens indépendant nous permet de conserver une identité propre et d’offrir à notre clientèle une très grande diversité de produits. Notre engagement envers notre clientèle est primordial et le client demeure notre priorité !
   column3:
