@@ -20,11 +20,3 @@ ctalink: en/appointment-optometrist
 The Doctor of Optometry is the professional you see for your eye exam. After 5 years of college studies, he obtained his doctorate, and is able to assess ametropia (myopia, hyperopia, astigmatism, presbyopia, etc.), eye health, screening for certain eye diseases or any another anomaly. The optometrist may also prescribe certain medications or refer the patient to ophthalmology, and advise the patient on the wearing of contact lenses or corrective surgeries.
 
 At L'Aire Visuelle, our optometrists are accessible and ready to help you. They have your health in mind, and support their patients in the best possible way. They love challenges, and will never take their work for granted. They are reference people you can trust.
-
-Our Optometrists:
-
-- Antonio Canuto, O.D
-- Sylvain Duquette, O.D
-- Geneviève Brassard, O.D
-- Marie-Pier Gascon, O.D
-- Judy Breskott O.D
