@@ -9,7 +9,7 @@ equipe:
     nameen: Pierluigi Merolla
     title: Opticien
     titleen: Optician
-    ordre: 3
+    ordre: 9
     group: ood
   - name: Docteur Sylvain Duquette
     nameen: Doctor Sylvain Duquette
@@ -33,11 +33,11 @@ equipe:
     nameen: Doctor Judy Breskott
     title: Optométriste
     titleen: Optometrist
-    ordre: 8
+    ordre: 3
     group: od
   - name: Pierre-Olivier Fafard
     nameen: Pierre-Olivier Fafard
     title: Opticien
     titleen: Optician
     group: ood
-    ordre: 1
+    ordre: 6
