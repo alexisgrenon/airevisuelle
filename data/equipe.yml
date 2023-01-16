@@ -3,19 +3,19 @@ equipe:
     nameen: Doctor Antonio Canuto
     title: Optométriste
     titleen: Optometrist
-    ordre: 2
+    ordre: 4
     group: od
   - name: Pierluigi Merolla
     nameen: Pierluigi Merolla
     title: Opticien
     titleen: Optician
-    ordre: 9
+    ordre: 7
     group: ood
   - name: Docteur Sylvain Duquette
     nameen: Doctor Sylvain Duquette
     title: Optométriste
     titleen: Optometrist
-    ordre: 4
+    ordre: 1
     group: od
   - name: Laurent Brassard
     nameen: Laurent Brassard
@@ -27,7 +27,7 @@ equipe:
     nameen: Doctor Geneviève Brassard
     title: Optométriste
     titleen: Optometrist
-    ordre: 6
+    ordre: 2
     group: od
   - name: Docteure Judy Breskott
     nameen: Doctor Judy Breskott
