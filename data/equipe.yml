@@ -1,5 +1,5 @@
 equipe:
-  - name: Docteur Antonio Canuto
+  - name: Dr. Antonio Canuto
     nameen: Doctor Antonio Canuto
     title: Optométriste
     titleen: Optometrist
@@ -11,7 +11,7 @@ equipe:
     titleen: Optician
     ordre: 5
     group: ood
-  - name: Docteur Sylvain Duquette
+  - name: Dr. Sylvain Duquette
     nameen: Doctor Sylvain Duquette
     title: Optométriste
     titleen: Optometrist
@@ -23,13 +23,13 @@ equipe:
     titleen: Optician
     ordre: 5
     group: ood
-  - name: Docteure Geneviève Brassard
+  - name: Dre. Geneviève Brassard
     nameen: Doctor Geneviève Brassard
     title: Optométriste
     titleen: Optometrist
     ordre: 2
     group: od
-  - name: Docteure Judy Breskott
+  - name: Dre. Judy Breskott
     nameen: Doctor Judy Breskott
     title: Optométriste
     titleen: Optometrist
