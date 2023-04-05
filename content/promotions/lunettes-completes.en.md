@@ -1,16 +1,15 @@
 ---
-title: "L'Aire Visuelle | Full glasses on discount"
-titre: "Full glasses on discount"
-description: "L'Aire Visuelle offers you unbeatable services and promotions near you."
-slug: full-glasses-on-discount
-identifiant: lunettes-completes
-image: /img/aire-visuelle-lunette-prix-reduit-en.png
-i18nlanguage: en
-startdate:
-enddate:
 draft: false
-annuel: true
+enddate: null
+titre: Full glasses on discount
+image: /img/english-promo-novembre-2020-aire-visuelle-en-2-.png
+identifiant: lunettes-completes
+slug: full-glasses-on-discount
+title: L'Aire Visuelle | Full glasses on discount
+description: L'Aire Visuelle offers you unbeatable services and promotions near you.
+startdate: null
+i18nlanguage: en
 weight: 3
+annuel: true
 ---
-
-Full glasses (lenses and frames) from 159$ with our partner [Avenue Eyewear](https://www.avenueeyewear.ca/en/)
+Full glasses (lenses and frames) from 179$ with our partner [Avenue Eyewear](https://www.avenueeyewear.ca/en/)
