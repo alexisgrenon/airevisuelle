@@ -2,7 +2,7 @@
 draft: false
 enddate: null
 titre: Full glasses on discount
-image: /img/english-promo-novembre-2020-aire-visuelle-en-2-.png
+image: /img/full-glasses-179.png
 identifiant: lunettes-completes
 slug: full-glasses-on-discount
 title: L'Aire Visuelle | Full glasses on discount
