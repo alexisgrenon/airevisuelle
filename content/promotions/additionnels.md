@@ -1,8 +1,8 @@
 ---
 draft: false
 enddate: null
-titre: Rabais sur les verres additionels
-image: /img/promo-november-fr.png
+titre: Rabais sur la deuxième paire de lunettes
+image: /img/30-paire-de-lunette-complete-1-.png
 identifiant: additionnels
 slug: rabais-sur-les-verres-additionnels
 title: L'Aire Visuelle | Rabais sur les verres additionnels
