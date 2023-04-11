@@ -2,7 +2,7 @@
 draft: false
 enddate: null
 titre: Lunettes complètes à prix réduit
-image: /img/english-promo-novembre-2020-aire-visuelle-en-2-.png
+image: /img/french-promo-octobre-2020-aire-visuelle-fr-2-.png
 identifiant: lunettes-completes
 slug: lunettes-completes-a-prix-reduit
 title: L'Aire Visuelle | Lunettes complètes à prix réduit
