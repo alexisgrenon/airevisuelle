@@ -1,8 +1,8 @@
 ---
 draft: false
 enddate: null
-titre: Discount on additional lenses
-image: /img/promo-november-en.png
+titre: Discount on additional glasses
+image: /img/30-additional-pair-of-glasses.png
 identifiant: additionnels
 slug: discount-on-additional-lenses
 title: L'Aire Visuelle | Discount on additional lenses
