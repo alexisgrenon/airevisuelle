@@ -35,9 +35,15 @@ equipe:
     titleen: Optometrist
     ordre: 3
     group: od
-  - name: Pierre-Olivier Fafard
-    nameen: Pierre-Olivier Fafard
-    title: Opticien
-    titleen: Optician
-    group: ood
-    ordre: 6
+  - name: Dr. Alex Héon-Goulet
+    nameen: Doctor Alex Héon-Goulet
+    title: Optométriste
+    titleen: Optometrist
+    group: od
+    ordre: 2
+  - name: Dre Badr Mehdi
+    nameen: Doctor Badr Mehdi
+    title: Optométriste
+    titleen: Optometrist
+    group: od
+    ordre: 2
