@@ -35,12 +35,6 @@ equipe:
     titleen: Optometrist
     ordre: 2
     group: od
-  - name: Dre. Badr Mehdi
-    nameen: Dr. Badr Mehdi
-    title: Optométriste
-    titleen: Optometrist
-    group: od
-    ordre: 2
   - name: Paula Vallejo
     nameen: Paula Vallejo
     title: Opticienne
